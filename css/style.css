@@ -192,10 +192,11 @@ img {
 
 .menu-fa-icon {
   margin: 0 0.3125rem; }
+  .menu-fa-icon .fa {
+    text-decoration: none; }
   .menu-fa-icon a {
     float: left;
-    height: 30px;
-    text-decoration: none; }
+    height: 30px; }
     .menu-fa-icon a span {
       display: none; }
 
