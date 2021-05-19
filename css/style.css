@@ -471,6 +471,11 @@ img {
   border: 1px solid rgba(5, 45, 77, 0.13); }
 
 .sidebar nav ul.nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   margin: 0; }
 
 .path-search .search-form {
