@@ -2600,6 +2600,16 @@ div.node--type-news {
     margin-top: 2.1875rem;
     padding-top: 0.625rem; }
 
+.application-button-large {
+  height: 200px;
+  margin-bottom: 1.875rem;
+  margin-top: 0.625rem;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  width: 200px; }
+  .application-button-large a {
+    background-color: transparent !important; }
+
 .node--type-consortia {
   width: 160px;
   margin-top: 2.1875rem;
