@@ -254,7 +254,8 @@ img {
         #navbar-main .block-menu li span:hover,
         #navbar-main .block-menu li span:focus {
           text-decoration: underline;
-          background-color: transparent; }
+          background-color: transparent;
+          cursor: pointer; }
 
 .nav-link:hover,
 .nav-link:focus {
@@ -478,6 +479,9 @@ img {
       -ms-flex-flow: column;
           flex-flow: column;
   margin: 0; }
+
+.sidebar a:not(.nav-link) {
+  color: #0273CB; }
 
 .path-search .search-form {
   margin-top: 1.875rem; }
@@ -2605,6 +2609,8 @@ div.node--type-news {
     padding-top: 0.625rem; }
 
 .application-button-large {
+  background-color: #F4F6F9;
+  border-color: #F4F6F9;
   height: 200px;
   margin-bottom: 1.875rem;
   margin-top: 0.625rem;
