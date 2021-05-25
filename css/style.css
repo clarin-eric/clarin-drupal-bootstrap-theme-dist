@@ -1068,17 +1068,11 @@ img {
   color: #FFFFFF;
   font-size: 1rem;
   line-height: 1.5;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: left;
   padding-top: 2.8125rem;
   margin-bottom: 1.5625rem; }
   @media (max-width: 48rem) {
-    .paragraph--type--header-large {
-      background-image: none !important; }
-      .paragraph--type--header-large .contextual-region {
-        position: unset; } }
+    .paragraph--type--header-large .contextual-region {
+      position: unset; } }
   @media (min-width: 48rem) {
     .paragraph--type--header-large {
       display: -webkit-box;
@@ -1092,7 +1086,6 @@ img {
       min-height: none;
       height: 660px;
       font-size: 1.4375rem;
-      background-position: center;
       padding-bottom: 3.75rem;
       padding-top: 0;
       margin-bottom: 3.125rem; } }
@@ -1113,16 +1106,16 @@ img {
     bottom: 0;
     left: 0;
     margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: absolute;
     right: 0;
-    width: 100%;
-    z-index: 0;
-    top: 0; }
+    top: 0;
+    z-index: 0; }
   .paragraph--type--header-large .field--name-field-bg-image .contextual-region {
     position: unset; }
-  @media (min-width: 48rem) {
-    .paragraph--type--header-large .field--name-field-bg-image-mobile {
-      display: none; } }
   .paragraph--type--header-large .field--name-field-bg-image-mobile img {
     position: absolute;
     right: 0;
@@ -1337,21 +1330,14 @@ img {
   overflow: hidden;
   min-height: 525px;
   color: #FFFFFF;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: left;
   padding: 1.875rem 0.625rem; }
   @media (max-width: 48rem) {
-    .paragraph--type--cta {
-      background-image: none !important; }
-      .paragraph--type--cta .contextual-region {
-        position: unset; } }
+    .paragraph--type--cta .contextual-region {
+      position: unset; } }
   @media (min-width: 48rem) {
     .paragraph--type--cta {
       height: 525px;
       min-height: unset;
-      background-position: center;
       padding: 0 0 3.75rem; } }
   .paragraph--type--cta .container {
     display: -webkit-box;
@@ -1424,16 +1410,16 @@ img {
     bottom: 0;
     left: 0;
     margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: absolute;
     right: 0;
-    width: 100%;
-    z-index: 0;
-    top: 0; }
+    top: 0;
+    z-index: 0; }
   .paragraph--type--cta .field--name-field-bg-image .contextual-region {
     position: unset; }
-  @media (min-width: 48rem) {
-    .paragraph--type--cta .field--name-field-bg-image-mobile {
-      display: none; } }
   .paragraph--type--cta .field--name-field-bg-image-mobile img {
     position: absolute;
     right: 0;
