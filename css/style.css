@@ -3030,6 +3030,22 @@ body.node--type-resource {
       body.node--type-resource .node.node--type-resource:hover .tag, body.node--type-resource .node.node--type-resource:focus .tag {
         text-decoration: underline; }
 
+/**
+ * @file
+ * Tablesort indicator styles.
+ */
+.tablesort {
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  margin: 0.0625rem 0 0 0.3125rem; }
+
+.tablesort--asc {
+  background-image: url(/core/misc/icons/787878/twistie-up.svg); }
+
+.tablesort--desc {
+  background-image: url(/core/misc/icons/787878/twistie-up.svg); }
+
 /* GENERAL STYLES
 -------------------------------------------------*/
 body {

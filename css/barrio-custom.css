@@ -2315,32 +2315,6 @@ th.checkbox {
 
 /**
  * @file
- * Table sort indicator.
- */
-th.is-active img {
-  display: inline; }
-
-td.is-active {
-  background-color: #dee2e6; }
-
-/**
- * @file
- * Tablesort indicator styles.
- */
-.tablesort {
-  width: 14px;
-  height: 14px;
-  vertical-align: top;
-  margin: 0.0625rem 0 0 0.3125rem; }
-
-.tablesort--asc {
-  background-image: url(/core/misc/icons/ffffff/twistie-down.svg); }
-
-.tablesort--desc {
-  background-image: url(/core/misc/icons/ffffff/twistie-up.svg); }
-
-/**
- * @file
  * Theme styling for tabs.
  */
 nav.tabs {
