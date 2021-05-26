@@ -838,130 +838,118 @@ img {
           .pagination li span.page-link:focus {
             border-bottom: 3px solid #052D4D; } }
 
-.btn-default,
-.btn-blue {
-  display: inline-block;
-  background: #052D4D url(../images/arrow-right-white.svg) no-repeat right 30px center;
+.btn.btn-default,
+.btn.btn-blue,
+.btn.btn-secondary,
+.btn.btn-white {
   -webkit-background-size: 17px 17px;
           background-size: 17px;
-  color: #FFFFFF;
+  border-radius: 27.5px;
+  display: inline-block;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5625rem;
-  border-radius: 27.5px;
-  padding: 0.9375rem 3.75rem 0.9375rem 1.875rem; }
+  padding: 0.9375rem 3.75rem 0.9375rem 1.875rem;
+  -webkit-transition: background-position 0.2s, background-color 0.2s;
+  -o-transition: background-position 0.2s, background-color 0.2s;
+  transition: background-position 0.2s, background-color 0.2s; }
   @media (min-width: 48rem) {
-    .btn-default,
-    .btn-blue {
-      background: #052D4D url(../images/arrow-right-white.svg) no-repeat right 25px center;
+    .btn.btn-default,
+    .btn.btn-blue,
+    .btn.btn-secondary,
+    .btn.btn-white {
       -webkit-background-size: 20px 20px;
               background-size: 20px;
       font-size: 1.125rem;
       padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem; } }
+  .btn.btn-default:hover, .btn.btn-default:focus,
+  .btn.btn-blue:hover,
+  .btn.btn-blue:focus,
+  .btn.btn-secondary:hover,
+  .btn.btn-secondary:focus,
+  .btn.btn-white:hover,
+  .btn.btn-white:focus {
+    background-position-x: right 25px;
+    -webkit-background-size: 17px 17px;
+            background-size: 17px;
+    text-decoration: none; }
+    @media (min-width: 48rem) {
+      .btn.btn-default:hover, .btn.btn-default:focus,
+      .btn.btn-blue:hover,
+      .btn.btn-blue:focus,
+      .btn.btn-secondary:hover,
+      .btn.btn-secondary:focus,
+      .btn.btn-white:hover,
+      .btn.btn-white:focus {
+        -webkit-background-size: 20px 20px;
+                background-size: 20px; } }
+
+.btn-default,
+.btn-blue {
+  background: #052D4D url("../images/arrow-right-white.svg") no-repeat right 30px center/17px;
+  color: #FFFFFF; }
   .btn-default:hover, .btn-default:focus,
   .btn-blue:hover,
   .btn-blue:focus {
-    background: #10436B url(../images/arrow-right-white.svg) no-repeat right 30px center;
-    -webkit-background-size: 17px 17px;
-            background-size: 17px;
-    color: #FFFFFF;
-    text-decoration: none; }
-    @media (min-width: 48rem) {
-      .btn-default:hover, .btn-default:focus,
-      .btn-blue:hover,
-      .btn-blue:focus {
-        background: #10436B url(../images/arrow-right-white.svg) no-repeat right 25px center;
-        -webkit-background-size: 20px 20px;
-                background-size: 20px; } }
+    background-color: #10436B;
+    color: #FFFFFF; }
 
 .btn-secondary,
 .btn-white {
-  display: inline-block;
-  background: #FFFFFF url(../images/arrow-right-blue.svg) no-repeat right 30px center;
-  -webkit-background-size: 17px 17px;
-          background-size: 17px;
-  color: #052D4D;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5625rem;
-  border-radius: 27.5px;
-  padding: 0.9375rem 3.75rem 0.9375rem 1.875rem; }
-  @media (min-width: 48rem) {
-    .btn-secondary,
-    .btn-white {
-      background: #FFFFFF url(../images/arrow-right-blue.svg) no-repeat right 25px center;
-      -webkit-background-size: 20px 20px;
-              background-size: 20px;
-      font-size: 1.125rem;
-      padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem; } }
+  background: #FFFFFF url("../images/arrow-right-blue.svg") no-repeat right 30px center/17px;
+  color: #052D4D; }
   .btn-secondary:hover, .btn-secondary:focus,
   .btn-white:hover,
   .btn-white:focus {
-    background: #E1E5EA url(../images/arrow-right-blue.svg) no-repeat right 30px center;
-    -webkit-background-size: 17px 17px;
-            background-size: 17px;
-    color: #052D4D;
-    text-decoration: none; }
-    @media (min-width: 48rem) {
-      .btn-secondary:hover, .btn-secondary:focus,
-      .btn-white:hover,
-      .btn-white:focus {
-        background: #E1E5EA url(../images/arrow-right-blue.svg) no-repeat right 25px center;
-        -webkit-background-size: 20px 20px;
-                background-size: 20px; } }
+    background-color: #E1E5EA;
+    color: #052D4D; }
 
 .btn-blue-circle-arrow {
-  display: inline-table;
-  background: url(../images/arrow-circle-blue.svg) no-repeat right center;
-  -webkit-background-size: 40px 40px;
-          background-size: 40px;
+  background: url("../images/arrow-circle-blue.svg") no-repeat right center/40px;
   color: #052D4D;
+  display: inline-table;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.875rem;
   padding: 0.625rem 3.125rem 0.625rem 0.625rem;
-  -webkit-transition: padding .3s;
-  -o-transition: padding .3s;
-  transition: padding .3s; }
+  -webkit-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s; }
   @media (min-width: 48rem) {
     .btn-blue-circle-arrow {
-      background: url(../images/arrow-circle-blue.svg) no-repeat right center;
       -webkit-background-size: 47px 47px;
               background-size: 47px;
       font-size: 1.125rem;
       padding: 0.625rem 4.0625rem 0.625rem 0.625rem; } }
   .btn-blue-circle-arrow:hover, .btn-blue-circle-arrow:focus {
-    text-decoration: none;
     color: #052D4D;
-    padding: 0.625rem 3.5625rem 0.625rem 0.625rem; }
+    padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
+    text-decoration: none; }
     @media (min-width: 48rem) {
       .btn-blue-circle-arrow:hover, .btn-blue-circle-arrow:focus {
         padding: 0.625rem 4.5rem 0.625rem 0.625rem; } }
 
 .btn-white-circle-arrow {
-  display: inline-table;
-  background: url(../images/arrow-circle-blue.svg) no-repeat right center;
-  -webkit-background-size: 40px 40px;
-          background-size: 40px;
+  background: url("../images/arrow-circle-blue.svg") no-repeat right center/40px;
   color: #FFFFFF;
+  display: inline-table;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.875rem;
   padding: 0.625rem 3.125rem 0.625rem 0.625rem;
-  -webkit-transition: padding .3s;
-  -o-transition: padding .3s;
-  transition: padding .3s; }
+  -webkit-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s; }
   @media (min-width: 48rem) {
     .btn-white-circle-arrow {
-      background: url(../images/arrow-circle-blue.svg) no-repeat right center;
       -webkit-background-size: 47px 47px;
               background-size: 47px;
       font-size: 1.125rem;
       padding: 0.625rem 4.0625rem 0.625rem 0.625rem; } }
   .btn-white-circle-arrow:hover, .btn-white-circle-arrow:focus {
-    text-decoration: none;
     color: #FFFFFF;
-    padding: 0.625rem 3.5625rem 0.625rem 0.625rem; }
+    padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
+    text-decoration: none; }
     @media (min-width: 48rem) {
       .btn-white-circle-arrow:hover, .btn-white-circle-arrow:focus {
         padding: 0.625rem 4.5rem 0.625rem 0.625rem; } }
@@ -972,56 +960,42 @@ img {
   color: #052D4D;
   font-weight: 600;
   line-height: 1.875rem;
-  -webkit-transition: padding .3s;
-  -o-transition: padding .3s;
-  transition: padding .3s; }
-  .btn-link-blue:hover, .btn-link-blue:focus,
-  .btn-link-blue-s:hover,
-  .btn-link-blue-s:focus,
-  .btn-link-blue-xs:hover,
-  .btn-link-blue-xs:focus {
-    text-decoration: none; }
+  -webkit-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s; }
 
 .btn-link-blue {
-  background: url(../images/short-arrow-right-blue.svg) no-repeat right center;
-  -webkit-background-size: 8px 8px;
-          background-size: 8px;
+  background: url("../images/short-arrow-right-blue.svg") no-repeat right center/8px;
   font-size: 1rem;
   padding-right: 1.25rem; }
   @media (min-width: 48rem) {
     .btn-link-blue {
-      background: url(../images/short-arrow-right-blue.svg) no-repeat right center;
       -webkit-background-size: 9px 9px;
               background-size: 9px;
       font-size: 1.125rem; } }
   .btn-link-blue:hover, .btn-link-blue:focus {
-    padding-right: 1.5625rem; }
+    padding-right: 1.5625rem;
+    text-decoration: none; }
     @media (min-width: 48rem) {
       .btn-link-blue:hover, .btn-link-blue:focus {
         padding-right: 1.875rem; } }
 
 .btn-link-blue-s {
-  background: url(../images/short-arrow-right-blue.svg) no-repeat right center;
-  -webkit-background-size: 8px 8px;
-          background-size: 8px;
   font-size: 1rem;
-  font-weight: 600;
   padding-right: 0.9375rem; }
   .btn-link-blue-s:hover, .btn-link-blue-s:focus {
-    padding-right: 1.25rem; }
+    padding-right: 1.25rem;
+    text-decoration: none; }
 
 .btn-link-blue-xs {
-  background: url(../images/short-arrow-right-blue.svg) no-repeat right center;
-  -webkit-background-size: 8px 8px;
-          background-size: 8px;
   font-size: 0.875rem;
-  font-weight: 600;
   padding-right: 0.9375rem; }
   .btn-link-blue-xs:hover, .btn-link-blue-xs:focus {
-    padding-right: 1.25rem; }
+    padding-right: 1.25rem;
+    text-decoration: none; }
 
 .btn-link-white {
-  background: url(../images/short-arrow-right-white.svg) no-repeat right center;
+  background: url("../images/short-arrow-right-white.svg") no-repeat right center/8px;
   -webkit-background-size: 8px 8px;
           background-size: 8px;
   color: #FFFFFF;
@@ -1029,19 +1003,18 @@ img {
   font-weight: 600;
   line-height: 1.875rem;
   padding-right: 1.25rem;
-  -webkit-transition: padding .3s;
-  -o-transition: padding .3s;
-  transition: padding .3s; }
+  -webkit-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s; }
   @media (min-width: 48rem) {
     .btn-link-white {
-      background: url(../images/short-arrow-right-white.svg) no-repeat right center;
       -webkit-background-size: 9px 9px;
               background-size: 9px;
       font-size: 1.125rem; } }
   .btn-link-white:hover, .btn-link-white:focus {
     color: #FFFFFF;
-    text-decoration: none;
-    padding-right: 1.5625rem; }
+    padding-right: 1.5625rem;
+    text-decoration: none; }
     @media (min-width: 48rem) {
       .btn-link-white:hover, .btn-link-white:focus {
         padding-right: 1.875rem; } }
