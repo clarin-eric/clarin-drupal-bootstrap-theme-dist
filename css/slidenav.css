@@ -12,7 +12,7 @@
     transition: box-shadow 0.25s ease-out, -webkit-box-shadow 0.25s ease-out;
     z-index: 500; }
     #header .navbar {
-      background-color: #FFFFFF;
+      background-color: #fff;
       padding-bottom: 0;
       padding-top: 0; }
     #header.shadow-header {
@@ -21,7 +21,7 @@
     #header .searchicon {
       padding-right: 0.3125rem; }
   #CollapsingNavbar {
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-right: 1px solid rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
