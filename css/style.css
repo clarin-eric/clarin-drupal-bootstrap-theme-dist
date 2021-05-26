@@ -480,6 +480,29 @@ img {
 .main-content {
   padding: 0; }
 
+.sidebar .block {
+  border: 1px solid rgba(5, 45, 77, 0.13);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column; }
+
+.sidebar .section nav ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 0; }
+
+.sidebar a:not(.nav-link) {
+  color: #0273CB; }
+
 .node--type-landing-page #block-clarin-bootstrap-breadcrumbs .container {
   padding: 0 0.9375rem; }
 
@@ -492,100 +515,18 @@ img {
 .paragraph .field--name-field-body a:not(.btn):not(.btn-default):not(.btn-link-blue-s) {
   color: #0273CB; }
 
-.sidebar .block {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: column;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  border: 1px solid rgba(5, 45, 77, 0.13); }
-
-.sidebar nav ul.nav {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: column;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  margin: 0; }
-
-.sidebar a:not(.nav-link) {
-  color: #0273CB; }
-
-.path-search .search-form {
-  margin-top: 1.875rem; }
-  .path-search .search-form .search-help-link {
-    display: none; }
-  .path-search .search-form .form-type-search {
-    max-width: 780px;
-    width: 100%; }
-    .path-search .search-form .form-type-search label {
-      display: none; }
-  .path-search .search-form #edit-basic {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-  .path-search .search-form label {
-    color: #5A778D; }
-  .path-search .search-form .form-control {
-    max-width: 780px;
-    width: 100%;
-    height: 56px;
-    color: #052D4D;
-    font-size: 1rem;
-    line-height: 1.875rem;
-    padding: 0.625rem 1.5625rem;
-    border: 1px solid #C0C9D6;
-    border-right: none;
-    border-top-left-radius: 28px;
-    border-bottom-left-radius: 28px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-    @media (min-width: 48rem) {
-      .path-search .search-form .form-control {
-        font-size: 1.125rem; } }
-  .path-search .search-form .form-submit {
-    float: left;
-    text-indent: -9999px;
-    width: 74px;
-    height: 56px;
-    background: #052D4D url(../images/search_icon_white.svg) no-repeat 24px center;
-    -webkit-background-size: 20px 20px;
-            background-size: 20px;
-    border: 1px solid #052D4D;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-    .path-search .search-form .form-submit:hover, .path-search .search-form .form-submit:focus {
-      background: #10436B url(../images/search_icon_white.svg) no-repeat 24px center;
-      -webkit-background-size: 20px 20px;
-              background-size: 20px;
-      outline: none; }
-
-.path-search .block-system-main-block h3 {
-  font-size: 1.4375rem; }
-
 .node_search-results .list-group-item {
-  padding: 0;
+  border: 0;
+  border-radius: 0;
   margin: 0.625rem 0;
-  border: none;
-  border-radius: 0; }
+  padding: 0; }
 
 .block-mailchimp-signup {
   background-color: #F4F6F9;
   border-top: 3px solid #0273CB;
-  padding: 2.1875rem 0.9375rem 1.25rem;
+  margin-bottom: 3.125rem;
   margin-top: 2.5rem;
-  margin-bottom: 3.125rem; }
+  padding: 2.1875rem 0.9375rem 1.25rem; }
   @media (min-width: 48rem) {
     .block-mailchimp-signup {
       display: -webkit-box;
@@ -599,22 +540,23 @@ img {
     margin: 0 0 0.625rem; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup h2 {
-        width: 50%;
         font-size: 2.8125rem;
         line-height: 3.4375rem;
+        margin: 0;
         padding-right: 0.625rem;
-        margin: 0; } }
+        width: 50%; } }
   @media (min-width: 48rem) {
     .block-mailchimp-signup .content {
-      width: 50%;
       padding-left: 0.625rem;
-      padding-right: 0.625rem; } }
+      padding-right: 0.625rem;
+      width: 50%; } }
   .block-mailchimp-signup .mailchimp-signup-subscribe-form {
     color: #415D71;
     font-size: 1rem;
     line-height: 1.875rem; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup .mailchimp-signup-subscribe-form {
+        color: #052D4D;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -622,12 +564,11 @@ img {
         -webkit-flex-flow: wrap;
             -ms-flex-flow: wrap;
                 flex-flow: wrap;
-        color: #052D4D;
         font-size: 1.125rem;
         margin-top: 0.625rem; } }
   .block-mailchimp-signup .mailchimp-newsletter-mergefields {
-    width: 100%;
-    margin-top: 2.1875rem; }
+    margin-top: 2.1875rem;
+    width: 100%; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup .mailchimp-newsletter-mergefields {
         max-width: 200px; } }
@@ -637,33 +578,33 @@ img {
     @media (min-width: 75rem) {
       .block-mailchimp-signup .mailchimp-newsletter-mergefields {
         max-width: 390px; } }
-  .block-mailchimp-signup .form-type-email label {
-    display: none; }
   .block-mailchimp-signup label {
     color: #415D71; }
+  .block-mailchimp-signup .form-type-email label {
+    display: none; }
   .block-mailchimp-signup .form-control {
-    width: 100%;
-    height: 45px;
-    color: #052D4D;
     background-color: transparent;
+    border: 1px solid #C0C9D6;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #052D4D;
     font-size: 0.875rem;
+    height: 45px;
     line-height: 1.875rem;
     padding: 0.625rem 1.5625rem;
-    border: 1px solid #C0C9D6;
-    border-top-left-radius: 28px;
-    border-bottom-left-radius: 28px;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
+    width: 100%; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup .form-control {
-        max-width: 200px;
-        height: 56px;
-        font-size: 1rem;
-        border-right: none;
+        border-bottom-right-radius: 0;
+        border-right: 0;
         border-top-right-radius: 0;
-        border-bottom-right-radius: 0; } }
+        font-size: 1rem;
+        height: 56px;
+        max-width: 200px; } }
     @media (min-width: 62rem) {
       .block-mailchimp-signup .form-control {
         max-width: 320px; } }
@@ -671,48 +612,107 @@ img {
       .block-mailchimp-signup .form-control {
         max-width: 390px; } }
   .block-mailchimp-signup .form-submit {
-    width: 100%;
-    height: 45px;
-    background: #052D4D url(../images/arrow-right-white.svg) no-repeat right 30% center;
+    background: #052D4D url("../images/arrow-right-white.svg") no-repeat right 30% center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
+    border: 1px solid #052D4D;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
-    border: 1px solid #052D4D;
-    border-top-left-radius: 28px;
-    border-bottom-left-radius: 28px;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
+    height: 45px;
+    width: 100%; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup .form-submit {
-        float: left;
-        text-indent: -9999px;
-        width: 74px;
-        height: 56px;
-        background: transparent url(../images/arrow-right-blue.svg) no-repeat 24px center;
+        background: transparent url("../images/arrow-right-blue.svg") no-repeat 24px center;
         border: 1px solid #C0C9D6;
-        border-left: none;
+        border-bottom-left-radius: 0;
+        border-left: 0;
         border-top-left-radius: 0;
-        border-bottom-left-radius: 0; } }
+        float: left;
+        height: 56px;
+        text-indent: -9999px;
+        width: 74px; } }
     .block-mailchimp-signup .form-submit:hover, .block-mailchimp-signup .form-submit:focus {
-      background: #052D4D url(../images/arrow-right-white.svg) no-repeat right 30% center;
+      background: #052D4D url("../images/arrow-right-white.svg") no-repeat right 30% center;
       -webkit-background-size: 20px 20px;
               background-size: 20px;
       outline: none; }
       @media (min-width: 48rem) {
         .block-mailchimp-signup .form-submit:hover, .block-mailchimp-signup .form-submit:focus {
-          background: transparent url(../images/arrow-right-blue.svg) no-repeat 24px center;
+          background: transparent url("../images/arrow-right-blue.svg") no-repeat 24px center;
           -webkit-background-size: 20px 20px;
                   background-size: 20px; } }
   .block-mailchimp-signup .form-actions {
     margin-top: 0.625rem; }
     @media (min-width: 48rem) {
       .block-mailchimp-signup .form-actions {
-        width: 74px;
-        margin-top: 2.1875rem; } }
+        margin-top: 2.1875rem;
+        width: 74px; } }
+
+.path-search .search-form {
+  margin-top: 1.875rem; }
+  .path-search .search-form .search-help-link {
+    display: none; }
+  .path-search .search-form label {
+    color: #5A778D; }
+  .path-search .search-form .form-type-search {
+    max-width: 780px;
+    width: 100%; }
+    .path-search .search-form .form-type-search label {
+      display: none; }
+  .path-search .search-form #edit-basic {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .path-search .search-form .form-control {
+    border: 1px solid #C0C9D6;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #052D4D;
+    font-size: 1rem;
+    height: 56px;
+    line-height: 1.875rem;
+    max-width: 780px;
+    padding: 0.625rem 1.5625rem;
+    width: 100%; }
+    @media (min-width: 48rem) {
+      .path-search .search-form .form-control {
+        font-size: 1.125rem; } }
+  .path-search .search-form .form-submit {
+    background: #052D4D url("../images/search_icon_white.svg") no-repeat 24px center;
+    -webkit-background-size: 20px 20px;
+            background-size: 20px;
+    border: 1px solid #052D4D;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 28px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    float: left;
+    height: 56px;
+    text-indent: -9999px;
+    width: 74px; }
+    .path-search .search-form .form-submit:hover, .path-search .search-form .form-submit:focus {
+      background: #10436B url("../images/search_icon_white.svg") no-repeat 24px center;
+      -webkit-background-size: 20px 20px;
+              background-size: 20px;
+      outline: none; }
+
+.path-search .block-system-main-block h3 {
+  font-size: 1.4375rem; }
 
 #block-clarin-bootstrap-breadcrumbs .container {
   padding: 0; }
@@ -1020,43 +1020,43 @@ img {
         padding-right: 1.875rem; } }
 
 .sitewide-alert {
-  position: relative;
   background-color: #0273CB;
+  border: 0;
+  border-radius: 0;
   color: #FFFFFF;
-  line-height: 1.5rem;
   font-weight: 600;
-  padding: 1.125rem 4.0625rem 1.125rem 0.9375rem;
+  line-height: 1.5rem;
   margin: 0;
-  border: none;
-  border-radius: 0; }
+  padding: 1.125rem 4.0625rem 1.125rem 0.9375rem;
+  position: relative; }
   @media (min-width: 48rem) {
     .sitewide-alert {
-      text-align: center;
       line-height: 1.875rem;
-      padding: 1.125rem 0.9375rem; } }
+      padding: 1.125rem 0.9375rem;
+      text-align: center; } }
   .sitewide-alert a {
     color: #FFFFFF; }
     @media (min-width: 48rem) {
-      .sitewide-alert a:after {
+      .sitewide-alert a::after {
+        background: url("../images/arrow-right-white.svg") no-repeat center center;
+        content: '';
         display: inline-block;
-        content: "";
-        background: url(../images/arrow-right-white.svg) no-repeat center center;
-        width: 21px;
         height: 18px;
-        margin-left: 0.9375rem; } }
+        margin-left: 0.9375rem;
+        width: 21px; } }
   .sitewide-alert p:last-child {
     margin-bottom: 0; }
   .sitewide-alert .close {
-    top: 15px;
-    right: 20px;
-    width: 17px;
+    background: url("../images/close_icon.svg") no-repeat center center;
     height: 17px;
-    background: url(../images/close_icon.svg) no-repeat center center;
-    opacity: 1; }
+    opacity: 1;
+    right: 20px;
+    top: 15px;
+    width: 17px; }
     @media (min-width: 48rem) {
       .sitewide-alert .close {
-        top: 20px;
-        right: 25px; } }
+        right: 25px;
+        top: 20px; } }
     .sitewide-alert .close span {
       display: none; }
 
