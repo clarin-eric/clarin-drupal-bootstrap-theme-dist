@@ -10,45 +10,45 @@ Based on Bootstrap 4 - Barrio SASS Starter Kit
 /* TYPOGRAPHY */
 /* Inter font from https://github.com/rsms/inter/releases */
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url("../fonts/inter/Inter-Regular.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Regular.woff?v=3.15") format("woff"); }
 
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url("../fonts/inter/Inter-Italic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Italic.woff?v=3.15") format("woff"); }
 
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url("../fonts/inter/Inter-SemiBold.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-SemiBold.woff?v=3.15") format("woff"); }
 
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url("../fonts/inter/Inter-SemiBoldItalic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-SemiBoldItalic.woff?v=3.15") format("woff"); }
 
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url("../fonts/inter/Inter-Bold.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Bold.woff?v=3.15") format("woff"); }
 
 @font-face {
+  font-display: swap;
   font-family: 'Inter';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url("../fonts/inter/Inter-BoldItalic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-BoldItalic.woff?v=3.15") format("woff"); }
 
 body {
@@ -3046,28 +3046,28 @@ body.node--type-resource {
  * Tablesort indicator styles.
  */
 .tablesort {
-  width: 14px;
   height: 14px;
+  margin: 0.0625rem 0 0 0.3125rem;
   vertical-align: top;
-  margin: 0.0625rem 0 0 0.3125rem; }
+  width: 14px; }
 
 .tablesort--asc {
-  background-image: url(/core/misc/icons/787878/twistie-up.svg); }
+  background-image: url("/core/misc/icons/787878/twistie-up.svg"); }
 
 .tablesort--desc {
-  background-image: url(/core/misc/icons/787878/twistie-up.svg); }
+  background-image: url("/core/misc/icons/787878/twistie-up.svg"); }
 
 /* GENERAL STYLES
--------------------------------------------------*/
+------------------------------------------------- */
 body {
   background: #FFFFFF; }
 
-/* COLORS 
---------------------------------------------------*/
+/* COLORS
+-------------------------------------------------- */
 a {
   color: #153D57; }
 
-a.linkblue {
+.linkblue {
   color: #0273CB; }
 
 .bg-inverse {
