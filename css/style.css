@@ -764,34 +764,16 @@ img {
       border-bottom-right-radius: 0;
       border-top-left-radius: 0;
       border-top-right-radius: 0; }
-    .pagination li.pager__item--previous {
+    .pagination li.pager__item--previous .page-link {
+      -webkit-transform: rotate(180deg);
+           -o-transform: rotate(180deg);
+              transform: rotate(180deg); }
+    .pagination li.pager__item--previous, .pagination li.pager__item--next {
       margin-right: 1.25rem; }
       @media (min-width: 48rem) {
-        .pagination li.pager__item--previous {
+        .pagination li.pager__item--previous, .pagination li.pager__item--next {
           margin-right: 1.5625rem; } }
-      .pagination li.pager__item--previous .page-link {
-        background: #f4f6f9 url("../images/arrow-right-blue.svg") no-repeat center center;
-        border-radius: 100%;
-        float: left;
-        height: 36px;
-        text-indent: -9999px;
-        -webkit-transform: rotate(180deg);
-             -o-transform: rotate(180deg);
-                transform: rotate(180deg);
-        width: 36px; }
-        @media (min-width: 48rem) {
-          .pagination li.pager__item--previous .page-link {
-            height: 47px;
-            width: 47px; } }
-        .pagination li.pager__item--previous .page-link:hover, .pagination li.pager__item--previous .page-link:focus {
-          background: #e1e5ea url("../images/arrow-right-blue.svg") no-repeat center center;
-          border-bottom: 0; }
-    .pagination li.pager__item--next {
-      margin-left: 1.25rem; }
-      @media (min-width: 48rem) {
-        .pagination li.pager__item--next {
-          margin-left: 1.5625rem; } }
-      .pagination li.pager__item--next .page-link {
+      .pagination li.pager__item--previous .page-link, .pagination li.pager__item--next .page-link {
         background: #f4f6f9 url("../images/arrow-right-blue.svg") no-repeat center center;
         border-radius: 100%;
         float: left;
@@ -799,13 +781,14 @@ img {
         text-indent: -9999px;
         width: 36px; }
         @media (min-width: 48rem) {
-          .pagination li.pager__item--next .page-link {
+          .pagination li.pager__item--previous .page-link, .pagination li.pager__item--next .page-link {
             height: 47px;
             width: 47px; } }
-        .pagination li.pager__item--next .page-link:hover, .pagination li.pager__item--next .page-link:focus {
-          background: #e1e5ea url("../images/arrow-right-blue.svg") no-repeat center center;
+        .pagination li.pager__item--previous .page-link:hover, .pagination li.pager__item--previous .page-link:focus, .pagination li.pager__item--next .page-link:hover, .pagination li.pager__item--next .page-link:focus {
+          background-color: #e1e5ea;
           border-bottom: 0; }
-    .pagination li.ellipses .page-link:hover, .pagination li.ellipses .page-link:focus {
+    .pagination li.ellipses .page-link:hover,
+    .pagination li.ellipses .page-link:focus {
       border-bottom: 0; }
     .pagination li a,
     .pagination li span.page-link {
