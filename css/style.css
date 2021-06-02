@@ -1197,6 +1197,7 @@ img {
         margin-bottom: 2.5rem; } }
   .paragraph--type--image-text .field--name-field-media-image,
   .paragraph--type--image-text .field--name-field-image {
+    float: none;
     margin: 0; }
   .paragraph--type--image-text img {
     height: auto;
