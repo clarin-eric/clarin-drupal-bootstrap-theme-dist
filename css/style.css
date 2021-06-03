@@ -1295,10 +1295,11 @@ img {
   .paragraph--type--header-large .field--name-field-bg-image-mobile img {
     bottom: 0;
     left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 0; }
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute; }
   .paragraph--type--header-large .arrow-down {
     background: url("../images/arrow-down-white.svg") no-repeat center center;
     bottom: 45px;
@@ -1408,10 +1409,11 @@ img {
   .paragraph--type--cta .field--name-field-bg-image-mobile img {
     bottom: 0;
     left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 0; }
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute; }
 
 .paragraph--type--guide-selection {
   padding: 1.5625rem 0; }
