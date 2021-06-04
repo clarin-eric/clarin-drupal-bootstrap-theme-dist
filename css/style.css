@@ -103,6 +103,10 @@ img {
   width: 100%;
   z-index: 1035; }
 
+@media all and (min-width: 35rem) {
+  .node .field--type-image {
+    float: unset; } }
+
 .field--name-field-tags {
   display: none;
   margin-bottom: 0.9375rem; }
