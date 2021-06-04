@@ -661,8 +661,6 @@ img {
 
 .path-search .search-form {
   margin-top: 1.875rem; }
-  .path-search .search-form .search-help-link {
-    display: none; }
   .path-search .search-form label {
     color: #5a778d; }
   .path-search .search-form .form-type-search {
@@ -1857,6 +1855,15 @@ img {
         @media (min-width: 48rem) {
           .paragraph--type--block .link a:hover, .paragraph--type--block .link a:focus {
             padding-right: 1.875rem; } }
+
+.item-list {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+  .item-list .list-group-item {
+    border: 0;
+    display: list-item; }
+  .item-list ul {
+    list-style: inherit; }
 
 .view-sharing-knowledge,
 .grid-container-view {
