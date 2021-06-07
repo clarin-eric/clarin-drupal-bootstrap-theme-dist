@@ -720,9 +720,9 @@ img {
       border-top-left-radius: 0;
       -webkit-box-shadow: none;
               box-shadow: none;
+      padding: 0;
       text-indent: -9999px;
-      width: 74px;
-      padding: 0; }
+      width: 74px; }
 
 .path-search .block-system-main-block h3 {
   font-size: 1.4375rem; }
