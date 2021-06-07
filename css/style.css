@@ -251,8 +251,14 @@ img {
   width: -moz-max-content;
   width: max-content; }
   .dropdownsearch .dropdown-menu .form-control {
+    border: 1px solid #c0c9d6;
     border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px; }
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0; }
+    .dropdownsearch .dropdown-menu .form-control:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
   .dropdownsearch .dropdown-menu .form-submit {
     background-color: #052d4d;
     border: 1px solid #052d4d !important;
@@ -260,6 +266,9 @@ img {
     border-bottom-right-radius: 28px;
     border-top-left-radius: 0;
     border-top-right-radius: 28px; }
+    .dropdownsearch .dropdown-menu .form-submit:hover, .dropdownsearch .dropdown-menu .form-submit:focus {
+      background-color: #10436b;
+      outline: none; }
 
 .dropdown-header {
   font-weight: 700; }
