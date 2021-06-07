@@ -246,7 +246,7 @@ img {
 
 .dropdownsearch .dropdown-menu {
   left: auto;
-  right: 0;
+  right: -8px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content; }
