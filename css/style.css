@@ -208,10 +208,10 @@ img {
   left: auto;
   right: 0;
   width: 300px; }
-  .dropdownsearch .dropdown-menu form-control {
+  .dropdownsearch .dropdown-menu .form-control {
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px; }
-  .dropdownsearch .dropdown-menu form-submit {
+  .dropdownsearch .dropdown-menu .form-submit {
     background-color: #052d4d;
     border: 1px solid #052d4d !important;
     border-bottom-left-radius: 0;
