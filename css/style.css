@@ -2653,11 +2653,13 @@ div.node--type-news {
     line-height: 0.9375rem; }
 
 #toc {
+  background-color: #fff;
+  display: none;
   left: inherit;
   position: -webkit-sticky;
   position: sticky;
-  top: 100px;
-  z-index: 500; }
+  top: 0;
+  z-index: 100; }
   @media (min-width: 48rem) {
     #toc {
       display: block; } }
@@ -3059,6 +3061,18 @@ body.node--type-resource {
 
 .tablesort--desc {
   background-image: url("/core/misc/icons/787878/twistie-up.svg"); }
+
+/**
+ * Fix ckeditor image align via "add media"
+ */
+div.align-center img,
+figure.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
 
 /**
  * Fix ckeditor videos aspect ratio
