@@ -268,6 +268,8 @@ img {
     border-top-right-radius: 28px; }
     .dropdownsearch .dropdown-menu .form-submit:hover, .dropdownsearch .dropdown-menu .form-submit:focus {
       background-color: #10436b;
+      -webkit-box-shadow: none;
+              box-shadow: none;
       outline: none; }
 
 .dropdown-header {
