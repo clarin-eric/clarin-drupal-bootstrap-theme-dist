@@ -204,23 +204,6 @@ img {
     .menu-fa-icon a span {
       display: none; }
 
-.dropdownsearch .dropdown-menu {
-  left: auto;
-  right: 0;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content; }
-  .dropdownsearch .dropdown-menu .form-control {
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px; }
-  .dropdownsearch .dropdown-menu .form-submit {
-    background-color: #052d4d;
-    border: 1px solid #052d4d !important;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 28px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 28px; }
-
 .region-navigation-right {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -260,6 +243,23 @@ img {
     .dropdown-menu {
       -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
               box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important; } }
+
+.dropdownsearch .dropdown-menu {
+  left: auto;
+  right: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+  .dropdownsearch .dropdown-menu .form-control {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px; }
+  .dropdownsearch .dropdown-menu .form-submit {
+    background-color: #052d4d;
+    border: 1px solid #052d4d !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 28px; }
 
 .dropdown-header {
   font-weight: 700; }
@@ -681,18 +681,18 @@ img {
         margin-top: 2.1875rem;
         width: 74px; } }
 
-.path-search .search-form {
+.path-search .main-content .search-form {
   margin-top: 1.875rem; }
-  .path-search .search-form label {
+  .path-search .main-content .search-form label {
     color: #5a778d; }
-  .path-search .search-form .form-type-search {
+  .path-search .main-content .search-form .form-type-search {
     max-width: 780px;
     width: 100%; }
-    .path-search .search-form .form-type-search label {
+    .path-search .main-content .search-form .form-type-search label {
       display: none; }
-  .path-search .search-form .search-advanced {
+  .path-search .main-content .search-form .search-advanced {
     max-width: 854px; }
-  .path-search .search-form .form-control {
+  .path-search .main-content .search-form .form-control {
     border: 1px solid #c0c9d6;
     border-bottom-left-radius: 28px;
     border-bottom-right-radius: 28px;
@@ -707,9 +707,9 @@ img {
     padding: 0.625rem 1.5625rem;
     width: 100%; }
     @media (min-width: 48rem) {
-      .path-search .search-form .form-control {
+      .path-search .main-content .search-form .form-control {
         font-size: 1.125rem; } }
-  .path-search .search-form .form-submit {
+  .path-search .main-content .search-form .form-submit {
     background: #052d4d url("../images/search_icon_white.svg") no-repeat right 24px center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
@@ -720,19 +720,19 @@ img {
     border-top-right-radius: 28px;
     height: 56px;
     padding: 0 3.4375rem 0 1.5625rem; }
-    .path-search .search-form .form-submit:hover, .path-search .search-form .form-submit:focus {
+    .path-search .main-content .search-form .form-submit:hover, .path-search .main-content .search-form .form-submit:focus {
       background-color: #10436b;
       outline: none; }
-  .path-search .search-form #edit-basic {
+  .path-search .main-content .search-form #edit-basic {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    .path-search .search-form #edit-basic .form-control {
+    .path-search .main-content .search-form #edit-basic .form-control {
       border-bottom-right-radius: 0;
       border-right: 0;
       border-top-right-radius: 0; }
-    .path-search .search-form #edit-basic .form-submit {
+    .path-search .main-content .search-form #edit-basic .form-submit {
       background-position: 24px center;
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
@@ -742,7 +742,7 @@ img {
       text-indent: -9999px;
       width: 74px; }
 
-.path-search .block-system-main-block h3 {
+.path-search .main-content .block-system-main-block h3 {
   font-size: 1.4375rem; }
 
 #block-clarin-bootstrap-breadcrumbs .container {
