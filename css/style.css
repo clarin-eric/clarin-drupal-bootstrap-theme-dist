@@ -507,6 +507,10 @@ img {
 .sidebar a:not(.nav-link) {
   color: #0273cb; }
 
+@media (max-width: 48rem) {
+  .sidebar_second {
+    display: none; } }
+
 .node--type-landing-page #block-clarin-bootstrap-breadcrumbs .container {
   padding: 0 0.9375rem; }
 
