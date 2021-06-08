@@ -174,12 +174,13 @@ img {
 
 .searchicon {
   margin: 0 0.625rem; }
-  .searchicon a {
-    background: url("../images/search_icon.svg") no-repeat center center;
+  .searchicon a,
+  .searchicon span {
+    background: url("../images/search_icon.svg") no-repeat center center/22px;
     float: left;
-    height: 20px;
+    height: 22px;
     text-indent: -9999px;
-    width: 20px; }
+    width: 22px; }
   .searchicon p {
     margin: 0; }
 
@@ -244,18 +245,24 @@ img {
       -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
               box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important; } }
 
+.dropdownsearch .contextual {
+  left: 78px; }
+
 .dropdownsearch .dropdown-menu {
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
   left: auto;
-  right: -8px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content; }
+  min-width: 350px;
+  padding-top: 0.9375rem;
+  right: -8px; }
   .dropdownsearch .dropdown-menu .form-control {
     border: 1px solid #c0c9d6;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 28px;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 0; }
+    border-top-left-radius: 28px;
+    border-top-right-radius: 0;
+    height: 50px;
+    width: 100%; }
     .dropdownsearch .dropdown-menu .form-control:focus {
       -webkit-box-shadow: none;
               box-shadow: none; }
@@ -265,12 +272,17 @@ img {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 28px;
     border-top-left-radius: 0;
-    border-top-right-radius: 28px; }
+    border-top-right-radius: 28px;
+    height: 50px;
+    width: 60px; }
     .dropdownsearch .dropdown-menu .form-submit:hover, .dropdownsearch .dropdown-menu .form-submit:focus {
       background-color: #10436b;
       -webkit-box-shadow: none;
               box-shadow: none;
       outline: none; }
+  @media (max-width: 62rem) {
+    .dropdownsearch .dropdown-menu {
+      z-index: -1; } }
 
 .dropdown-header {
   font-weight: 700; }
@@ -752,6 +764,9 @@ img {
       padding: 0;
       text-indent: -9999px;
       width: 74px; }
+      @media (max-width: 62rem) {
+        .path-search .main-content .search-form #edit-basic .form-submit {
+          background-position: 18px center; } }
 
 .path-search .main-content .block-system-main-block h3 {
   font-size: 1.4375rem; }
