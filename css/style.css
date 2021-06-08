@@ -3112,12 +3112,9 @@ body.node--type-resource {
  */
 div.align-center img,
 figure.align-center {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content; }
+  width: auto; }
 
 /**
  * Fix ckeditor videos aspect ratio
