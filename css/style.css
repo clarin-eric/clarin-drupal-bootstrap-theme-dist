@@ -3135,6 +3135,34 @@ figure.align-center {
   top: 0;
   width: 100%; }
 
+.faq-question a::after {
+  background: url("../images/arrow-down-blue.svg") no-repeat center center;
+  border: 0;
+  content: '';
+  display: inline-block;
+  height: 14px;
+  margin-left: 0.1875rem;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  -o-transition: -o-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms, -o-transform 200ms;
+  vertical-align: middle;
+  width: 14px; }
+
+.faq-question.faq-qa-visible a::after {
+  -webkit-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.faq-answer {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  margin-left: 2.5rem;
+  padding-left: 0.625rem;
+  padding-top: 0.625rem; }
+  .faq-answer a {
+    color: #0273cb; }
+
 /* GENERAL STYLES
 ------------------------------------------------- */
 body {
