@@ -545,7 +545,7 @@ img {
           flex-flow: column;
   margin: 0; }
 
-.sidebar a:not(.nav-link) {
+.sidebar a:not(.nav-link):not(.btn) {
   color: #0273cb; }
 
 @media (max-width: 48rem) {
@@ -878,51 +878,37 @@ img {
           .pagination li span.page-link:focus {
             border-bottom: 3px solid #052d4d; } }
 
-.btn.btn-default,
-.btn.btn-blue,
-.btn.btn-secondary,
-.btn.btn-white {
-  -webkit-background-size: 17px 17px;
-          background-size: 17px;
-  border-radius: 27.5px;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5625rem;
-  padding: 0.9375rem 3.75rem 0.9375rem 1.875rem;
-  -webkit-transition: background-position 0.2s, background-color 0.2s;
-  -o-transition: background-position 0.2s, background-color 0.2s;
-  transition: background-position 0.2s, background-color 0.2s; }
-  @media (min-width: 48rem) {
-    .btn.btn-default,
-    .btn.btn-blue,
-    .btn.btn-secondary,
-    .btn.btn-white {
-      -webkit-background-size: 20px 20px;
-              background-size: 20px;
-      font-size: 1.125rem;
-      padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem; } }
-  .btn.btn-default:hover, .btn.btn-default:focus,
-  .btn.btn-blue:hover,
-  .btn.btn-blue:focus,
-  .btn.btn-secondary:hover,
-  .btn.btn-secondary:focus,
-  .btn.btn-white:hover,
-  .btn.btn-white:focus {
-    background-position: center right 25px;
+.btn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+  .btn.btn-default, .btn.btn-blue, .btn.btn-secondary, .btn.btn-white {
     -webkit-background-size: 17px 17px;
             background-size: 17px;
-    text-decoration: none; }
+    border-radius: 27.5px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5625rem;
+    padding: 0.9375rem 3.75rem 0.9375rem 1.875rem;
+    -webkit-transition: background-position 0.2s, background-color 0.2s;
+    -o-transition: background-position 0.2s, background-color 0.2s;
+    transition: background-position 0.2s, background-color 0.2s; }
     @media (min-width: 48rem) {
-      .btn.btn-default:hover, .btn.btn-default:focus,
-      .btn.btn-blue:hover,
-      .btn.btn-blue:focus,
-      .btn.btn-secondary:hover,
-      .btn.btn-secondary:focus,
-      .btn.btn-white:hover,
-      .btn.btn-white:focus {
+      .btn.btn-default, .btn.btn-blue, .btn.btn-secondary, .btn.btn-white {
         -webkit-background-size: 20px 20px;
-                background-size: 20px; } }
+                background-size: 20px;
+        font-size: 1.125rem;
+        padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem; } }
+    .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-white:hover, .btn.btn-white:focus {
+      background-position: center right 25px;
+      -webkit-background-size: 17px 17px;
+              background-size: 17px;
+      text-decoration: none; }
+      @media (min-width: 48rem) {
+        .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-white:hover, .btn.btn-white:focus {
+          -webkit-background-size: 20px 20px;
+                  background-size: 20px; } }
 
 .btn-default,
 .btn-blue {
