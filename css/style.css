@@ -320,12 +320,12 @@ img {
       #navbar-main .block-menu li a,
       #navbar-main .block-menu li span {
         padding: 0; }
-        #navbar-main .block-menu li a:hover, #navbar-main .block-menu li a:focus,
-        #navbar-main .block-menu li span:hover,
-        #navbar-main .block-menu li span:focus {
-          background-color: transparent;
-          cursor: pointer;
-          text-decoration: underline; }
+      #navbar-main .block-menu li.dropdown-item span {
+        color: #7e868d;
+        display: block;
+        font-weight: 700;
+        padding-top: 0.625rem;
+        white-space: nowrap; }
     @media (min-width: 62rem) {
       #navbar-main .block-menu li {
         padding: 0 0.25rem; }
