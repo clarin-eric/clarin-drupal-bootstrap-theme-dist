@@ -3177,6 +3177,9 @@ figure.align-center {
   font-weight: 400;
   padding-left: 0;
   padding-top: 1.25rem; }
+  @media (min-width: 62rem) {
+    .faq-question {
+      padding-top: 0.9375rem; } }
   .faq-question span {
     display: -webkit-box;
     display: -webkit-flex;
