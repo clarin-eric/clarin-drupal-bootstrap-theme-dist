@@ -2271,7 +2271,6 @@ article.node--type-news {
   article.node--type-news .field--name-body ul {
     padding: 0; }
     article.node--type-news .field--name-body ul li {
-      display: inline-table;
       line-height: 1.5625rem;
       list-style-type: none;
       padding-bottom: 0.9375rem; }
@@ -2297,7 +2296,6 @@ article.node--type-news {
     counter-reset: my-badass-counter;
     padding: 0; }
     article.node--type-news .field--name-body ol li {
-      display: inline-table;
       line-height: 1.5625rem;
       list-style-type: none;
       padding-bottom: 0.9375rem; }
