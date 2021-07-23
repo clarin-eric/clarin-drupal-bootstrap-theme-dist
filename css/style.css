@@ -2271,14 +2271,7 @@ article.node--type-news {
   article.node--type-news .field--name-body ul {
     padding: 0; }
     article.node--type-news .field--name-body ul li {
-      -webkit-box-align: baseline;
-      -webkit-align-items: baseline;
-          -ms-flex-align: baseline;
-              align-items: baseline;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
+      display: inline-table;
       line-height: 1.5625rem;
       list-style-type: none;
       padding-bottom: 0.9375rem; }
@@ -2298,18 +2291,13 @@ article.node--type-news {
         height: 9px;
         margin-right: 1.25rem;
         width: 9px; }
+    article.node--type-news .field--name-body ul > ol, article.node--type-news .field--name-body ul ul {
+      padding-left: 1.5625rem; }
   article.node--type-news .field--name-body ol {
     counter-reset: my-badass-counter;
     padding: 0; }
     article.node--type-news .field--name-body ol li {
-      -webkit-box-align: baseline;
-      -webkit-align-items: baseline;
-          -ms-flex-align: baseline;
-              align-items: baseline;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
+      display: inline-table;
       line-height: 1.5625rem;
       list-style-type: none;
       padding-bottom: 0.9375rem; }
@@ -2327,6 +2315,8 @@ article.node--type-news {
         counter-increment: my-badass-counter;
         margin-right: 1.25rem;
         width: 9px; }
+      article.node--type-news .field--name-body ol li > ol, article.node--type-news .field--name-body ol li ul {
+        padding-left: 1.5625rem; }
   article.node--type-news .field--name-body h2 {
     font-size: 1.4375rem;
     margin-bottom: 1.25rem; }
