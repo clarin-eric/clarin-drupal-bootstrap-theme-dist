@@ -819,6 +819,19 @@ img {
 .path-search .main-content .block-system-main-block h3 {
   font-size: 1.4375rem; }
 
+.collapse-toggle::after {
+  background: url("../images/arrow-down-blue.svg") no-repeat center center;
+  border: 0;
+  height: 14px;
+  margin-left: 0.1875rem;
+  vertical-align: middle;
+  width: 14px; }
+
+.collapse-toggle:not(.collapsed)::after {
+  -webkit-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
 #block-clarin-bootstrap-breadcrumbs .container {
   padding: 0; }
 
