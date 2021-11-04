@@ -4079,6 +4079,12 @@ figure.align-center {
   margin-bottom: 0;
 }
 
+.feed-icon::after {
+  content: "\f09e";
+  font-family: "Font Awesome 5 Free", "Inter", arial, verdana, sans-serif;
+  font-weight: 600;
+}
+
 /* GENERAL STYLES
 ------------------------------------------------- */
 body {
