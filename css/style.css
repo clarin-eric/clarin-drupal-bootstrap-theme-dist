@@ -1313,7 +1313,8 @@ img {
 
 .btn-link-blue,
 .btn-link-blue-s,
-.btn-link-blue-xs {
+.btn-link-blue-xs,
+.node-readmore {
   background: url("../images/short-arrow-right-blue.svg") no-repeat right center/8px;
   color: #052d4d;
   font-weight: 600;
