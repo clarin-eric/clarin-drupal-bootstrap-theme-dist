@@ -1344,11 +1344,14 @@ img {
   }
 }
 
-.btn-link-blue-s {
+.btn-link-blue-s,
+.node-readmore {
   font-size: 1rem;
   padding-right: 0.9375rem;
 }
-.btn-link-blue-s:hover, .btn-link-blue-s:focus {
+.btn-link-blue-s:hover, .btn-link-blue-s:focus,
+.node-readmore:hover,
+.node-readmore:focus {
   padding-right: 1.25rem;
   text-decoration: none;
 }
