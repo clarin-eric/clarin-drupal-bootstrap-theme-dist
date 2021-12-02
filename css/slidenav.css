@@ -25,51 +25,48 @@
     padding-right: 0.3125rem;
   }
 
-  #CollapsingNavbar {
+  #collapsing-navbar {
     background-color: #fff;
     border-right: 1px solid rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
     height: calc(100vh + 5px) !important;
     overflow-y: auto;
-    padding-bottom: 14.0625rem;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    padding-top: 1.875rem;
+    padding: 1.875rem 0.9375rem 14.0625rem;
     position: absolute;
     top: 54px;
     z-index: -1;
   }
-  #CollapsingNavbar.collapsing {
+  #collapsing-navbar.collapsing {
     left: -100%;
     -webkit-transition: left 0s;
     -o-transition: left 0s;
     transition: left 0s;
   }
-  #CollapsingNavbar.show {
+  #collapsing-navbar.show {
     left: 0;
     -webkit-transition: left 250ms ease-in-out;
     -o-transition: left 250ms ease-in-out;
     transition: left 250ms ease-in-out;
   }
-  .navbar-toggler.collapsed ~ #CollapsingNavbar {
+  .navbar-toggler.collapsed ~ #collapsing-navbar {
     -webkit-transition: left 250ms ease-in;
     -o-transition: left 250ms ease-in;
     transition: left 250ms ease-in;
   }
-  #CollapsingNavbar .dropdown-menu {
+  #collapsing-navbar .dropdown-menu {
     border-left: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
     padding: 0.5rem 0;
   }
-  #CollapsingNavbar .dropdown .dropdown-menu:not(.show) {
+  #collapsing-navbar .dropdown .dropdown-menu:not(.show) {
     display: block;
     padding: 0;
     visibility: hidden;
   }
-  #CollapsingNavbar .dropdown .dropdown-menu:not(.show) .dropdown-item {
+  #collapsing-navbar .dropdown .dropdown-menu:not(.show) .dropdown-item {
     height: 0;
     padding-bottom: 0;
     padding-top: 0;
