@@ -1453,12 +1453,12 @@ img {
   color: #052d4d;
   font-size: 1rem;
   line-height: 1.5;
-  padding: 0.3125rem 0 0 0;
+  padding: 0.3125rem 0 0;
 }
 @media (min-width: 48rem) {
   .paragraph--type--header-default {
     font-size: 1.4375rem;
-    padding: 0.625rem 0 0 0;
+    padding: 0.625rem 0 0;
   }
 }
 .paragraph--type--header-default h1 {
@@ -2031,13 +2031,13 @@ img {
 .paragraph--type--text {
   font-size: 1rem;
   line-height: 1.5625rem;
-  padding: 1.5625rem 0 0 0;
+  padding: 1.5625rem 0 0;
 }
 @media (min-width: 48rem) {
   .paragraph--type--text {
     font-size: 1.125rem;
     line-height: 1.75rem;
-    padding: 3.125rem 0 0 0;
+    padding: 3.125rem 0 0;
   }
 }
 .paragraph--type--text ul {
@@ -2998,7 +2998,8 @@ article.node--type-news .field--name-body ul li::before {
   margin-right: 1.25rem;
   width: 9px;
 }
-article.node--type-news .field--name-body ul > ol, article.node--type-news .field--name-body ul ul {
+article.node--type-news .field--name-body ul > ol,
+article.node--type-news .field--name-body ul ul {
   padding-left: 1.5625rem;
 }
 article.node--type-news .field--name-body ol {
@@ -3028,7 +3029,8 @@ article.node--type-news .field--name-body ol li::before {
   margin-right: 1.25rem;
   width: 9px;
 }
-article.node--type-news .field--name-body ol li > ol, article.node--type-news .field--name-body ol li ul {
+article.node--type-news .field--name-body ol li > ol,
+article.node--type-news .field--name-body ol li ul {
   padding-left: 1.5625rem;
 }
 article.node--type-news .field--name-body h2 {
@@ -3547,7 +3549,7 @@ div.node--type-news {
   padding-bottom: 0;
   width: 160px;
 }
-@media only screen and (min-width: 20rem) and (max-device-width: 23.375rem) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 20rem) and (maxwidth: 23.375rem) and (min-device-pixel-ratio: 2) {
   .node--type-consortia {
     width: 140px;
   }
@@ -4133,14 +4135,14 @@ figure.align-center {
   }
 }
 .faq-question span {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .faq-question span a {
   -webkit-box-flex: 1;
