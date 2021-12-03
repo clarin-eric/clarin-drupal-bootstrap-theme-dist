@@ -2565,6 +2565,9 @@ img {
 .node--type-impact-story label {
   font-weight: 700;
 }
+.node--type-impact-story em {
+  color: #0D578F;
+}
 .node--type-impact-story .node__meta {
   padding-left: 0.9375rem;
 }
@@ -2684,7 +2687,6 @@ img {
 }
 .node--type-impact-story .paragraph--type--image-text {
   font-size: 1rem;
-  font-weight: 700;
   padding: 0.625rem 0;
 }
 @media (min-width: 48rem) {
@@ -2755,7 +2757,7 @@ img {
   }
 }
 .node--type-impact-story .paragraph--type--image-text h2 {
-  font-size: 1.4375rem;
+  font-size: 1rem;
   margin-bottom: 1.25rem;
 }
 .node--type-impact-story .paragraph--type--image-text h2:empty {
@@ -2763,7 +2765,7 @@ img {
 }
 @media (min-width: 48rem) {
   .node--type-impact-story .paragraph--type--image-text h2 {
-    font-size: 2.1875rem;
+    font-size: 1.125rem;
     margin-bottom: 2.5rem;
   }
 }
@@ -2789,11 +2791,11 @@ img {
   }
 }
 .node--type-impact-story .paragraph--type--image-text em {
-  color: #0D578F;
+  font-weight: 700;
 }
 .node--type-impact-story .paragraph--type--contributors {
   font-size: 0.9375rem;
-  margin-bottom: 3.125rem;
+  margin-bottom: 1.25rem;
 }
 .node--type-impact-story .paragraph--type--contributors .field__label {
   font-size: 1.4375rem;
@@ -2826,6 +2828,9 @@ img {
 }
 .node--type-impact-story .paragraph--type--image .field--name-field-caption p:last-child {
   margin: 0;
+}
+.node--type-impact-story .field--name-field-tags {
+  padding: 0.9375rem;
 }
 
 .item-list {
