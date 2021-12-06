@@ -2562,11 +2562,11 @@ img {
 .node--type-impact-story .title {
   font-size: 2.1875rem;
 }
+.node--type-impact-story .quote {
+  color: #0D578F;
+}
 .node--type-impact-story label {
   font-weight: 700;
-}
-.node--type-impact-story em {
-  color: #0D578F;
 }
 .node--type-impact-story .node__meta {
   padding-left: 0.9375rem;
