@@ -1466,64 +1466,82 @@ img {
   }
 }
 
-.paragraph--type--image-text {
+.paragraph--type--image-text,
+.paragraph--type--link-list {
   font-size: 1rem;
   padding: 1.875rem 0;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text {
+  .paragraph--type--image-text,
+.paragraph--type--link-list {
     font-size: 1.4375rem;
     padding: 2.5rem 0;
   }
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.image-left .content {
+  .paragraph--type--image-text.image-left .content,
+.paragraph--type--link-list.image-left .content {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
     padding-right: 0;
   }
-  .paragraph--type--image-text.image-left .image-content {
+  .paragraph--type--image-text.image-left .image-content,
+.paragraph--type--link-list.image-left .image-content {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     padding-left: 0;
   }
-  .paragraph--type--image-text.image-left img {
+  .paragraph--type--image-text.image-left img,
+.paragraph--type--link-list.image-left img {
     margin-right: auto;
   }
-  .paragraph--type--image-text.image-right .content {
+  .paragraph--type--image-text.image-right .content,
+.paragraph--type--link-list.image-right .content {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     padding-left: 0;
   }
-  .paragraph--type--image-text.image-right .image-content {
+  .paragraph--type--image-text.image-right .image-content,
+.paragraph--type--link-list.image-right .image-content {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
     padding-right: 0;
   }
-  .paragraph--type--image-text.image-right img {
+  .paragraph--type--image-text.image-right img,
+.paragraph--type--link-list.image-right img {
     margin-left: auto;
   }
-  .paragraph--type--image-text.image-right .field--name-field-image {
+  .paragraph--type--image-text.image-right .field--name-field-image,
+.paragraph--type--link-list.image-right .field--name-field-image {
     float: right;
   }
 }
-.paragraph--type--image-text.btn-bg-blue .field--name-field-link {
+.paragraph--type--image-text.btn-bg-blue .field--name-field-link,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links {
   margin-top: 1.5625rem;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-bg-blue .field--name-field-link {
+  .paragraph--type--image-text.btn-bg-blue .field--name-field-link,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links {
     margin-top: 2.5rem;
   }
 }
-.paragraph--type--image-text.btn-bg-blue .field--name-field-link a {
+.paragraph--type--image-text.btn-bg-blue .field--name-field-link a,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a {
   background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 30px center;
   -webkit-background-size: 17px 17px;
           background-size: 17px;
@@ -1536,7 +1554,10 @@ img {
   padding: 0.9375rem 3.75rem 0.9375rem 1.875rem;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-bg-blue .field--name-field-link a {
+  .paragraph--type--image-text.btn-bg-blue .field--name-field-link a,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a {
     background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 25px center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
@@ -1544,7 +1565,13 @@ img {
     padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem;
   }
 }
-.paragraph--type--image-text.btn-bg-blue .field--name-field-link a:hover, .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:focus {
+.paragraph--type--image-text.btn-bg-blue .field--name-field-link a:hover, .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:focus,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a:hover,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a:focus,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a:hover,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a:focus,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a:hover,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a:focus {
   background: #10436b url("../images/arrow-right-white.svg") no-repeat right 30px center;
   -webkit-background-size: 17px 17px;
           background-size: 17px;
@@ -1552,21 +1579,36 @@ img {
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:hover, .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:focus {
+  .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:hover, .paragraph--type--image-text.btn-bg-blue .field--name-field-link a:focus,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a:hover,
+.paragraph--type--image-text.btn-bg-blue .field--name-field-links a:focus,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a:hover,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-link a:focus,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a:hover,
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links a:focus {
     background: #10436b url("../images/arrow-right-white.svg") no-repeat right 25px center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
   }
 }
-.paragraph--type--image-text.btn-arrow-circle .field--name-field-link {
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-link,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links {
   margin-top: 0.9375rem;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link {
+  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links {
     margin-top: 1.875rem;
   }
 }
-.paragraph--type--image-text.btn-arrow-circle .field--name-field-link a {
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-link a,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a {
   background: url("../images/arrow-circle-blue.svg") no-repeat right center;
   -webkit-background-size: 40px 40px;
           background-size: 40px;
@@ -1581,7 +1623,10 @@ img {
   transition: padding 0.3s;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a {
+  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a {
     background: url("../images/arrow-circle-blue.svg") no-repeat right center;
     -webkit-background-size: 47px 47px;
             background-size: 47px;
@@ -1589,17 +1634,30 @@ img {
     padding: 0.625rem 4.0625rem 0.625rem 0;
   }
 }
-.paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:hover, .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:focus {
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:hover, .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:focus,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a:hover,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a:focus,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a:hover,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a:focus,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:focus {
   color: #052d4d;
   padding: 0.625rem 3.5625rem 0.625rem 0;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:hover, .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:focus {
+  .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:hover, .paragraph--type--image-text.btn-arrow-circle .field--name-field-link a:focus,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a:hover,
+.paragraph--type--image-text.btn-arrow-circle .field--name-field-links a:focus,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a:hover,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-link a:focus,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover,
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:focus {
     padding: 0.625rem 4.5rem 0.625rem 0;
   }
 }
-.paragraph--type--image-text .container {
+.paragraph--type--image-text .container,
+.paragraph--type--link-list .container {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -1613,42 +1671,51 @@ img {
           flex-flow: wrap;
   padding: 0;
 }
-.paragraph--type--image-text .col-md-6 {
+.paragraph--type--image-text .col-md-6,
+.paragraph--type--link-list .col-md-6 {
   padding: 0;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text .col-md-6 {
+  .paragraph--type--image-text .col-md-6,
+.paragraph--type--link-list .col-md-6 {
     padding: 0 0.9375rem;
   }
 }
-.paragraph--type--image-text h2 {
+.paragraph--type--image-text h2,
+.paragraph--type--link-list h2 {
   font-size: 1.4375rem;
   margin-bottom: 1.25rem;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text h2 {
+  .paragraph--type--image-text h2,
+.paragraph--type--link-list h2 {
     font-size: 2.1875rem;
     margin-bottom: 2.5rem;
   }
 }
 .paragraph--type--image-text .field--name-field-media-image,
-.paragraph--type--image-text .field--name-field-image {
+.paragraph--type--image-text .field--name-field-image,
+.paragraph--type--link-list .field--name-field-media-image,
+.paragraph--type--link-list .field--name-field-image {
   float: none;
   margin: 0;
 }
-.paragraph--type--image-text img {
+.paragraph--type--image-text img,
+.paragraph--type--link-list img {
   height: auto;
   margin-bottom: 0;
   margin-top: 2.1875rem;
   max-width: 100%;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--image-text img {
+  .paragraph--type--image-text img,
+.paragraph--type--link-list img {
     margin-top: 0;
   }
 }
 @media (min-width: 62rem) {
-  .paragraph--type--image-text img {
+  .paragraph--type--image-text img,
+.paragraph--type--link-list img {
     max-width: 440px;
   }
 }
