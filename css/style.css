@@ -2521,14 +2521,6 @@ img {
             background-size: 20px;
   }
 }
-.paragraph--type--link-list.btn-arrow-circle .field--name-field-links {
-  margin-top: 0.625rem;
-}
-@media (min-width: 48rem) {
-  .paragraph--type--link-list.btn-arrow-circle .field--name-field-links {
-    margin-top: 1.25rem;
-  }
-}
 .paragraph--type--link-list.btn-arrow-circle .field--name-field-links a {
   background: url("../images/arrow-circle-blue.svg") no-repeat right center;
   -webkit-background-size: 40px 40px;
