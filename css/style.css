@@ -2822,6 +2822,7 @@ img {
         -ms-flex-order: 1;
             order: 1;
     padding-left: 0;
+    padding-right: 1.25rem;
   }
   .node--type-impact-story .paragraph--type--image-text.image-left img {
     margin-right: auto;
@@ -2838,6 +2839,7 @@ img {
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
+    padding-left: 1.25rem;
     padding-right: 0;
   }
   .node--type-impact-story .paragraph--type--image-text.image-right img {
@@ -2896,11 +2898,6 @@ img {
 @media (min-width: 48rem) {
   .node--type-impact-story .paragraph--type--image-text img {
     margin-top: 0;
-  }
-}
-@media (min-width: 62rem) {
-  .node--type-impact-story .paragraph--type--image-text img {
-    max-width: 440px;
   }
 }
 .node--type-impact-story .paragraph--type--image-text em {
