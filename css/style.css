@@ -2467,12 +2467,12 @@ img {
 
 .paragraph--type--link-list {
   font-size: 1rem;
-  padding: 1.875rem 0.9375rem;
+  padding: 0.625rem 0.9375rem;
 }
 @media (min-width: 48rem) {
   .paragraph--type--link-list {
     font-size: 1.125rem;
-    padding: 2.5rem 0.9375rem;
+    padding: 1.25rem 0.9375rem;
   }
 }
 .paragraph--type--link-list.btn-bg-blue .field--name-field-links {
@@ -2553,6 +2553,15 @@ img {
   .paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover, .paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:focus {
     padding: 0.625rem 4.5rem 0.625rem 0;
   }
+}
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:after {
+  color: #153d57;
+  content: attr(href);
+  font-weight: 400;
+  padding-left: 0.3125rem;
+}
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover:after {
+  text-decoration: underline;
 }
 .paragraph--type--link-list .container {
   -webkit-box-align: center;
