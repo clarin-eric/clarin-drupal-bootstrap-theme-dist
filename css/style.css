@@ -4480,6 +4480,7 @@ body.node--type-resource .node.node--type-resource:hover .tag, body.node--type-r
  */
 div.align-center img,
 figure.align-center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: auto;
