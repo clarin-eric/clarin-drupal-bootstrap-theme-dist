@@ -170,6 +170,7 @@ img {
 .field--name-field-tags {
   display: none;
   margin-bottom: 0.9375rem;
+  margin-top: 0.9375rem;
 }
 @media (min-width: 48rem) {
   .field--name-field-tags {
