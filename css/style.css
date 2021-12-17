@@ -3628,6 +3628,10 @@ div.node--type-news {
   padding: 0;
 }
 
+.node--view-mode-teaser-list-small div.btn-link-blue, .node--view-mode-teaser-list-small div.btn-link-blue-s, .node--view-mode-teaser-list-small div.btn-link-blue-xs, .node--view-mode-teaser-list-small div.node-readmore {
+  background: none;
+}
+
 .block-views-blockteaser-list-block-1 {
   margin-bottom: 2.1875rem;
   position: relative;
