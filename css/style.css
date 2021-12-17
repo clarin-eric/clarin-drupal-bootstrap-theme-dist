@@ -254,7 +254,7 @@ img {
   display: block !important;
 }
 
-.path-taxonomy .page-title {
+.page-view-taxonomy-term .page-title {
   border: 1px solid #0273cb;
   border-radius: 50px;
   color: #0273cb;
@@ -272,7 +272,7 @@ img {
   z-index: 2;
 }
 @media (min-width: 48rem) {
-  .path-taxonomy .page-title {
+  .page-view-taxonomy-term .page-title {
     font-size: 1.125rem;
     line-height: 1.4375rem;
   }
