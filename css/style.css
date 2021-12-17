@@ -208,7 +208,7 @@ img {
 }
 
 .node--view-mode-teaser-list-small .node__title {
-  padding-top: 1rem;
+  padding-top: 1.25rem;
 }
 .node--view-mode-teaser-list-small div.btn-link-blue, .node--view-mode-teaser-list-small div.btn-link-blue-s, .node--view-mode-teaser-list-small div.btn-link-blue-xs, .node--view-mode-teaser-list-small div.node-readmore {
   background: none;
