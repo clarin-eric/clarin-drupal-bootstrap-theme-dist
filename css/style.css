@@ -1428,10 +1428,14 @@ img {
   }
 }
 
+.paragraph--type--content-page .btn-blue-circle-arrow,
+.paragraph--type--content-page .btn-white-circle-arrow {
+  padding: 0 3.125rem 0 0;
+}
 @media (min-width: 48rem) {
   .paragraph--type--content-page .btn-blue-circle-arrow,
 .paragraph--type--content-page .btn-white-circle-arrow {
-    padding: 0.625rem 3.125rem 0.625rem 0.625rem;
+    padding: 0 3.125rem 0 0;
   }
 }
 .paragraph--type--content-page:hover .btn-blue-circle-arrow,
