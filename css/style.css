@@ -1443,14 +1443,14 @@ img {
 .paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
   margin-bottom: auto;
-  padding: 0 0 7.5rem 3.5625rem;
+  padding: 0 0 7.5rem 3.4375rem;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
   .paragraph--type--content-page:hover .btn-blue-circle-arrow,
 .paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
-    padding: 0 0 7.5rem 3.5625rem;
+    padding: 0 0 7.5rem 3.4375rem;
   }
 }
 .paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn {
