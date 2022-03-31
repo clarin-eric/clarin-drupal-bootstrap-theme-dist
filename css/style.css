@@ -1303,7 +1303,6 @@ img {
   }
 }
 .btn-blue-circle-arrow:hover, .btn-blue-circle-arrow:focus {
-  color: #052d4d;
   padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
   text-decoration: none;
 }
@@ -1445,13 +1444,17 @@ img {
             background-size: 20px;
   }
 }
+.paragraph--type--content-page:hover .btn-blue-circle-arrow,
 .paragraph--type--content-page:hover .btn-white-circle-arrow,
+.paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
   padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page:hover .btn-white-circle-arrow,
+  .paragraph--type--content-page:hover .btn-blue-circle-arrow,
+.paragraph--type--content-page:hover .btn-white-circle-arrow,
+.paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
     padding: 0.625rem 4.5rem 0.625rem 0.625rem;
   }
