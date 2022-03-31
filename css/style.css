@@ -1430,6 +1430,21 @@ img {
   }
 }
 
+.paragraph--type--content-page:hover .btn {
+  background-color: #10436b;
+  background-position: center right 25px;
+  -webkit-background-size: 17px 17px;
+          background-size: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+@media (min-width: 48rem) {
+  .paragraph--type--content-page:hover .btn {
+    -webkit-background-size: 20px 20px;
+            background-size: 20px;
+  }
+}
+
 .sitewide-alert {
   background-color: #0273cb;
   border: 0;
