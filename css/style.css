@@ -1430,27 +1430,27 @@ img {
 
 .paragraph--type--content-page .btn-blue-circle-arrow,
 .paragraph--type--content-page .btn-white-circle-arrow {
-  padding: 3.125rem 3.125rem 0 0;
+  padding: 0 0 7.5rem 3.125rem;
   margin-top: auto;
 }
 @media (min-width: 48rem) {
   .paragraph--type--content-page .btn-blue-circle-arrow,
 .paragraph--type--content-page .btn-white-circle-arrow {
-    padding: 3.125rem 3.125rem 0 0;
+    padding: 0 0 7.5rem 3.125rem;
   }
 }
 .paragraph--type--content-page:hover .btn-blue-circle-arrow,
 .paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
   margin-top: auto;
-  padding: 3.125rem 3.5625rem 0 0;
+  padding: 0 0 7.5rem 3.5625rem;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
   .paragraph--type--content-page:hover .btn-blue-circle-arrow,
 .paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page:focus .btn-white-circle-arrow {
-    padding: 3.125rem 3.5625rem 0 0;
+    padding: 0 0 7.5rem 3.5625rem;
   }
 }
 .paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn {
