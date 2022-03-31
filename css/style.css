@@ -1428,8 +1428,26 @@ img {
   }
 }
 
-.paragraph--type--content-page:hover .btn,
-.paragraph--type--content-page:focus .btn {
+@media (min-width: 48rem) {
+  .paragraph--type--content-page .btn-blue-circle-arrow,
+.paragraph--type--content-page .btn-white-circle-arrow {
+    padding: 0.625rem 3.125rem 0.625rem 0.625rem;
+  }
+}
+.paragraph--type--content-page .btn-blue-circle-arrow:hover, .paragraph--type--content-page .btn-blue-circle-arrow:focus,
+.paragraph--type--content-page .btn-white-circle-arrow:hover,
+.paragraph--type--content-page .btn-white-circle-arrow:focus {
+  padding: 0 3.5625rem 0 0;
+  text-decoration: none;
+}
+@media (min-width: 48rem) {
+  .paragraph--type--content-page .btn-blue-circle-arrow:hover, .paragraph--type--content-page .btn-blue-circle-arrow:focus,
+.paragraph--type--content-page .btn-white-circle-arrow:hover,
+.paragraph--type--content-page .btn-white-circle-arrow:focus {
+    padding: 0 3.5625rem 0 0;
+  }
+}
+.paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn {
   background-color: #10436b;
   background-position: center right 25px;
   -webkit-background-size: 17px 17px;
@@ -1438,25 +1456,9 @@ img {
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page:hover .btn,
-.paragraph--type--content-page:focus .btn {
+  .paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn {
     -webkit-background-size: 20px 20px;
             background-size: 20px;
-  }
-}
-.paragraph--type--content-page:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page:hover .btn-white-circle-arrow,
-.paragraph--type--content-page:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page:focus .btn-white-circle-arrow {
-  padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
-  text-decoration: none;
-}
-@media (min-width: 48rem) {
-  .paragraph--type--content-page:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page:hover .btn-white-circle-arrow,
-.paragraph--type--content-page:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page:focus .btn-white-circle-arrow {
-    padding: 0.625rem 4.5rem 0.625rem 0.625rem;
   }
 }
 
