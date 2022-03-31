@@ -1430,8 +1430,8 @@ img {
 
 .paragraph--type--content-page .btn-blue-circle-arrow,
 .paragraph--type--content-page .btn-white-circle-arrow {
-  padding: 0 0 7.5rem 3.125rem;
   margin-top: auto;
+  padding: 0 0 7.5rem 3.125rem;
 }
 @media (min-width: 48rem) {
   .paragraph--type--content-page .btn-blue-circle-arrow,
