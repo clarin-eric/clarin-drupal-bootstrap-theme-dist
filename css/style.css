@@ -898,10 +898,7 @@ img {
 .block-mailchimp-signup .form-control {
   background-color: transparent;
   border: 1px solid #c0c9d6;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
+  border-radius: 28px;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #052d4d;
@@ -936,10 +933,7 @@ img {
   -webkit-background-size: 20px 20px;
           background-size: 20px;
   border: 1px solid #052d4d;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
+  border-radius: 28px;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #fff;
@@ -1002,10 +996,7 @@ img {
 }
 .path-search .main-content .search-form .form-control {
   border: 1px solid #c0c9d6;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
+  border-radius: 28px;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #052d4d;
@@ -1025,10 +1016,7 @@ img {
   -webkit-background-size: 20px 20px;
           background-size: 20px;
   border: 1px solid #052d4d;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
+  border-radius: 28px;
   height: 56px;
   padding: 0 3.4375rem 0 1.5625rem;
 }
@@ -3256,12 +3244,9 @@ img {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .node__meta,
@@ -3834,12 +3819,9 @@ div.node--type-news {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
 }
 .block-views-blockteaser-list-block-1 .views-row .node--view-mode-teaser-list .node__meta {
