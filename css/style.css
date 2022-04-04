@@ -1451,6 +1451,7 @@ img {
 .paragraph--type--content-page-alternative:focus .btn-blue-circle-arrow,
 .paragraph--type--content-page-alternative:focus .btn-white-circle-arrow {
   margin-bottom: auto;
+  opacity: 0.85;
   padding: 0 0 7.5rem 3.4375rem;
   text-decoration: none;
 }
