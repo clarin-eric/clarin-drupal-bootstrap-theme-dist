@@ -2778,46 +2778,11 @@ img {
     line-height: 1.75rem;
   }
 }
-.node--type-impact-story .paragraph--type--text ul {
-  padding: 0;
-}
-.node--type-impact-story .paragraph--type--text ul li {
-  -webkit-box-align: baseline;
-  -webkit-align-items: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  line-height: 1.5625rem;
-  list-style-type: none;
-  padding-bottom: 0.9375rem;
-}
-@media (min-width: 48rem) {
-  .node--type-impact-story .paragraph--type--text ul li {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    line-height: 1.875rem;
-  }
-}
-.node--type-impact-story .paragraph--type--text ul li:last-child {
-  padding-bottom: 0;
-}
-.node--type-impact-story .paragraph--type--text ul li::before {
-  background: #0273cb;
-  content: "";
-  display: inline-block;
-  height: 9px;
-  margin-right: 1.25rem;
-  width: 9px;
-}
+.node--type-impact-story .paragraph--type--text ul,
 .node--type-impact-story .paragraph--type--text ol {
-  counter-reset: my-badass-counter;
   padding: 0;
 }
+.node--type-impact-story .paragraph--type--text ul li,
 .node--type-impact-story .paragraph--type--text ol li {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
@@ -2832,7 +2797,8 @@ img {
   padding-bottom: 0.9375rem;
 }
 @media (min-width: 48rem) {
-  .node--type-impact-story .paragraph--type--text ol li {
+  .node--type-impact-story .paragraph--type--text ul li,
+.node--type-impact-story .paragraph--type--text ol li {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -2840,8 +2806,21 @@ img {
     line-height: 1.875rem;
   }
 }
+.node--type-impact-story .paragraph--type--text ul li:last-child,
 .node--type-impact-story .paragraph--type--text ol li:last-child {
   padding-bottom: 0;
+}
+.node--type-impact-story .paragraph--type--text ul li::before {
+  background: #0273cb;
+  content: "";
+  display: inline-block;
+  height: 9px;
+  margin-right: 1.25rem;
+  width: 9px;
+}
+.node--type-impact-story .paragraph--type--text ol {
+  counter-reset: my-badass-counter;
+  padding: 0;
 }
 .node--type-impact-story .paragraph--type--text ol li::before {
   content: counter(my-badass-counter);
