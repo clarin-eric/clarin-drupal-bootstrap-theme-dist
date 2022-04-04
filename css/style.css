@@ -214,8 +214,8 @@ img {
 }
 .page-view-blogs-by-tag .field--name-field-tags a,
 .page-view-news .field--name-field-tags a {
-  font-size: 0.75rem;
   display: inline-block;
+  font-size: 0.75rem;
 }
 
 .node--view-mode-teaser-list-small .node__title {
@@ -2649,13 +2649,13 @@ img {
     padding: 0.625rem 4.5rem 0.625rem 0;
   }
 }
-.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:after {
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a::after {
   color: #153d57;
   content: attr(href);
   font-weight: 400;
   padding-left: 0.3125rem;
 }
-.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover:after {
+.paragraph--type--link-list.btn-arrow-circle .field--name-field-links a:hover::after {
   text-decoration: underline;
 }
 .paragraph--type--link-list .container {
@@ -2763,7 +2763,7 @@ img {
   padding: 0;
 }
 .node--type-impact-story .title-wrapper {
-  background-color: #9AC7C1;
+  background-color: #9ac7c1;
   margin: 0.9375rem;
   padding: 0.9375rem;
 }
@@ -2771,7 +2771,7 @@ img {
   font-size: 2.1875rem;
 }
 .node--type-impact-story .quote {
-  color: #0D578F;
+  color: #0d578f;
 }
 .node--type-impact-story label {
   font-weight: 700;
