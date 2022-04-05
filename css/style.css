@@ -1454,8 +1454,9 @@ img {
     padding: 0 0 7.5rem 3.4375rem;
   }
 }
-.paragraph--type--content-page .btn,
-.paragraph--type--content-page-alternative .btn {
+.paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn,
+.paragraph--type--content-page-alternative:hover .btn,
+.paragraph--type--content-page-alternative:focus .btn {
   background-color: #10436b;
   background-position: center right 25px;
   -webkit-background-size: 17px 17px;
@@ -1464,8 +1465,9 @@ img {
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page .btn,
-.paragraph--type--content-page-alternative .btn {
+  .paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn,
+.paragraph--type--content-page-alternative:hover .btn,
+.paragraph--type--content-page-alternative:focus .btn {
     -webkit-background-size: 20px 20px;
             background-size: 20px;
   }
