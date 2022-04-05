@@ -1416,47 +1416,47 @@ img {
   }
 }
 
-.paragraph--type--content-page .btn-blue-circle-arrow,
-.paragraph--type--content-page .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative .btn-white-circle-arrow {
+.paragraph--type--navigation-entry .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative .btn-white-circle-arrow {
   margin-bottom: auto;
   padding: 0 0 7.5rem 3.125rem;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page .btn-blue-circle-arrow,
-.paragraph--type--content-page .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative .btn-white-circle-arrow {
+  .paragraph--type--navigation-entry .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative .btn-white-circle-arrow {
     padding: 0 0 7.5rem 3.125rem;
   }
 }
-.paragraph--type--content-page:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page:focus .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative:hover .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative:focus .btn-white-circle-arrow {
+.paragraph--type--navigation-entry:hover .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry:hover .btn-white-circle-arrow, .paragraph--type--navigation-entry:focus .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry:focus .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative:hover .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative:hover .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative:focus .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative:focus .btn-white-circle-arrow {
   margin-bottom: auto;
   opacity: 0.85;
   padding: 0 0 7.5rem 3.4375rem;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page:hover .btn-white-circle-arrow, .paragraph--type--content-page:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page:focus .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative:hover .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative:hover .btn-white-circle-arrow,
-.paragraph--type--content-page-alternative:focus .btn-blue-circle-arrow,
-.paragraph--type--content-page-alternative:focus .btn-white-circle-arrow {
+  .paragraph--type--navigation-entry:hover .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry:hover .btn-white-circle-arrow, .paragraph--type--navigation-entry:focus .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry:focus .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative:hover .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative:hover .btn-white-circle-arrow,
+.paragraph--type--navigation-entry-alternative:focus .btn-blue-circle-arrow,
+.paragraph--type--navigation-entry-alternative:focus .btn-white-circle-arrow {
     padding: 0 0 7.5rem 3.4375rem;
   }
 }
-.paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn,
-.paragraph--type--content-page-alternative:hover .btn,
-.paragraph--type--content-page-alternative:focus .btn {
+.paragraph--type--navigation-entry:hover .btn, .paragraph--type--navigation-entry:focus .btn,
+.paragraph--type--navigation-entry-alternative:hover .btn,
+.paragraph--type--navigation-entry-alternative:focus .btn {
   background-color: #10436b;
   background-position: center right 25px;
   -webkit-background-size: 17px 17px;
@@ -1465,9 +1465,9 @@ img {
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .paragraph--type--content-page:hover .btn, .paragraph--type--content-page:focus .btn,
-.paragraph--type--content-page-alternative:hover .btn,
-.paragraph--type--content-page-alternative:focus .btn {
+  .paragraph--type--navigation-entry:hover .btn, .paragraph--type--navigation-entry:focus .btn,
+.paragraph--type--navigation-entry-alternative:hover .btn,
+.paragraph--type--navigation-entry-alternative:focus .btn {
     -webkit-background-size: 20px 20px;
             background-size: 20px;
   }
