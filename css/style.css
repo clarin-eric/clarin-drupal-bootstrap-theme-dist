@@ -517,6 +517,7 @@ img {
 
 .nav-link:hover,
 .nav-link:focus {
+  cursor: pointer;
   text-decoration: underline;
 }
 
