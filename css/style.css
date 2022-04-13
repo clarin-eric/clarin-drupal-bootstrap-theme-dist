@@ -4579,11 +4579,6 @@ div.align-center img {
   margin-bottom: 0;
 }
 
-.faq .item-list {
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
 .faq-question {
   font-size: 1.125rem;
   font-weight: 600;
@@ -4628,6 +4623,11 @@ div.align-center img {
   -webkit-transform: rotate(180deg);
        -o-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.faq .list-group-item a {
+  font-size: 1.0625rem;
+  font-weight: 600;
 }
 
 .feed-icon::after {
