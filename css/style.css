@@ -4625,7 +4625,8 @@ div.align-center img {
           transform: rotate(180deg);
 }
 
-.faq .list-group-item a {
+.faq .list-group-item a,
+.faq .faq-category-list a {
   font-size: 1.0625rem;
   font-weight: 600;
 }
