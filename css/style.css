@@ -1301,7 +1301,7 @@ img {
   }
 }
 
-.btn-white-circle-arrow {
+:not(.btn-white-circle-arrow) .btn-white-circle-arrow {
   background: url("../images/arrow-circle-blue.svg") no-repeat right center/40px;
   color: #fff;
   display: inline-table;
@@ -1314,19 +1314,19 @@ img {
   transition: padding 0.3s;
 }
 @media (min-width: 48rem) {
-  .btn-white-circle-arrow {
+  :not(.btn-white-circle-arrow) .btn-white-circle-arrow {
     -webkit-background-size: 47px 47px;
             background-size: 47px;
     font-size: 1.125rem;
     padding: 0.625rem 4.0625rem 0.625rem 0.625rem;
   }
 }
-.btn-white-circle-arrow:hover, .btn-white-circle-arrow:focus {
+:not(.btn-white-circle-arrow) .btn-white-circle-arrow:hover, :not(.btn-white-circle-arrow) .btn-white-circle-arrow:focus {
   padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
   text-decoration: none;
 }
 @media (min-width: 48rem) {
-  .btn-white-circle-arrow:hover, .btn-white-circle-arrow:focus {
+  :not(.btn-white-circle-arrow) .btn-white-circle-arrow:hover, :not(.btn-white-circle-arrow) .btn-white-circle-arrow:focus {
     padding: 0.625rem 4.5rem 0.625rem 0.625rem;
   }
 }
