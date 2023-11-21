@@ -3,22 +3,23 @@
  * Initialize TOC
  *
  */
-(function($, Drupal) {
+(($, Drupal, once) => {
   Drupal.behaviors.clarin_theme_toc = {
     attach: function attach(context) {
       if (context === document) {
         $(function initToc() {
-          var navSelector = "#toc";
-          var scopeSelector = "#tocscope";
+          const navSelector = "#toc";
+          const scopeSelector = "#tocscope";
           Toc.init({
-            $nav: $(navSelector, context),
-            $scope: $(scopeSelector, context)
+            $nav: $(once("selectorID", navSelector, context)),
+            $scope: $(once("selectorID", scopeSelector, context))
           });
-          $("body").scrollspy({
+          const body = $(once("selectorID", "body", context));
+          body.scrollspy({
             target: navSelector
           });
         });
       }
     }
   };
-})(jQuery, Drupal);
+})(jQuery, Drupal, once);
