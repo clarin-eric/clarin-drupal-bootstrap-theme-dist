@@ -1420,8 +1420,7 @@ input[type=button].btn-block {
 }
 
 .book-pager__item--previous {
-  text-align: left;
-  /* LTR */
+  text-align: left; /* LTR */
   width: 45%;
 }
 
@@ -1436,10 +1435,8 @@ input[type=button].btn-block {
 }
 
 .book-pager__item--next {
-  float: right;
-  /* LTR */
-  text-align: right;
-  /* LTR */
+  float: right; /* LTR */
+  text-align: right; /* LTR */
   width: 45%;
 }
 
@@ -1888,8 +1885,7 @@ summary {
 }
 
 .js .dropbutton-multiple .dropbutton-widget .dropbutton-action a {
-  margin-right: 0;
-  /* LTR */
+  margin-right: 0; /* LTR */
 }
 
 [dir=rtl].js .dropbutton-multiple .dropbutton-widget .dropbutton-action a {
@@ -2041,12 +2037,10 @@ summary {
     margin: 0 1rem 0 0;
     /* LTR */
   }
-
   [dir=rtl] .node .field--type-image {
     float: right;
     margin: 0 0 0 1rem;
   }
-
   .node .field--type-image + .field--type-image {
     clear: both;
   }
@@ -2262,14 +2256,14 @@ form .form-type-textarea {
 
 @media (max-width: 33.9em) {
   .navbar-toggleable-xs .navbar-nav .nav-item + .nav-item,
-.navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
     margin-left: 0;
     float: none;
   }
 }
 @media (max-width: 47.9em) {
   .navbar-toggleable-sm .navbar-nav .nav-item + .nav-item,
-.navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
     margin-left: 0;
     float: none;
   }
@@ -2457,8 +2451,7 @@ form .form-type-textarea {
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-linear-gradient(top, #419ff1, #1076d5);
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#419ff1), to(#1076d5));
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -o-linear-gradient(top, #419ff1, #1076d5);
-  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #419ff1, #1076d5);
-  /* LTR */
+  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #419ff1, #1076d5); /* LTR */
   border: 1px solid #0048c8;
   border-radius: 0.4em;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -2467,8 +2460,7 @@ form .form-type-textarea {
   font-size: 0.9em;
   line-height: normal;
   margin: 0;
-  padding: 0.25rem 1em 0.25rem 0.6em;
-  /* LTR */
+  padding: 0.25rem 1em 0.25rem 0.6em; /* LTR */
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -2487,8 +2479,7 @@ form .form-type-textarea {
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-linear-gradient(top, #59abf3, #2a90ef);
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#59abf3), to(#2a90ef));
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -o-linear-gradient(top, #59abf3, #2a90ef);
-  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #59abf3, #2a90ef);
-  /* LTR */
+  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #59abf3, #2a90ef); /* LTR */
   border: 1px solid #0048c8;
   text-decoration: none;
   color: #fff;
@@ -2507,8 +2498,7 @@ form .form-type-textarea {
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-linear-gradient(top, #0e69be, #2a93ef);
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#0e69be), to(#2a93ef));
   background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, -o-linear-gradient(top, #0e69be, #2a93ef);
-  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #0e69be, #2a93ef);
-  /* LTR */
+  background: url(/core/misc/icons/000000/chevron-left.svg) left no-repeat, linear-gradient(to bottom, #0e69be, #2a93ef); /* LTR */
   border: 1px solid #0048c8;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
           box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
@@ -2561,13 +2551,11 @@ header #search-block-form {
  * Visual styles for the Shortcut action link in Bootstrap Barrio.
  */
 .shortcut-wrapper {
-  margin: 2.2em 0 1.1em 0;
-  /* Same as usual .page-title margin. */
+  margin: 2.2em 0 1.1em 0; /* Same as usual .page-title margin. */
 }
 
 .shortcut-wrapper .page-title {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   margin: 0;
 }
 
@@ -2577,8 +2565,7 @@ header #search-block-form {
 
 .shortcut-action {
   border-bottom: none;
-  margin-left: 0.5em;
-  /* LTR */
+  margin-left: 0.5em; /* LTR */
   padding-top: 0.35em;
 }
 
@@ -2897,8 +2884,7 @@ body.path-user .field--label-above .field__item {
  */
 /* Vertical Tabs Reset */
 .vertical-tabs__menu {
-  margin: -0.0625rem 0 -0.0625rem;
-  /* LTR */
+  margin: -0.0625rem 0 -0.0625rem; /* LTR */
   padding: 0;
 }
 

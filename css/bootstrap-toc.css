@@ -33,8 +33,7 @@ nav[data-toggle=toc] .nav-link.active:focus {
 
 /* Nav: second level (shown on .active) */
 nav[data-toggle=toc] .nav-link + ul {
-  display: none;
-  /* Hide by default, but at >768px, show it */
+  display: none; /* Hide by default, but at >768px, show it */
   padding-bottom: 0.625rem;
 }
 
