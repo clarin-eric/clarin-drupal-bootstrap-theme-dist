@@ -586,6 +586,10 @@ img {
   }
 }
 
+.sidebar_second .nav-link {
+  padding: 0.35rem 0;
+}
+
 @media (max-width: 61.9375rem) {
   .main-content {
     border-top: 1px solid rgba(5, 45, 77, 0.13);
