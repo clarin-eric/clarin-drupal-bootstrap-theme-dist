@@ -1,0 +1,130 @@
+// Social media icons
+.clarin-social-media {
+  margin: 35px 0 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+
+    a {
+      background-color: $subtle-grey-02;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: 100%;
+      float: left;
+      height: 44px;
+      text-indent: -9999px;
+      width: 44px;
+
+      &:hover,
+      &:focus {
+        background-color: $subtle-grey-01;
+      }
+    }
+  }
+
+  .icon-twitter {
+    background-image: url('../images/twitter_icon.svg');
+  }
+
+  .icon-youtube {
+    background-image: url('../images/youtube_icon.svg');
+  }
+
+  .icon-videolectures {
+    background-image: url('../images/videolectures_icon.svg');
+  }
+
+  .icon-github {
+    background-image: url('../images/github_icon.svg');
+  }
+
+  .icon-linkedin {
+    background-image: url('../images/linkedin_icon.svg');
+  }
+}
+
+.site-footer {
+  margin: 35px 0 0;
+  padding: 0;
+
+  @media (min-width: #{$screen-tablet}) {
+    margin: 60px 0 0;
+  }
+
+  .site-footer__top {
+    border-top: 1px solid $cold-grey-03;
+    padding: 50px 0 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding: 60px 0 0;
+    }
+  }
+
+  .col {
+    font-size: 16px;
+    padding-left: 0;
+
+    @media (max-width: #{$screen-xs-max}) {
+      flex-basis: 50%;
+      margin-bottom: 35px;
+    }
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 18px;
+      padding-left: 15px;
+    }
+
+    h2 {
+      color: $blue;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .footer-first {
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 18px;
+      margin-bottom: 0;
+      padding-right: 10%;
+    }
+
+    h2 {
+      font-size: 23px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Bottom
+#block-bottomlinks {
+  margin-top: 10px;
+  padding-bottom: 10px;
+
+  @media (min-width: #{$screen-tablet}) {
+    margin-top: 85px;
+  }
+
+  a {
+    color: $soft-blue-02;
+    font-size: 14px;
+  }
+}
