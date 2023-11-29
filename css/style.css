@@ -518,7 +518,7 @@ img {
 }
 #navbar-main .block-menu a,
 #navbar-main .block-menu span {
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
   padding: 0;
 }
 #navbar-main .block-menu .dropdown-item span {
@@ -534,7 +534,7 @@ img {
   }
   #navbar-main .block-menu a,
   #navbar-main .block-menu span {
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
   }
 }
 @media (min-width: 75rem) {
@@ -543,7 +543,7 @@ img {
   }
   #navbar-main .block-menu li a,
   #navbar-main .block-menu li span {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 @media (max-width: 61.9375rem) {
@@ -692,6 +692,9 @@ img {
 }
 .clarin-social-media li a:hover, .clarin-social-media li a:focus {
   background-color: #e1e5ea;
+}
+.clarin-social-media .icon-twitter-x {
+  background-image: url("../images/twitter_x.svg");
 }
 .clarin-social-media .icon-twitter {
   background-image: url("../images/twitter_icon.svg");
