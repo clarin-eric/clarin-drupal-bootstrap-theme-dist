@@ -3156,7 +3156,6 @@ a.news-more-link:focus {
 .grid-container-view .views-row:last-child {
   border-bottom: 0;
   border-right: 0;
-  padding-bottom: 0;
 }
 .view-sharing-knowledge .views-row:nth-child(3),
 .grid-container-view .views-row:nth-child(3) {
