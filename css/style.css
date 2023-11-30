@@ -4215,6 +4215,7 @@ div.node--type-news {
     -webkit-flex: 1 1 25%;
         -ms-flex: 1 1 25%;
             flex: 1 1 25%;
+    max-width: 25%;
     padding-bottom: 0;
     padding-right: 1.25rem;
   }
@@ -4257,6 +4258,9 @@ div.node--type-news {
     font-size: 1.75rem;
     line-height: 2.125rem;
   }
+}
+.view-upcoming-events .event-image {
+  display: contents;
 }
 @media (max-width: 35.9375rem) {
   .view-upcoming-events .event-image {
