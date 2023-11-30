@@ -3771,11 +3771,13 @@ div.node--type-news {
 .node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__content {
   margin-bottom: 1.25rem;
   margin-top: 0;
+  padding-left: 0.625rem;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .node__meta,
 .node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__meta {
   color: #5a778d;
   margin-bottom: 0.3125rem;
+  padding-left: 0.625rem;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .field--name-created,
 .node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .field--name-created {
