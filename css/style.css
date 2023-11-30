@@ -3702,16 +3702,16 @@ div.node--type-news {
 }
 
 .block-views-blockteaser-small-blocks-block-1,
-.node--view-mode-teaser {
+.node--view-mode-teaser, .view-taxonomy-term {
   margin-bottom: 2.1875rem;
   position: relative;
 }
 .block-views-blockteaser-small-blocks-block-1 .col-md-3,
-.node--view-mode-teaser .col-md-3 {
+.node--view-mode-teaser .col-md-3, .view-taxonomy-term .col-md-3 {
   padding: 0 1.25rem 0 0;
 }
 .block-views-blockteaser-small-blocks-block-1 h2,
-.node--view-mode-teaser h2 {
+.node--view-mode-teaser h2, .view-taxonomy-term h2 {
   border-bottom: 1px solid #dae1e6;
   border-top: 2px solid #052d4d;
   font-size: 1.6875rem;
@@ -3720,74 +3720,74 @@ div.node--type-news {
 }
 @media (min-width: 48rem) {
   .block-views-blockteaser-small-blocks-block-1 h2,
-  .node--view-mode-teaser h2 {
+  .node--view-mode-teaser h2, .view-taxonomy-term h2 {
     font-size: 2.8125rem;
     margin-bottom: 2.1875rem;
     padding: 0.9375rem 0 3.4375rem;
   }
 }
 .block-views-blockteaser-small-blocks-block-1 .more-link,
-.node--view-mode-teaser .more-link {
+.node--view-mode-teaser .more-link, .view-taxonomy-term .more-link {
   position: absolute;
   right: 0;
   top: 25px;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row,
-.node--view-mode-teaser .views-row {
+.node--view-mode-teaser .views-row, .view-taxonomy-term .views-row {
   border-bottom: 1px solid #dae1e6;
   padding: 1.5625rem 0 0;
 }
 @media (min-width: 48rem) {
   .block-views-blockteaser-small-blocks-block-1 .views-row,
-  .node--view-mode-teaser .views-row {
+  .node--view-mode-teaser .views-row, .view-taxonomy-term .views-row {
     border-bottom: 0;
     border-right: 1px solid #dae1e6;
-    padding: 0 1.25rem;
+    padding: 0 0;
   }
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row:first-child,
-.node--view-mode-teaser .views-row:first-child {
+.node--view-mode-teaser .views-row:first-child, .view-taxonomy-term .views-row:first-child {
   padding: 0;
 }
 @media (min-width: 48rem) {
   .block-views-blockteaser-small-blocks-block-1 .views-row:first-child,
-  .node--view-mode-teaser .views-row:first-child {
+  .node--view-mode-teaser .views-row:first-child, .view-taxonomy-term .views-row:first-child {
     padding: 0 1.25rem 0 0;
   }
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row:last-child,
-.node--view-mode-teaser .views-row:last-child {
+.node--view-mode-teaser .views-row:last-child, .view-taxonomy-term .views-row:last-child {
   border-right: 0;
   display: none;
 }
 @media (min-width: 48rem) {
   .block-views-blockteaser-small-blocks-block-1 .views-row:last-child,
-  .node--view-mode-teaser .views-row:last-child {
+  .node--view-mode-teaser .views-row:last-child, .view-taxonomy-term .views-row:last-child {
     display: block;
     padding: 0 0 0 1.25rem;
   }
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .node__content,
-.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__content {
+.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__content, .view-taxonomy-term .views-row .node--view-mode-teaser-list-small .node__content {
   margin-bottom: 1.25rem;
   margin-top: 0;
   padding-left: 0.625rem;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .node__meta,
-.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__meta {
+.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .node__meta, .view-taxonomy-term .views-row .node--view-mode-teaser-list-small .node__meta {
   color: #5a778d;
   margin-bottom: 0.3125rem;
   padding-left: 0.625rem;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .field--name-created,
-.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .field--name-created {
+.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small .field--name-created, .view-taxonomy-term .views-row .node--view-mode-teaser-list-small .field--name-created {
   color: #5a778d;
   font-size: 0.875rem;
   font-style: normal;
   margin-bottom: 0.625rem;
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small h2,
-.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small h2 {
+.node--view-mode-teaser .views-row .node--view-mode-teaser-list-small h2, .view-taxonomy-term .views-row .node--view-mode-teaser-list-small h2 {
   border: 0;
   font-size: 1.125rem;
   line-height: 1.6rem;
