@@ -2975,9 +2975,9 @@ a.news-more-link:focus {
 }
 .node--type-impact-story .paragraph--type--image-text .container {
   -webkit-box-align: start;
-  -webkit-align-items: start;
+  -webkit-align-items: flex-start;
       -ms-flex-align: start;
-          align-items: start;
+          align-items: flex-start;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
