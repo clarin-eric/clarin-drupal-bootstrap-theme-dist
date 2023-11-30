@@ -4282,6 +4282,10 @@ div.node--type-news {
   width: 275px;
 }
 
+.pager__item__year {
+  padding-inline: 0.25rem;
+}
+
 .node--type-resource {
   border-top: 5px solid transparent;
   padding: 1.5625rem 1.25rem;
