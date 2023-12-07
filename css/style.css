@@ -4171,6 +4171,10 @@ div.node--type-news {
   text-decoration: none;
 }
 
+:not(.contextual-region) .draggableviews-weight {
+  display: none;
+}
+
 @media (min-width: 48rem) {
   .view-upcoming-events .node {
     display: -webkit-box;
