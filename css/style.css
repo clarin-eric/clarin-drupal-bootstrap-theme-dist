@@ -3764,7 +3764,7 @@ div.node--type-news {
   .block-views-blockteaser-small-blocks-block-1 .views-row:last-child,
   .node--view-mode-teaser .views-row:last-child, .view-taxonomy-term .views-row:last-child {
     display: block;
-    padding: 0 0 0 1.25rem;
+    padding: 0;
   }
 }
 .block-views-blockteaser-small-blocks-block-1 .views-row .node--view-mode-teaser-list-small .node__content,
