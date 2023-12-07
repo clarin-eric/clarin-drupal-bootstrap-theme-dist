@@ -272,7 +272,7 @@ img {
 .node--view-mode-teaser-list .field--name-field-tags,
 .node--view-mode-teaser-big .field--name-field-tags {
   display: block;
-  margin-top: -3rem;
+  margin-top: auto;
   position: absolute;
 }
 .node--view-mode-teaser-list .field--name-field-tags ul .show-tags,
