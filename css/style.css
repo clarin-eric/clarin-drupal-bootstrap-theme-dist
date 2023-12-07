@@ -3741,7 +3741,6 @@ div.node--type-news {
   .block-views-blockteaser-small-blocks-block-1 .views-row,
   .node--view-mode-teaser .views-row, .view-taxonomy-term .views-row {
     border-bottom: 0;
-    border-right: 1px solid #dae1e6;
     padding: 0 0;
   }
 }
