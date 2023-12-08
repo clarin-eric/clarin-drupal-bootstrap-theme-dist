@@ -4171,7 +4171,7 @@ div.node--type-news {
   text-decoration: none;
 }
 
-:not(.contextual-region) .draggableviews-weight {
+.draggableviews-weight {
   display: none;
 }
 
