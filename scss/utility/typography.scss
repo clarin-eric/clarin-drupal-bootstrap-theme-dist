@@ -1,0 +1,37 @@
+/* TYPOGRAPHY */
+
+// font families
+$font-inter: 'Inter',
+  arial,
+  verdana,
+  sans-serif;
+
+$font-sans-pro: 'Sanspro',
+  arial,
+  verdana,
+  sans-serif;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans',
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: sfmono-regular, menlo, monaco, consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-serif: serif, georgia,
+  'Times New Roman',
+  times;
+$font-family-base: $font-sans-pro;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-xs: $font-size-base * 0.75;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.563;
+$h1-font-size-h1: 48px;
+$h2-font-size-h2: 24px;
+$h3-font-size-h3: 20px;
+$h4-font-size-h4: 18px;
+$h5-font-size-h5: 16px;
+$h6-font-size-h6: 14px;

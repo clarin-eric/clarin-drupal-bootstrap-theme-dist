@@ -1,0 +1,98 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $h1-font-size-h1;
+
+  @media (max-width: #{$screen-sm-max}) {
+    font-size: $h2-font-size-h2;
+  }
+
+  @media (max-width: #{$screen-phone}) {
+    font-size: $h3-font-size-h3;
+  }
+}
+
+h2 {
+  font-size: $h2-font-size-h2;
+
+  @media (max-width: #{$screen-sm-max}) {
+    font-size: $h3-font-size-h3;
+  }
+
+  @media (max-width: #{$screen-phone}) {
+    font-size: $h4-font-size-h4;
+  }
+}
+
+h3 {
+  font-size: $h3-font-size-h3;
+
+  @media (max-width: #{$screen-sm-max}) {
+    font-size: $h4-font-size-h4;
+  }
+
+  @media (max-width: #{$screen-phone}) {
+    font-size: $h5-font-size-h5;
+  }
+}
+
+h4 {
+  font-size: $h4-font-size-h4;
+
+  @media (max-width: #{$screen-sm-max}) {
+    font-size: $h5-font-size-h5;
+  }
+
+  @media (max-width: #{$screen-phone}) {
+    font-size: $h6-font-size-h6;
+  }
+}
+
+h5 {
+  font-size: $h5-font-size-h5;
+
+  @media (max-width: #{$screen-phone}) {
+    font-size: $h6-font-size-h6;
+  }
+}
+
+h6 {
+  font-size: $h6-font-size-h6;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.field--name-field-user-picture,
+.field--type-image {
+  img {
+    margin: 0;
+  }
+}
+
+.field--type-entity-reference {
+  margin: 0;
+}
+
+.node__content {
+  margin-top: 0;
+}

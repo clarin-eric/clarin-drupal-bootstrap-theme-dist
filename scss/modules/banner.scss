@@ -1,0 +1,57 @@
+// Banner alert
+.sitewide-alert {
+  background-color: $blue;
+  border: 0;
+  border-radius: 0;
+  color: $white;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  padding: 18px 65px 18px 15px;
+  position: relative;
+
+  @media (min-width: #{$screen-tablet}) {
+    line-height: 30px;
+    padding: 18px 15px;
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+
+    &::after {
+      @media (min-width: #{$screen-tablet}) {
+        background: url('../images/arrow-right-white.svg') no-repeat center center;
+        content: '';
+        display: inline-block;
+        height: 18px;
+        margin-left: 15px;
+        width: 21px;
+      }
+    }
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .btn-close {
+    background: url('../images/close_icon.svg') no-repeat center center;
+    height: 17px;
+    opacity: 1;
+    right: 20px;
+    top: 15px;
+    width: 17px;
+
+    @media (min-width: #{$screen-tablet}) {
+      right: 25px;
+      top: 20px;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
