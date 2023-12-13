@@ -8,6 +8,12 @@ Based on Bootstrap 5 - Barrio SASS Starter Kit
 /* IMPORTS */
 /* VARIABLES */
 /* TYPOGRAPHY */
+:root {
+  --bs-body-font-family: Sanspro, sans-serif, arial, verdana;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+}
+
 /* Inter font from https://github.com/rsms/inter/releases */
 @font-face {
   font-display: swap;
