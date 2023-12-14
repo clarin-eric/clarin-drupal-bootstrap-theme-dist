@@ -55,7 +55,7 @@
           headerObservedStickyTop - prevEffectiveStickyTop
         );
 
-        if (toc) {
+        if (toc.length !== 0 && body.scrollspy) {
           const offsetValue = toolbarTotalHeight + 10;
           toc.css("top", `${offsetValue}px`);
           body.scrollspy({
