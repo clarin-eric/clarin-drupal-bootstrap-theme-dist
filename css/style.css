@@ -621,22 +621,14 @@ img {
 }
 
 .navbar {
+  --bs-border-width: 0;
   --bs-navbar-color: $body-color;
   padding: 0;
-}
-.navbar .row.region-navigation-right > * {
-  -webkit-flex-shrink: unset;
-      -ms-flex-negative: unset;
-          flex-shrink: unset;
-  width: unset;
-  max-width: unset;
-  padding-right: unset;
-  padding-left: unset;
-  margin-top: unset;
 }
 
 @media (max-width: 61.9375rem) {
   .navbar-toggler {
+    --bs-navbar-toggler-focus-width: 0;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -1280,7 +1272,6 @@ img {
 }
 
 .btn {
-  --bs-border-width: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
