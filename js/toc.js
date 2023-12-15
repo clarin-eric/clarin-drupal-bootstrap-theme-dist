@@ -15,9 +15,10 @@
             $scope: $(scopeSelector, context)
           });
           const body = $("body", context);
-          body.scrollspy({
+          const scrollSpy = new bootstrap.ScrollSpy(body, {
             target: navSelector
           });
+          scrollSpy.refresh();
         });
       }
     }
