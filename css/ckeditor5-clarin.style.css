@@ -95,7 +95,6 @@
   src: url("../fonts/sourcesans3/SourceSans3-BoldIt.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-BoldIt.ttf.woff?v=3.052") format("woff");
 }
 .ck-content {
-  background: #fff;
   color: #052d4d;
 }
 .ck-content h1,
