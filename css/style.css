@@ -285,12 +285,6 @@ Based on Bootstrap 5 - Barrio SASS Starter Kit
           box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
-}
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
