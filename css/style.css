@@ -10762,12 +10762,12 @@ a.news-more-link:focus {
   padding-top: 2.8125rem;
   position: relative;
 }
-@media (max-width: 35.9375rem) {
+@media (max-width: 47.9375rem) {
   .paragraph--type--header-large .contextual-region {
     position: unset;
   }
 }
-@media (min-width: 48rem) {
+@media (min-width: 36rem) {
   .paragraph--type--header-large {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -10791,7 +10791,7 @@ a.news-more-link:focus {
   line-height: 1.12;
   margin-bottom: 1.25rem;
 }
-@media (min-width: 48rem) {
+@media (min-width: 36rem) {
   .paragraph--type--header-large h1 {
     font-size: 4.25rem;
     margin-bottom: 2.1875rem;
