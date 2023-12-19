@@ -12,7 +12,6 @@ Based on Bootstrap 5 - Barrio SASS Starter Kit
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.563;
-  scroll-behavior: auto !important;
 }
 
 /* Inter font from https://github.com/rsms/inter/releases */
