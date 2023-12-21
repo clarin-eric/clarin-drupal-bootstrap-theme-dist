@@ -4260,9 +4260,6 @@ div.node--type-news {
     line-height: 2.125rem;
   }
 }
-.view-upcoming-events .event-image {
-  display: contents;
-}
 @media (max-width: 35.9375rem) {
   .view-upcoming-events .event-image {
     display: none;
@@ -4274,7 +4271,6 @@ div.node--type-news {
     -webkit-flex: 1 1 25%;
         -ms-flex: 1 1 25%;
             flex: 1 1 25%;
-    min-width: 300px;
     padding-left: 1.5625rem;
   }
 }
