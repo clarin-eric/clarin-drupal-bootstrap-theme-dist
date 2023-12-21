@@ -13170,10 +13170,9 @@ div.node--type-news {
 @media (min-width: 48rem) {
   .view-upcoming-events .event-image {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-    max-width: 260px;
+    -webkit-flex: 1 1 0;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
     padding-left: 1.5625rem;
   }
 }
