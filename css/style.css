@@ -9267,7 +9267,7 @@ img {
 .appsicon {
   margin: 0 0.625rem;
 }
-.appsicon .dropdown-menu {
+.appsicon.dropdown-menu {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
