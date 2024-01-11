@@ -9267,6 +9267,11 @@ img {
 .appsicon {
   margin: 0 0.625rem;
 }
+.appsicon .dropdown-menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
 .appsicon a {
   background: url("../images/applications-icon.svg");
   float: left;
