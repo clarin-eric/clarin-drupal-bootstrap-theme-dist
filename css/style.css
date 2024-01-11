@@ -9264,7 +9264,7 @@ img {
   margin: 0;
 }
 
-#app-menu-dropdown.dropdown-menu {
+#app-menu-dropdown .dropdown-menu {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
