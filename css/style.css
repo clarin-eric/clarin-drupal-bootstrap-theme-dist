@@ -9264,12 +9264,6 @@ img {
   margin: 0;
 }
 
-#app-menu-dropdown .dropdown-menu {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .appsicon {
   margin: 0 0.625rem;
 }
@@ -9396,6 +9390,12 @@ img {
   }
 }
 
+#app-menu-dropdown .dropdown-menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .dropdown-header {
   font-weight: 700;
 }
@@ -9408,7 +9408,7 @@ img {
   vertical-align: middle;
   width: 14px;
 }
-.dropdown.show .dropdown-toggle::after {
+.dropdown .dropdown-toggle.show::after {
   -webkit-transform: rotate(180deg);
        -o-transform: rotate(180deg);
           transform: rotate(180deg);
