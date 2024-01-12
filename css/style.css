@@ -12996,6 +12996,20 @@ div.node--type-news {
   background-color: transparent !important;
 }
 
+.application-button-small {
+  background-color: unset;
+  border-color: unset;
+  height: 150px;
+  padding: 0.625rem;
+  width: 160px;
+}
+.application-button-small:hover {
+  background-color: unset;
+  border-color: #0273cb;
+  -webkit-box-shadow: 0 2px 10px #0273cb, inset 0 1px 3px #0273cb;
+          box-shadow: 0 2px 10px #0273cb, inset 0 1px 3px #0273cb;
+}
+
 .node--type-consortia {
   border-bottom: 0;
   border-top: 1px solid #dae1e6;
