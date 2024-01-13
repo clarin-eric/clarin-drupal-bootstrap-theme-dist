@@ -9391,6 +9391,8 @@ img {
 }
 
 #app-menu-dropdown .dropdown-menu {
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25) !important;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -9398,6 +9400,11 @@ img {
 @media (max-width: 35.9375rem) {
   #app-menu-dropdown .dropdown-menu {
     left: -14rem;
+  }
+}
+@media (max-width: 61.9375rem) {
+  #app-menu-dropdown .dropdown-menu {
+    z-index: -1;
   }
 }
 
