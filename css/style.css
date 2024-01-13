@@ -9395,6 +9395,11 @@ img {
   width: -moz-max-content;
   width: max-content;
 }
+@media (max-width: 35.9375rem) {
+  #app-menu-dropdown .dropdown-menu {
+    left: -14rem;
+  }
+}
 
 .dropdown-header {
   font-weight: 700;
