@@ -9125,6 +9125,24 @@ img {
     float: unset;
   }
 }
+.field {
+  padding-bottom: 1rem;
+}
+
+.field__label {
+  display: contents;
+  float: left;
+  font-weight: bold;
+}
+
+.field--label-inline .field__label {
+  display: inline;
+  padding-right: 0.5rem;
+}
+.field--label-inline .field__label::after {
+  content: ":";
+}
+
 .field--name-field-tags {
   display: none;
   margin-bottom: 0.9375rem;
