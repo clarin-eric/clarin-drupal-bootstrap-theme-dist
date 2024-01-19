@@ -9091,6 +9091,12 @@ h6 {
   font-size: 0.875rem;
 }
 
+.container, .container-sm,
+.container-md, .container-lg,
+.container-xl, .container-xxl {
+  padding: 0 5rem;
+}
+
 .row {
   margin: 0 !important;
 }
