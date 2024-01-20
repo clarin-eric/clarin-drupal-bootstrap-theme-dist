@@ -9340,7 +9340,7 @@ img {
 .region-navigation-right .menu-fa-icon a {
   width: 30px;
 }
-@media (min-width: 48rem) {
+@media (min-width: 75rem) {
   .region-navigation-right {
     margin-left: 0.5rem !important;
   }
