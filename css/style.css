@@ -10586,7 +10586,7 @@ a.news-more-link:focus {
   font-size: 1rem;
   padding: 1.25rem 0;
 }
-@media (min-width: 62rem) {
+@media (min-width: 48rem) {
   .paragraph--type--image-text {
     font-size: 1.25rem;
     padding: 1.5625rem 0;
