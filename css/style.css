@@ -9091,19 +9091,6 @@ h6 {
   font-size: 0.875rem;
 }
 
-.container, .container-sm,
-.container-md, .container-lg,
-.container-xl {
-  padding: 0 calc(var(--bs-gutter-x) * 5);
-}
-@media (max-width: 74.9375rem) {
-  .container, .container-sm,
-  .container-md, .container-lg,
-  .container-xl {
-    padding: 0 calc(var(--bs-gutter-x) * 0.5);
-  }
-}
-
 .row {
   margin: 0 !important;
 }
