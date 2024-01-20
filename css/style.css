@@ -10675,7 +10675,8 @@ a.news-more-link:focus {
   }
 }
 .paragraph--type--image-text.btn-arrow-circle .field--name-field-link {
-  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  margin-top: 0.625rem;
 }
 @media (min-width: 62rem) {
   .paragraph--type--image-text.btn-arrow-circle .field--name-field-link {
