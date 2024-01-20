@@ -108,7 +108,7 @@
 .ck-content h1 {
   font-size: 3rem;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 47.9375rem) {
   .ck-content h1 {
     font-size: 1.5rem;
   }
@@ -121,7 +121,7 @@
 .ck-content h2 {
   font-size: 1.5rem;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 47.9375rem) {
   .ck-content h2 {
     font-size: 1.25rem;
   }
@@ -134,7 +134,7 @@
 .ck-content h3 {
   font-size: 1.25rem;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 47.9375rem) {
   .ck-content h3 {
     font-size: 1.125rem;
   }
@@ -147,7 +147,7 @@
 .ck-content h4 {
   font-size: 1.125rem;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 47.9375rem) {
   .ck-content h4 {
     font-size: 1rem;
   }
