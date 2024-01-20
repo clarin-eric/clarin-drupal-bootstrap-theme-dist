@@ -9096,6 +9096,20 @@ h6 {
 .container-xl, .container-xxl {
   padding: 0 calc(var(--bs-gutter-x) * 0.5);
 }
+@media (min-width: 62rem) {
+  .container, .container-sm,
+  .container-md, .container-lg,
+  .container-xl, .container-xxl {
+    padding: 0 calc(var(--bs-gutter-x) * 1);
+  }
+}
+@media (min-width: 75rem) {
+  .container, .container-sm,
+  .container-md, .container-lg,
+  .container-xl, .container-xxl {
+    padding: 0 calc(var(--bs-gutter-x) * 3);
+  }
+}
 @media (min-width: 87.5rem) {
   .container, .container-sm,
   .container-md, .container-lg,
