@@ -9342,7 +9342,7 @@ img {
 }
 @media (min-width: 48rem) {
   .region-navigation-right {
-    margin-left: 0.625rem !important;
+    margin-left: 0.5rem !important;
   }
 }
 
