@@ -9308,6 +9308,9 @@ img {
   margin: 0;
 }
 
+.menu-fa-icon {
+  margin-left: 0.3125rem;
+}
 .menu-fa-icon .fa {
   text-decoration: none;
 }
@@ -9509,11 +9512,11 @@ img {
     font-size: 1.125rem;
   }
 }
-@media (max-width: 61.9375rem) {
-  #navbar-main .menu-fa-icon {
-    font-size: 1.1875rem;
-    padding-bottom: 0.3125rem;
-  }
+#navbar-main .menu-fa-icon {
+  font-size: 1.3rem;
+  padding-bottom: 0.3125rem;
+  padding-left: 0.1875rem;
+  padding-right: 0.1875rem;
 }
 #navbar-main .dropdown .dropdown-menu .dropdown-item .ext-link {
   background: url("../images/external-link_icon.svg") no-repeat right center;
@@ -9560,10 +9563,8 @@ img {
   }
 }
 
-@media (min-width: 48rem) {
-  #collapsing-navbar {
-    margin-top: 0.1875rem;
-  }
+#collapsing-navbar {
+  margin-right: 1.5rem;
 }
 @media (max-width: 61.9375rem) {
   #collapsing-navbar.navbar-collapse .block-menu:not(:last-of-type) .nav-item:last-of-type {
@@ -9603,7 +9604,7 @@ img {
             justify-content: center;
     margin-left: auto;
     margin-right: 0.6875rem;
-    padding: 0;
+    padding: 0.1875rem 0 0 0;
     width: 28px;
   }
   .navbar-toggler .icon-bar {
