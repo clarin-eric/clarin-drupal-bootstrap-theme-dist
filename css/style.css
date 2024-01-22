@@ -9145,17 +9145,16 @@ img {
     float: unset;
   }
 }
-.field__label {
+.node--type-k-centre .field__label {
   display: contents;
   float: left;
   font-weight: bold;
 }
-
-.field--label-inline .field__label {
+.node--type-k-centre .field--label-inline .field__label {
   display: inline;
   padding-right: 0.5rem;
 }
-.field--label-inline .field__label::after {
+.node--type-k-centre .field--label-inline .field__label::after {
   content: ":";
 }
 
@@ -9283,9 +9282,6 @@ img {
   }
 }
 
-.searchicon {
-  margin: 0 0.625rem;
-}
 .searchicon a,
 .searchicon span {
   background: url("../images/search_icon.svg") no-repeat center center/22px;
@@ -9312,9 +9308,6 @@ img {
   margin: 0;
 }
 
-.menu-fa-icon {
-  margin: 0 0.3125rem;
-}
 .menu-fa-icon .fa {
   text-decoration: none;
 }
@@ -9519,6 +9512,7 @@ img {
 @media (max-width: 61.9375rem) {
   #navbar-main .menu-fa-icon {
     font-size: 1.1875rem;
+    padding-bottom: 0.3125rem;
   }
 }
 #navbar-main .dropdown .dropdown-menu .dropdown-item .ext-link {
