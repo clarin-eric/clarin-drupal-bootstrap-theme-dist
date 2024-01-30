@@ -1,0 +1,141 @@
+// Category tags
+.field--name-field-tags {
+  display: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+  @media (min-width: #{$screen-tablet}) {
+    display: block;
+    position: relative;
+    z-index: 8;
+  }
+
+  ul.links {
+    li {
+      padding: 0;
+      white-space: normal;
+    }
+  }
+
+  a {
+    border: 1px solid $blue;
+    border-radius: 50px;
+    color: $blue;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    margin: 0 5px 5px 0;
+    padding: 4px 12px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 13px;
+      line-height: 15px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: #f0f6fb;
+      text-decoration: none;
+    }
+  }
+}
+
+.page-view-blogs-by-tag,
+.page-view-news {
+  .field--name-field-tags {
+    margin: 0;
+
+    a {
+      display: inline-block;
+      font-size: 12px;
+    }
+  }
+}
+
+.node--view-mode-teaser-list-small {
+  .node__title {
+    padding-top: 20px;
+  }
+
+  div {
+    &.btn-link-blue,
+    &.btn-link-blue-s,
+    &.btn-link-blue-xs,
+    &.node-readmore {
+      background: none;
+    }
+  }
+}
+
+.node--view-mode-teaser-list,
+.node--view-mode-teaser-big {
+  .field--name-field-tags {
+    display: block;
+    margin-top: auto;
+    position: absolute;
+
+    ul {
+      .show-tags {
+        border: 1px solid $blue;
+        border-radius: 50px;
+        color: $blue;
+        cursor: pointer;
+        display: none;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 13px;
+        margin: 0 5px 5px 0;
+        padding: 4px 12px;
+        text-transform: uppercase;
+
+        @media (min-width: #{$screen-tablet}) {
+          font-size: 13px;
+          line-height: 15px;
+        }
+
+        &:hover,
+        &:focus {
+          background-color: #f0f6fb;
+          text-decoration: none;
+        }
+      }
+
+      &.hide-more {
+        li:nth-of-type(n+3) {
+          display: none;
+        }
+
+        .show-tags {
+          display: block !important;
+        }
+      }
+    }
+  }
+}
+
+.page-view-taxonomy-term {
+  .page-title {
+    border: 1px solid $blue;
+    border-radius: 50px;
+    color: $blue;
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 15px;
+    margin: 0 5px 5px 0;
+    padding: 4px 12px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+    z-index: 2;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+}

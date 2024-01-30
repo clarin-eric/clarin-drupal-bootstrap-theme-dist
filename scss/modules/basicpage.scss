@@ -1,0 +1,336 @@
+// Basicpage
+.main-content {
+  padding: 0;
+}
+
+// Sidebar
+.sidebar {
+  .block {
+    border: 1px solid rgb(5 45 77 / 13%);
+    display: flex;
+    flex-flow: column;
+  }
+
+  .section nav {
+    ul {
+      flex-flow: column;
+      margin: 0;
+    }
+  }
+
+  &:not(.sidebar_second) a:not(.nav-link):not(.btn) {
+    color: $blue;
+  }
+}
+
+.sidebar_second {
+  @media (max-width: #{$screen-xs-max}) {
+    padding-left: 0;
+    padding-right: 0;
+
+    .section nav ul {
+      flex-flow: wrap;
+      justify-content: space-between;
+      list-style: square;
+      padding: 10px;
+
+      li {
+        margin-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+.node--type-landing-page {
+  #block-clarin-bootstrap-breadcrumbs {
+    .container {
+      padding: 0 15px;
+    }
+  }
+
+  .block-page-title-block {
+    display: none;
+  }
+}
+
+.node {
+  .field--name-body {
+    a:not(.btn):not(.btn-default):not(.btn-link-blue-s) {
+      color: $blue;
+    }
+  }
+}
+
+.paragraph {
+  .field--name-field-body {
+    a:not(.btn):not(.btn-default):not(.btn-link-blue-s) {
+      color: $blue;
+    }
+  }
+}
+
+.node_search-results {
+  .list-group-item {
+    border: 0;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 0;
+  }
+}
+
+// Mailchimp
+.block-mailchimp-signup {
+  background-color: $subtle-grey-02;
+  border-top: 3px solid $blue;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding: 35px 15px 20px;
+
+  @media (min-width: #{$screen-tablet}) {
+    display: flex;
+    padding: 40px 45px 90px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 41px;
+    margin: 0 0 10px;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 45px;
+      line-height: 55px;
+      margin: 0;
+      padding-right: 10px;
+      width: 50%;
+    }
+  }
+
+  .content {
+    @media (min-width: #{$screen-tablet}) {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 50%;
+    }
+  }
+
+  .mailchimp-signup-subscribe-form {
+    color: $soft-blue-01;
+    font-size: 16px;
+    line-height: 30px;
+
+    @media (min-width: #{$screen-tablet}) {
+      color: $dark-blue-01;
+      display: flex;
+      flex-flow: wrap;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+
+  .mailchimp-newsletter-mergefields {
+    margin-top: 35px;
+    width: 100%;
+
+    @media (min-width: #{$screen-tablet}) {
+      max-width: 200px;
+    }
+
+    @media (min-width: #{$screen-desktop}) {
+      max-width: 320px;
+    }
+
+    @media (min-width: #{$screen-lg}) {
+      max-width: 390px;
+    }
+  }
+
+  label {
+    color: $soft-blue-01;
+  }
+
+  .form-type-email {
+    label {
+      display: none;
+    }
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: 1px solid $cold-grey-01;
+    border-radius: 28px;
+    box-shadow: none;
+    color: $dark-blue-01;
+    font-size: 14px;
+    height: 45px;
+    line-height: 30px;
+    padding: 10px 25px;
+    width: 100%;
+
+    @media (min-width: #{$screen-tablet}) {
+      border-bottom-right-radius: 0;
+      border-right: 0;
+      border-top-right-radius: 0;
+      font-size: 16px;
+      height: 56px;
+      max-width: 200px;
+    }
+
+    @media (min-width: #{$screen-desktop}) {
+      max-width: 320px;
+    }
+
+    @media (min-width: #{$screen-lg}) {
+      max-width: 390px;
+    }
+  }
+
+  .form-submit {
+    background: $dark-blue-01 url('../images/arrow-right-white.svg') no-repeat right 30% center;
+    background-size: 20px;
+    border: 1px solid $dark-blue-01;
+    border-radius: 28px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 45px;
+    width: 100%;
+
+    @media (min-width: #{$screen-tablet}) {
+      background: transparent url('../images/arrow-right-blue.svg') no-repeat 24px center;
+      border: 1px solid $cold-grey-01;
+      border-bottom-left-radius: 0;
+      border-left: 0;
+      border-top-left-radius: 0;
+      float: left;
+      height: 56px;
+      text-indent: -9999px;
+      width: 74px;
+    }
+
+    &:hover,
+    &:focus {
+      background: $dark-blue-01 url('../images/arrow-right-white.svg') no-repeat right 30% center;
+      background-size: 20px;
+      outline: none;
+
+      @media (min-width: #{$screen-tablet}) {
+        background: transparent url('../images/arrow-right-blue.svg') no-repeat 24px center;
+        background-size: 20px;
+      }
+    }
+  }
+
+  .form-actions {
+    margin-top: 10px;
+
+    @media (min-width: #{$screen-tablet}) {
+      margin-top: 35px;
+      width: 74px;
+    }
+  }
+}
+
+// Search page
+.path-search .main-content {
+  .search-form {
+    margin-top: 30px;
+
+    label {
+      color: $soft-blue-02;
+    }
+
+    .form-type-search {
+      max-width: 780px;
+      width: 100%;
+
+      label {
+        display: none;
+      }
+    }
+
+    .search-advanced {
+      max-width: 854px; // 780px + 74 px (basic search input + button)
+    }
+
+    .form-control, {
+      border: 1px solid $cold-grey-01;
+      border-radius: 28px;
+      box-shadow: none;
+      color: $dark-blue-01;
+      font-size: 16px;
+      height: 56px;
+      line-height: 30px;
+      padding: 10px 25px;
+      width: 100%;
+
+      @media (min-width: #{$screen-tablet}) {
+        font-size: 18px;
+      }
+    }
+
+    .form-submit {
+      background: $dark-blue-01 url('../images/search_icon_white.svg') no-repeat right 24px center;
+      background-size: 20px;
+      border: 1px solid $dark-blue-01;
+      border-radius: 28px;
+      height: 56px;
+      padding: 0 55px 0 25px;
+
+      &:hover,
+      &:focus {
+        background-color: $dark-blue-02;
+        outline: none;
+      }
+    }
+
+    #edit-basic {
+      display: flex;
+
+      .form-control {
+        border-bottom-right-radius: 0;
+        border-right: 0;
+        border-top-right-radius: 0;
+      }
+
+      .form-submit {
+        background-position: 24px center;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        box-shadow: none;
+        padding: 0;
+        text-indent: -9999px;
+        width: 74px;
+
+        @media (max-width: #{$screen-md-max}) {
+          background-position: 18px center;
+        }
+      }
+    }
+  }
+
+  .block-system-main-block {
+    h3 {
+      font-size: 23px;
+    }
+  }
+}
+
+// Dropdown toggle
+.collapse-toggle {
+  &::after {
+    background: url('../images/arrow-down-blue.svg') no-repeat center center;
+    border: 0;
+    content: '';
+    display: inline-block;
+    height: 14px;
+    margin-left: 3px;
+    vertical-align: middle;
+    width: 14px;
+  }
+
+  &:not(.collapsed)::after {
+    transform: rotate(180deg);
+  }
+}

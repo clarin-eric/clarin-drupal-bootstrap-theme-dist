@@ -1,0 +1,38 @@
+/*
+Theme Name: CLARIN Bootstrap 5 theme
+Description: A Bootstrap Barrio sub-theme for Drupal 10 developed for the CLARIN website
+https://www.clarin.eu
+
+Based on Bootstrap 5 - Barrio SASS Starter Kit
+*/
+
+@import 'imports';
+
+
+// utility elements
+@import 'utility/elements';
+
+// import modules
+@import 'modules';
+
+/* GENERAL STYLES
+------------------------------------------------- */
+
+body {
+  background: $white;
+}
+
+/* COLORS
+-------------------------------------------------- */
+
+a {
+  color: $link-color;
+}
+
+.linkblue {
+  color: $blue;
+}
+
+.bg-inverse {
+  background: $inverse-bg !important;
+}
