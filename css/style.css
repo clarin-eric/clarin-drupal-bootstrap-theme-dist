@@ -9766,7 +9766,7 @@ img {
   padding: 0;
 }
 
-.sidebar .block {
+.sidebar .block:not(.hidden) {
   border: 1px solid rgba(5, 45, 77, 0.13);
   display: -webkit-box;
   display: -webkit-flex;
