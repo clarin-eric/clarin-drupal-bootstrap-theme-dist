@@ -13832,6 +13832,11 @@ div.align-center img {
   color: #415d71;
 }
 
+.search-highlight {
+  font-weight: normal;
+  background-color: #fffbce;
+}
+
 /* GENERAL STYLES
 ------------------------------------------------- */
 body {
