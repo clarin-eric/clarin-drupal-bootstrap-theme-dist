@@ -9786,7 +9786,7 @@ img {
           flex-flow: column;
   margin: 0;
 }
-.sidebar:not(.sidebar_second) a:not(.nav-link):not(.btn) {
+.sidebar:not(.sidebar_second) a:not(.nav-link, .btn) {
   color: #0273cb;
 }
 
@@ -9819,11 +9819,11 @@ img {
   display: none;
 }
 
-.node .field--name-body a:not(.btn):not(.btn-default):not(.btn-link-blue-s) {
+.node .field--name-body a:not(.btn, .btn-default, .btn-link-blue-s) {
   color: #0273cb;
 }
 
-.paragraph .field--name-field-body a:not(.btn):not(.btn-default):not(.btn-link-blue-s) {
+.paragraph .field--name-field-body a:not(.btn, .btn-default, .btn-link-blue-s) {
   color: #0273cb;
 }
 
