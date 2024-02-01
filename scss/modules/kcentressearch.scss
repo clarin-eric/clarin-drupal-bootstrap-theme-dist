@@ -10,7 +10,11 @@
   .form-item-search-api-fulltext,
   .form-item-keys {
     max-width: 450px;
-    width: 80%;
+    width: 70%;
+
+    @media (min-width: #{$screen-md-min}) {
+      width: 100%;
+    }
   }
 
   .form-control {
@@ -26,7 +30,7 @@
     padding: 10px 25px;
     width: 100%;
 
-    @media (min-width: #{$screen-tablet}) {
+    @media (min-width: #{$screen-sm-min}) {
       font-size: 18px;
     }
   }
@@ -88,6 +92,7 @@
 }
 
 // Facets
+// Any sidebar
 .sidebar {
   .block.block-facets {
     border: 0;
@@ -128,24 +133,34 @@
   }
 
   &:has(.block-facets) {
-    padding-top: 95px;
+    @media (min-width: #{$screen-md-min}) {
+      padding-top: 95px;
+    }
   }
 }
 
+// Primary (left) sidebar facet overrides
 .sidebar_first:has(.block-facets) {
+  // Only render the region when there are facets to display
   display: none;
 
   &:has(.block-facets:not(.hidden)) {
     display: block;
   }
 
+  // Override the region width
   @media (min-width: #{$screen-md-min}) {
     flex: 0 0 auto;
     width: 23%;
   }
+
+  // Render facets after content
+  @media (max-width: #{$screen-sm-max}) {
+    order: 2 !important;
+  }
 }
 
-// Others
+// For highlighting search match words
 .search-highlight {
   font-weight: normal;
   background-color: $search-highlight;
