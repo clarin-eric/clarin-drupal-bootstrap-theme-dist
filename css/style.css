@@ -13829,6 +13829,10 @@ div.align-center img {
 
 .sidebar_first:has(.block-facets) {
   width: 23%;
+  display: none;
+}
+.sidebar_first:has(.block-facets):has(.block-facets:not(.hidden)) {
+  display: block;
 }
 
 .view-k-centres-search .view-content a {
