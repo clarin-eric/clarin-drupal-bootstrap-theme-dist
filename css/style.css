@@ -13835,6 +13835,9 @@ div.align-center img {
 .sidebar .block.block-facets .content li.facet-item:has(label.is-active) {
   list-style: "- ";
 }
+.sidebar .block.block-facets .content li.facet-item label::first-letter {
+  text-transform: uppercase;
+}
 .sidebar .block.block-facets h2 {
   font-size: 1rem;
 }
