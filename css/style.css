@@ -13823,6 +13823,13 @@ div.align-center img {
 .sidebar .block.block-facets h2 {
   font-size: 1rem;
 }
+.sidebar:has(.block-facets) {
+  padding-top: 5.9375rem;
+}
+
+.sidebar_first:has(.block-facets) {
+  width: 20%;
+}
 
 .view-k-centres-search .view-content a {
   color: #153d57;
