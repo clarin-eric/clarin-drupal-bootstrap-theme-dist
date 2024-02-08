@@ -9594,16 +9594,6 @@ img {
 .sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar ul {
   width: 100%;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active {
-  background-color: #052d4d;
-  border-radius: 15px;
-  margin-left: -0.625rem;
-}
-.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active > a {
-  color: #fff;
-  font-weight: 600;
-  margin: 0 0.625rem 0 0.625rem;
-}
 .sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown-menu {
   display: block;
   position: relative;
@@ -9611,11 +9601,11 @@ img {
   border-radius: 0;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  padding: 0 0 0.5rem 0;
+  padding: 0 0 0.5rem;
   overflow: hidden;
 }
 .sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown > a::after {
-  background: url(../images/short-arrow-right-white.svg) no-repeat center center;
+  background: url("../images/short-arrow-right-white.svg") no-repeat center center;
   -webkit-transform: rotate(90deg);
        -o-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -9643,6 +9633,16 @@ img {
   margin-top: -2rem;
   padding-bottom: 0;
   padding-top: 0;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active {
+  background-color: #052d4d;
+  border-radius: 15px;
+  margin-left: -0.625rem;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active > a {
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0.625rem;
 }
 
 .row:has(.sidebar_second):has(.block-menu) .main-content {
