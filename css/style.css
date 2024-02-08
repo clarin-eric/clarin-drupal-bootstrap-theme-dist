@@ -9297,6 +9297,11 @@ img {
 .appsicon {
   margin: 0 0.625rem;
 }
+@media (min-width: 62rem) and (max-width: 75rem) {
+  .appsicon {
+    margin: 0 0.3125rem 0 0.1875rem;
+  }
+}
 .appsicon a {
   background: url("../images/applications-icon.svg");
   float: left;
@@ -9347,7 +9352,7 @@ img {
 }
 
 .dropdown-menu {
-  padding: 1.25rem 0.9375rem;
+  padding: 0.9375rem;
   z-index: 500;
 }
 .dropdown-menu .dropdown-item:hover,
@@ -9430,7 +9435,7 @@ img {
   background: url("../images/arrow-down-blue.svg") no-repeat center center;
   border: 0;
   height: 14px;
-  margin-left: 0.1875rem;
+  margin-left: -0.0625rem;
   vertical-align: middle;
   width: 14px;
 }
@@ -9477,6 +9482,9 @@ img {
   -webkit-transform: rotate(-90deg);
        -o-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+.sidebar_second .menu--main-menu-v3.navbar .dropdown .dropdown-toggle::after {
+  margin-left: 0.3125rem;
 }
 .sidebar_second .menu--main-menu-v3.navbar .dropdown .dropdown-menu .dropdown-item {
   height: 32px;
@@ -9588,11 +9596,20 @@ img {
 }
 @media (min-width: 62rem) {
   #navbar-main .block-menu li {
-    padding: 0 0.5rem;
+    padding: 0 0.25rem;
   }
   #navbar-main .block-menu li a,
   #navbar-main .block-menu li span {
-    font-size: 1.125rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 75rem) {
+  #navbar-main .block-menu li {
+    padding: 0 0.3125rem;
+  }
+  #navbar-main .block-menu li a,
+  #navbar-main .block-menu li span {
+    font-size: 1rem;
   }
 }
 #navbar-main .menu-fa-icon {
@@ -9640,9 +9657,6 @@ img {
   padding: 0.35rem 0;
 }
 
-#collapsing-navbar {
-  margin-right: 1.5rem;
-}
 @media (max-width: 61.9375rem) {
   #collapsing-navbar.navbar-collapse .block-menu:not(:last-of-type) .nav-item:last-of-type {
     border-bottom: 1px solid #c0c9d6;
