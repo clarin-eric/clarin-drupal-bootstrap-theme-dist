@@ -9582,29 +9582,29 @@ img {
   padding: 0;
 }
 
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar h2 {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar h2 {
   border: 0;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar ul {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar ul {
   width: 100%;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .nav-item.active {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active {
   background-color: #052d4d;
   border-radius: 15px;
   margin-left: -0.625rem;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .nav-item.active > a {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .nav-item.active > a {
   color: #fff;
   font-weight: 600;
   margin: 0 0.625rem 0 0.625rem;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown-menu {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown-menu {
   display: block;
   position: relative;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
@@ -9614,7 +9614,7 @@ img {
   padding: 0 0 0.5rem 0;
   overflow: hidden;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown > a::after {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown > a::after {
   background: url(../images/short-arrow-right-white.svg) no-repeat center center;
   -webkit-transform: rotate(90deg);
        -o-transform: rotate(90deg);
@@ -9625,21 +9625,21 @@ img {
   transition: transform 350ms;
   transition: transform 350ms, -webkit-transform 350ms, -o-transform 350ms;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown > a.show::after {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown > a.show::after {
   -webkit-transform: rotate(-90deg);
        -o-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown .dropdown-menu .dropdown-item {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown .dropdown-menu .dropdown-item {
   height: 32px;
   -webkit-transition: margin 350ms;
   -o-transition: margin 350ms;
   transition: margin 350ms;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown .dropdown-menu:not(.show) {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown .dropdown-menu:not(.show) {
   padding: 0;
 }
-.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown .dropdown-menu:not(.show) .dropdown-item {
+.sidebar_second #block-clarin-bootstrap-mainmenuv3-2.navbar .dropdown .dropdown-menu:not(.show) .dropdown-item {
   margin-top: -2rem;
   padding-bottom: 0;
   padding-top: 0;
