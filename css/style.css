@@ -9591,6 +9591,19 @@ img {
 .sidebar_second #block-clarin-bootstrap-mainmenu.navbar h2 {
   border: 0;
 }
+.sidebar_second #block-clarin-bootstrap-mainmenu.navbar ul {
+  width: 100%;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .nav-item.active {
+  background-color: #052d4d;
+  border-radius: 15px;
+  margin-left: -0.625rem;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .nav-item.active > a {
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0.625rem 0 0.625rem;
+}
 .sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown-menu {
   display: block;
   position: relative;
@@ -9600,6 +9613,22 @@ img {
           box-shadow: none !important;
   padding: 0 0 0.5rem 0;
   overflow: hidden;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown > a::after {
+  background: url(../images/short-arrow-right-white.svg) no-repeat center center;
+  -webkit-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: -webkit-transform 350ms;
+  transition: -webkit-transform 350ms;
+  -o-transition: -o-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms, -o-transform 350ms;
+}
+.sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown > a.show::after {
+  -webkit-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .sidebar_second #block-clarin-bootstrap-mainmenu.navbar .dropdown .dropdown-menu .dropdown-item {
   height: 32px;
