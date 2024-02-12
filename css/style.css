@@ -9517,7 +9517,6 @@ img {
 
 .sidebar.sidebar_second:has(.block-menu) {
   border-left: 1px solid rgba(5, 45, 77, 0.13);
-  margin-left: 0.3125rem;
   padding: 0;
 }
 .sidebar.sidebar_second:has(.block-menu) .block.block-menu {
