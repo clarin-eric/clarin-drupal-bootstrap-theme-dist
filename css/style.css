@@ -9883,22 +9883,15 @@ img {
 }
 
 @media (max-width: 35.9375rem) {
-  .sidebar_second {
+  .sidebar_second :not(.block-menu) {
     padding-left: 0;
     padding-right: 0;
   }
-  .sidebar_second .section nav ul {
-    -webkit-flex-flow: wrap;
-        -ms-flex-flow: wrap;
-            flex-flow: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  .sidebar_second :not(.block-menu) .section nav ul {
     list-style: square;
     padding: 0.625rem;
   }
-  .sidebar_second .section nav ul li {
+  .sidebar_second :not(.block-menu) .section nav ul li {
     margin-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
