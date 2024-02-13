@@ -9353,7 +9353,7 @@ img {
 
 .dropdown-menu {
   padding: 0.9375rem;
-  z-index: 500;
+  z-index: 499;
 }
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus,
