@@ -9507,12 +9507,12 @@ img {
 .sidebar_second .menu--main-menu-v3.navbar .dropdown .dropdown-menu:not(.show) .dropdown-item {
   margin-top: -2.8125rem;
 }
-.sidebar_second .menu--main-menu-v3.navbar .nav-item.active {
+.sidebar_second .menu--main-menu-v3.navbar .nav .nav-item.active {
   background-color: #052d4d;
   border-radius: 15px;
   margin-left: -0.625rem;
 }
-.sidebar_second .menu--main-menu-v3.navbar .nav-item.active > a {
+.sidebar_second .menu--main-menu-v3.navbar .nav .nav-item.active > a {
   color: #fff;
   font-weight: 600;
   margin: 0 0.625rem;
