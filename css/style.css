@@ -9352,7 +9352,7 @@ img {
 }
 
 .dropdown-menu {
-  padding: 0.9375rem;
+  padding: 1.25rem 0.9375rem;
   z-index: 499;
 }
 .dropdown-menu .dropdown-item:hover,
@@ -9435,7 +9435,7 @@ img {
   background: url("../images/arrow-down-blue.svg") no-repeat center center;
   border: 0;
   height: 14px;
-  margin-left: -0.0625rem;
+  margin-left: 0.125rem;
   vertical-align: middle;
   width: 14px;
 }
@@ -9466,6 +9466,7 @@ img {
           box-shadow: none !important;
   padding: 0 0 0.5rem;
   overflow: hidden;
+  z-index: 498;
 }
 .sidebar_second .menu--main-menu-v3.navbar .dropdown > a::after {
   background: url("../images/short-arrow-right-white.svg") no-repeat center center;
@@ -9588,7 +9589,7 @@ img {
 }
 @media (min-width: 48rem) {
   #navbar-main .block-menu li {
-    padding: 0 0.25rem;
+    padding: 0 0.5rem;
   }
   #navbar-main .block-menu a,
   #navbar-main .block-menu span {
@@ -9597,20 +9598,12 @@ img {
 }
 @media (min-width: 62rem) {
   #navbar-main .block-menu li {
-    padding: 0 0.25rem;
-  }
-  #navbar-main .block-menu li a,
-  #navbar-main .block-menu li span {
-    font-size: 1rem;
+    padding: 0 0.5rem;
   }
 }
 @media (min-width: 75rem) {
   #navbar-main .block-menu li {
     padding: 0 0.3125rem;
-  }
-  #navbar-main .block-menu li a,
-  #navbar-main .block-menu li span {
-    font-size: 1rem;
   }
 }
 #navbar-main .menu-fa-icon {
