@@ -9685,7 +9685,7 @@ img {
     -webkit-flex-flow: wrap;
         -ms-flex-flow: wrap;
             flex-flow: wrap;
-    height: 28px;
+    height: 30px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -9693,7 +9693,7 @@ img {
     margin-left: auto;
     margin-right: 0.6875rem;
     padding: 0.1875rem 0 0;
-    width: 28px;
+    width: 30px;
   }
   .navbar-toggler .icon-bar {
     background-color: #052d4d;
@@ -9723,8 +9723,8 @@ img {
     opacity: 0;
   }
   .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate3d(6.5px, -6.5px, 0);
-            transform: rotate(-45deg) translate3d(6.5px, -6.5px, 0);
+    -webkit-transform: rotate(-45deg) translate3d(7px, -7px, 0);
+            transform: rotate(-45deg) translate3d(7px, -7px, 0);
   }
 }
 .clarin-social-media {
