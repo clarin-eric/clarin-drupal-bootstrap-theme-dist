@@ -9492,11 +9492,14 @@ img {
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 0.1875rem;
-  padding-top: 0.1875rem;
+  padding-top: 0.375rem;
   -webkit-transition: margin 350ms;
   -o-transition: margin 350ms;
   transition: margin 350ms;
   white-space: normal;
+}
+.sidebar_second .menu--main-menu-v3.navbar .dropdown .dropdown-menu .dropdown-item a {
+  line-height: 1.125rem;
 }
 .sidebar_second .menu--main-menu-v3.navbar .dropdown .dropdown-menu:not(.show) {
   padding: 0;
@@ -9876,15 +9879,15 @@ img {
 }
 
 @media (max-width: 35.9375rem) {
-  .sidebar_second :not(.block-menu) {
+  .sidebar_second .nav:not(.block-menu) {
     padding-left: 0;
     padding-right: 0;
   }
-  .sidebar_second :not(.block-menu) .section nav ul {
+  .sidebar_second .nav:not(.block-menu) .section nav ul {
     list-style: square;
     padding: 0.625rem;
   }
-  .sidebar_second :not(.block-menu) .section nav ul li {
+  .sidebar_second .nav:not(.block-menu) .section nav ul li {
     margin-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
