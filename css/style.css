@@ -9146,7 +9146,10 @@ img {
   }
 }
 .node--type-k-centre .field {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.625rem;
+}
+.node--type-k-centre .field p {
+  margin: 0;
 }
 .node--type-k-centre .field__label {
   display: contents;
@@ -9175,6 +9178,24 @@ img {
 .node--type-k-centre .field.field--name-field-hosted-by-list .field__item::before {
   content: "(" counter(list) ") ";
   counter-increment: list;
+}
+.node--type-k-centre .field.field--name-field-full-name {
+  font-size: 1.5rem;
+}
+@media (max-width: 61.9375rem) {
+  .node--type-k-centre .field.field--name-field-full-name {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 30rem) {
+  .node--type-k-centre .field.field--name-field-full-name {
+    font-size: 1.125rem;
+  }
+}
+.node--type-k-centre .field.field--name-field-url {
+  font-size: 1.25rem;
+  padding-bottom: 1.625rem;
+  padding-left: 0.625rem;
 }
 
 .field--name-field-tags {
