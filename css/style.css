@@ -9157,6 +9157,12 @@ img {
 .node--type-k-centre .field--label-inline .field__label::after {
   content: ":";
 }
+.node--type-k-centre .field--label-inline .field__item::after {
+  content: ",";
+}
+.node--type-k-centre .field--label-inline .field__item:last-child::after {
+  content: ".";
+}
 
 .field--name-field-tags {
   display: none;
