@@ -9145,6 +9145,9 @@ img {
     float: unset;
   }
 }
+.node--type-k-centre .field {
+  padding-bottom: 0.5rem;
+}
 .node--type-k-centre .field__label {
   display: contents;
   float: left;
@@ -9157,11 +9160,21 @@ img {
 .node--type-k-centre .field--label-inline .field__label::after {
   content: ":";
 }
-.node--type-k-centre .field--label-inline .field__item::after {
+.node--type-k-centre .field--label-inline .field__items {
+  display: inline;
+}
+.node--type-k-centre .field--label-inline .field__items .field__item::after {
   content: ",";
 }
-.node--type-k-centre .field--label-inline .field__item:last-child::after {
+.node--type-k-centre .field--label-inline .field__items .field__item:last-child::after {
   content: ".";
+}
+.node--type-k-centre .field.field--name-field-hosted-by-list {
+  counter-reset: list;
+}
+.node--type-k-centre .field.field--name-field-hosted-by-list .field__item::before {
+  content: "(" counter(list) ") ";
+  counter-increment: list;
 }
 
 .field--name-field-tags {
