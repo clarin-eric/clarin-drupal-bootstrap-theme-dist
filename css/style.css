@@ -13932,9 +13932,10 @@ div.align-center img {
 }
 
 .page-view-k-centres-search .page-title::after {
-  color: red;
+  color: #dc3545;
   content: " BETA";
   font-size: 1rem;
+  vertical-align: super;
 }
 
 .sidebar .block.block-facets {
