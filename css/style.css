@@ -9498,7 +9498,7 @@ img {
   width: 100%;
 }
 .sidebar_second .menu--main.navbar .dropdown-menu {
-  border-left: 2px solid #052d4d;
+  border-left: 1px solid #052d4d;
   border-radius: 0;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
