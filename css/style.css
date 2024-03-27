@@ -9145,54 +9145,54 @@ img {
     float: unset;
   }
 }
-.node--type-k-centre .field {
+.node--type-k-centre .field, .node--type-trainer .field {
   padding-bottom: 0.625rem;
 }
-.node--type-k-centre .field p {
+.node--type-k-centre .field p, .node--type-trainer .field p {
   margin: 0;
 }
-.node--type-k-centre .field__label {
+.node--type-k-centre .field__label, .node--type-trainer .field__label {
   display: contents;
   float: left;
   font-weight: bold;
 }
-.node--type-k-centre .field--label-inline .field__label {
+.node--type-k-centre .field--label-inline .field__label, .node--type-trainer .field--label-inline .field__label {
   display: inline;
   padding-right: 0.5rem;
 }
-.node--type-k-centre .field--label-inline .field__label::after {
+.node--type-k-centre .field--label-inline .field__label::after, .node--type-trainer .field--label-inline .field__label::after {
   content: ":";
 }
-.node--type-k-centre .field--label-inline .field__items {
+.node--type-k-centre .field--label-inline .field__items, .node--type-trainer .field--label-inline .field__items {
   display: inline;
 }
-.node--type-k-centre .field--label-inline .field__items .field__item::after {
+.node--type-k-centre .field--label-inline .field__items .field__item::after, .node--type-trainer .field--label-inline .field__items .field__item::after {
   content: ",";
 }
-.node--type-k-centre .field--label-inline .field__items .field__item:last-child::after {
+.node--type-k-centre .field--label-inline .field__items .field__item:last-child::after, .node--type-trainer .field--label-inline .field__items .field__item:last-child::after {
   content: ".";
 }
-.node--type-k-centre .field.field--name-field-hosted-by-list {
+.node--type-k-centre .field.field--name-field-hosted-by-list, .node--type-trainer .field.field--name-field-hosted-by-list {
   counter-reset: list;
 }
-.node--type-k-centre .field.field--name-field-hosted-by-list .field__item::before {
+.node--type-k-centre .field.field--name-field-hosted-by-list .field__item::before, .node--type-trainer .field.field--name-field-hosted-by-list .field__item::before {
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
-.node--type-k-centre .field.field--name-field-full-name {
+.node--type-k-centre .field.field--name-field-full-name, .node--type-trainer .field.field--name-field-full-name {
   font-size: 1.5rem;
 }
 @media (max-width: 61.9375rem) {
-  .node--type-k-centre .field.field--name-field-full-name {
+  .node--type-k-centre .field.field--name-field-full-name, .node--type-trainer .field.field--name-field-full-name {
     font-size: 1.25rem;
   }
 }
 @media (max-width: 30rem) {
-  .node--type-k-centre .field.field--name-field-full-name {
+  .node--type-k-centre .field.field--name-field-full-name, .node--type-trainer .field.field--name-field-full-name {
     font-size: 1.125rem;
   }
 }
-.node--type-k-centre .field.field--name-field-url {
+.node--type-k-centre .field.field--name-field-url, .node--type-trainer .field.field--name-field-url {
   font-size: 1.25rem;
   padding-bottom: 1.625rem;
   padding-left: 0.625rem;
