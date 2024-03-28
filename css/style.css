@@ -13836,6 +13836,41 @@ div.align-center img {
   font-weight: 600;
 }
 
+.node.node--type-trainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+.node.node--type-trainer .field--name-field-media,
+.node.node--type-trainer .field--name-field-expertise,
+.node.node--type-trainer .field--name-field-clarin-centre-s,
+.node.node--type-trainer .field--name-field-email {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.node.node--type-trainer .field--name-field-expertise .field__label {
+  font-weight: 400;
+}
+.node.node--type-trainer .field--name-field-expertise .field__label::after {
+  content: " in: ";
+}
+.node.node--type-trainer .field--name-field-clarin-centre-s .field__item {
+  display: inline;
+}
+.node.node--type-trainer .field--name-field-clarin-centre-s .field__item::after {
+  content: " &";
+}
+.node.node--type-trainer .field--name-field-clarin-centre-s .field__item:last-child::after {
+  content: ".";
+}
+
 .views-exposed-form {
   margin-bottom: 1rem;
   margin-top: 1.875rem;
