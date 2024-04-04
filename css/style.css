@@ -9170,7 +9170,7 @@ img {
   content: ",";
 }
 .node--type-k-centre .field--label-inline .field__items .field__item:last-child::after, .node--type-clarin-centre .field--label-inline .field__items .field__item:last-child::after {
-  content: ".";
+  content: "";
 }
 .node--type-k-centre .field.field--name-field-hosted-by-list, .node--type-clarin-centre .field.field--name-field-hosted-by-list {
   counter-reset: list;
