@@ -81,7 +81,7 @@
     &::after {
       content: "Hosted by:";
       display: block;
-      line-height: calc($line-height-base x 2);
+      line-height: 3.126;
       text-indent: 0;
     }
   }
@@ -98,7 +98,7 @@
     }
 
     .field--name-field-working-unit {
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
 
     .field--name-field-address {

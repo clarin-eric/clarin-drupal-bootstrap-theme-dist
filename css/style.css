@@ -9206,7 +9206,7 @@ img {
 .node--type-clarin-centre .field--name-field-location-coordinates .field__label::after {
   content: "Hosted by:";
   display: block;
-  line-height: calc(1.563 x 2);
+  line-height: 3.126;
   text-indent: 0;
 }
 
@@ -9219,7 +9219,7 @@ img {
     vertical-align: top;
   }
   .node--type-clarin-centre .field--name-field-working-unit {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .node--type-clarin-centre .field--name-field-address {
     margin-bottom: 5rem;
