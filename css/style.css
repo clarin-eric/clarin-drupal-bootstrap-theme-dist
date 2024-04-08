@@ -9198,16 +9198,16 @@ img {
   padding-left: 0.625rem;
 }
 
-.field--name-field-location-coordinates .field__label {
+.node--type-clarin-centre .field--name-field-location-coordinates .field__label {
   display: block;
-  text-indent: -9999px;
   line-height: 0; /* Collapse the original line */
+  text-indent: -9999px;
 }
-.field--name-field-location-coordinates .field__label::after {
+.node--type-clarin-centre .field--name-field-location-coordinates .field__label::after {
   content: "Hosted by:";
-  text-indent: 0;
   display: block;
-  line-height: initial;
+  line-height: 1.563 x 2;
+  text-indent: 0;
 }
 
 @media (min-width: 36rem) {
