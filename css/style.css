@@ -9224,6 +9224,9 @@ img {
   .node--type-clarin-centre .field--name-field-address {
     margin-bottom: 5rem;
   }
+  .node--type-clarin-centre .field--name-field-description::after {
+    content: unset;
+  }
 }
 .field--name-field-tags {
   display: none;
