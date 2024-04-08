@@ -9198,6 +9198,33 @@ img {
   padding-left: 0.625rem;
 }
 
+.field--name-field-location-coordinates .field__label {
+  display: block;
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
+}
+.field--name-field-location-coordinates .field__label::after {
+  content: "Hosted by:";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+
+@media (min-width: 36rem) {
+  .node--type-clarin-centre .field--name-field-administrative-contact, .node--type-clarin-centre .field--name-field-technical-contact,
+  .node--type-clarin-centre .field--name-field-monitoring-contacts {
+    display: inline-block;
+    max-width: 30%;
+    padding-right: 2rem;
+    vertical-align: top;
+  }
+  .node--type-clarin-centre .field--name-field-working-unit {
+    margin-top: 4rem;
+  }
+  .node--type-clarin-centre .field--name-field-address {
+    margin-bottom: 5rem;
+  }
+}
 .field--name-field-tags {
   display: none;
   margin-bottom: 0.9375rem;
@@ -11803,6 +11830,10 @@ a.news-more-link:focus {
       -ms-flex-flow: wrap;
           flex-flow: wrap;
   padding: 0;
+}
+
+.paragraph--type--clarin-centre-contact .container {
+  padding: unset;
 }
 
 .impact-stories--header-large {
