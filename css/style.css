@@ -13957,15 +13957,15 @@ div.align-center img {
           align-items: end;
 }
 
-.view-k-centres-search .view-content a {
+.view-k-centres-search a, .view-search-content .view-content a {
   color: #153d57;
   text-decoration: underline;
 }
-.view-k-centres-search .view-content a:hover {
+.view-k-centres-search a:hover, .view-search-content .view-content a:hover {
   color: #415d71;
 }
 
-.page-view-k-centres-search .page-title::after {
+.page-view-k-centres-search, .page-title::after {
   color: #dc3545;
   content: " BETA";
   font-size: 1rem;
