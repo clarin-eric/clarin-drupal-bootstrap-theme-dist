@@ -9156,12 +9156,12 @@ img {
   float: left;
   font-weight: bold;
 }
+.node--type-k-centre .field__label::after, .node--type-clarin-centre .field__label::after {
+  content: ":";
+}
 .node--type-k-centre .field--label-inline .field__label, .node--type-clarin-centre .field--label-inline .field__label {
   display: inline;
-  padding-right: 0.5rem;
-}
-.node--type-k-centre .field--label-inline .field__label::after, .node--type-clarin-centre .field--label-inline .field__label::after {
-  content: ":";
+  padding-right: 0.2rem;
 }
 .node--type-k-centre .field--label-inline .field__items, .node--type-clarin-centre .field--label-inline .field__items {
   display: inline;
