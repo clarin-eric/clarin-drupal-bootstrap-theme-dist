@@ -13898,7 +13898,10 @@ div.align-center img {
   content: "";
 }
 
-.view-trainers-network .view-header img {
+.page-view-trainers-network .title-wrapper h1 {
+  display: none;
+}
+.page-view-trainers-network .view-trainers-network .view-header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
