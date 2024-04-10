@@ -13901,6 +13901,9 @@ div.align-center img {
 .page-view-trainers-network .title-wrapper h1 {
   display: none;
 }
+.page-view-trainers-network .view-trainers-network .views-view-responsive-grid__item-inner {
+  position: relative;
+}
 .page-view-trainers-network .view-trainers-network .view-header img {
   display: block;
   margin-left: auto;
