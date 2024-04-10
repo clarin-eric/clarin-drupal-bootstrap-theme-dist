@@ -13898,6 +13898,12 @@ div.align-center img {
   content: "";
 }
 
+.view-trainers-network .view-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .views-exposed-form {
   margin-bottom: 1rem;
   margin-top: 1.875rem;
