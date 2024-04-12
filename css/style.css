@@ -13867,11 +13867,11 @@ div.align-center img {
 .node.node--type-trainer .field--name-field-clarin-centre-s .field__item:last-child::after {
   content: "";
 }
-.node.node--type-trainer .field--name-field-expertise .field__label {
+.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label {
   font-weight: 400;
 }
-.node.node--type-trainer .field--name-field-expertise .field__label::after {
-  content: " in: ";
+.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label::after {
+  content: " in";
 }
 .node.node--type-trainer .field--name-field-media,
 .node.node--type-trainer .field--name-field-expertise,
@@ -13883,7 +13883,7 @@ div.align-center img {
 }
 .node.node--type-trainer .field--label-inline .field__label {
   display: inline;
-  padding-right: 0.5rem;
+  padding-right: 0.2rem;
 }
 .node.node--type-trainer .field--label-inline .field__label::after {
   content: ":";
