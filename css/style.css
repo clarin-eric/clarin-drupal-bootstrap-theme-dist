@@ -13867,11 +13867,15 @@ div.align-center img {
 .node.node--type-trainer .field--name-field-clarin-centre-s .field__item:last-child::after {
   content: "";
 }
-.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label {
-  font-weight: 400;
+.node.node--type-trainer .field--name-field-public-profile-link {
+  margin-left: auto;
+  margin-right: auto;
 }
-.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label::after {
-  content: " in";
+.node.node--type-trainer .field--name-field-public-profile-link .paragraph--type--link-list {
+  padding-top: 0;
+}
+.node.node--type-trainer .field--name-field-public-profile-link .paragraph--type--link-list .field--name-field-links {
+  margin-top: 0;
 }
 .node.node--type-trainer .field--name-field-media,
 .node.node--type-trainer .field--name-field-expertise,
@@ -13896,6 +13900,12 @@ div.align-center img {
 }
 .node.node--type-trainer .field--label-inline .field__items .field__item:last-child::after {
   content: "";
+}
+.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label {
+  font-weight: 400;
+}
+.node.node--type-trainer .field--name-field-expertise.field--label-inline .field__label::after {
+  content: " in";
 }
 
 .page-view-trainers-network .title-wrapper h1 {
