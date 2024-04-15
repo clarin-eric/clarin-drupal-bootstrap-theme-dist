@@ -9091,22 +9091,22 @@ h6 {
   font-size: 0.875rem;
 }
 
-.container, .container-sm,
-.container-md, .container-lg,
-.container-xl, .container-xxl {
+:not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
+:not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
+:not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
   padding: 0 calc(var(--bs-gutter-x) * 0.4);
 }
 @media (min-width: 75rem) {
-  .container, .container-sm,
-  .container-md, .container-lg,
-  .container-xl, .container-xxl {
+  :not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
+  :not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
+  :not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
     padding: 0 calc(var(--bs-gutter-x) * 3);
   }
 }
 @media (min-width: 87.5rem) {
-  .container, .container-sm,
-  .container-md, .container-lg,
-  .container-xl, .container-xxl {
+  :not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
+  :not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
+  :not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
     padding: 0 calc(var(--bs-gutter-x) * 5);
   }
 }
