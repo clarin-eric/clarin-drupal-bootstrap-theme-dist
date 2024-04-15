@@ -9091,22 +9091,22 @@ h6 {
   font-size: 0.875rem;
 }
 
-:not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
-:not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
-:not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
+.container, .container-sm,
+.container-md, .container-lg,
+.container-xl, .container-xxl {
   padding: 0 calc(var(--bs-gutter-x) * 0.4);
 }
 @media (min-width: 75rem) {
-  :not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
-  :not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
-  :not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
+  .container, .container-sm,
+  .container-md, .container-lg,
+  .container-xl, .container-xxl {
     padding: 0 calc(var(--bs-gutter-x) * 3);
   }
 }
 @media (min-width: 87.5rem) {
-  :not(.node--type-impact-story) :not(.paragraph) > .container, :not(.node--type-impact-story) :not(.paragraph) > .container-sm,
-  :not(.node--type-impact-story) :not(.paragraph) > .container-md, :not(.node--type-impact-story) :not(.paragraph) > .container-lg,
-  :not(.node--type-impact-story) :not(.paragraph) > .container-xl, :not(.node--type-impact-story) :not(.paragraph) > .container-xxl {
+  .container, .container-sm,
+  .container-md, .container-lg,
+  .container-xl, .container-xxl {
     padding: 0 calc(var(--bs-gutter-x) * 5);
   }
 }
@@ -11918,6 +11918,11 @@ a.news-more-link:focus {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+}
+.node--type-impact-story .paragraph--type--text .container, .node--type-impact-story .paragraph--type--text .container-sm,
+.node--type-impact-story .paragraph--type--text .container-md, .node--type-impact-story .paragraph--type--text .container-lg,
+.node--type-impact-story .paragraph--type--text .container-xl, .node--type-impact-story .paragraph--type--text .container-xxl {
+  padding: 0 calc(var(--bs-gutter-x) * 0.4);
 }
 .node--type-impact-story .paragraph--type--text ul,
 .node--type-impact-story .paragraph--type--text ol {
