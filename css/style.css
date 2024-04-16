@@ -11912,28 +11912,28 @@ a.news-more-link:focus {
 .node--type-impact-story .node__meta {
   padding-left: 0.9375rem;
 }
-.node--type-impact-story .paragraph--type--text {
+.node--type-impact-story .paragraph {
   font-size: 1rem;
   line-height: 1.5625rem;
   padding: 1.5625rem 0 0;
 }
 @media (min-width: 36rem) {
-  .node--type-impact-story .paragraph--type--text {
+  .node--type-impact-story .paragraph {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
-.node--type-impact-story .paragraph--type--text .container, .node--type-impact-story .paragraph--type--text .container-sm,
-.node--type-impact-story .paragraph--type--text .container-md, .node--type-impact-story .paragraph--type--text .container-lg,
-.node--type-impact-story .paragraph--type--text .container-xl, .node--type-impact-story .paragraph--type--text .container-xxl {
+.node--type-impact-story .paragraph .container, .node--type-impact-story .paragraph .container-sm,
+.node--type-impact-story .paragraph .container-md, .node--type-impact-story .paragraph .container-lg,
+.node--type-impact-story .paragraph .container-xl, .node--type-impact-story .paragraph .container-xxl {
   padding: 0 calc(var(--bs-gutter-x) * 0.4);
 }
-.node--type-impact-story .paragraph--type--text ul,
-.node--type-impact-story .paragraph--type--text ol {
+.node--type-impact-story .paragraph ul,
+.node--type-impact-story .paragraph ol {
   padding: 0;
 }
-.node--type-impact-story .paragraph--type--text ul li,
-.node--type-impact-story .paragraph--type--text ol li {
+.node--type-impact-story .paragraph ul li,
+.node--type-impact-story .paragraph ol li {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
@@ -11947,8 +11947,8 @@ a.news-more-link:focus {
   padding-bottom: 0.9375rem;
 }
 @media (min-width: 36rem) {
-  .node--type-impact-story .paragraph--type--text ul li,
-  .node--type-impact-story .paragraph--type--text ol li {
+  .node--type-impact-story .paragraph ul li,
+  .node--type-impact-story .paragraph ol li {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -11956,11 +11956,11 @@ a.news-more-link:focus {
     line-height: 1.875rem;
   }
 }
-.node--type-impact-story .paragraph--type--text ul li:last-child,
-.node--type-impact-story .paragraph--type--text ol li:last-child {
+.node--type-impact-story .paragraph ul li:last-child,
+.node--type-impact-story .paragraph ol li:last-child {
   padding-bottom: 0;
 }
-.node--type-impact-story .paragraph--type--text ul li::before {
+.node--type-impact-story .paragraph ul li::before {
   background: #0273cb;
   content: "";
   display: inline-block;
@@ -11968,32 +11968,32 @@ a.news-more-link:focus {
   margin-right: 1.25rem;
   width: 9px;
 }
-.node--type-impact-story .paragraph--type--text ol {
+.node--type-impact-story .paragraph ol {
   counter-reset: my-badass-counter;
   padding: 0;
 }
-.node--type-impact-story .paragraph--type--text ol li::before {
+.node--type-impact-story .paragraph ol li::before {
   content: counter(my-badass-counter);
   counter-increment: my-badass-counter;
   margin-right: 1.25rem;
   width: 9px;
 }
-.node--type-impact-story .paragraph--type--text h2 {
+.node--type-impact-story .paragraph h2 {
   font-size: 1.4375rem;
   margin-bottom: 1.25rem;
 }
-.node--type-impact-story .paragraph--type--text h3 {
+.node--type-impact-story .paragraph h3 {
   font-size: 1rem;
   margin-bottom: 0.625rem;
 }
-.node--type-impact-story .paragraph--type--text h4 {
+.node--type-impact-story .paragraph h4 {
   font-size: 1rem;
   margin-bottom: 0.625rem;
 }
-.node--type-impact-story .paragraph--type--text hr {
+.node--type-impact-story .paragraph hr {
   border-top: 1px solid #c0cad2;
 }
-.node--type-impact-story .paragraph--type--text blockquote {
+.node--type-impact-story .paragraph blockquote {
   border-left: 0;
   border-top: 3px solid #0273cb;
   font-size: 1.4375rem;
@@ -12003,7 +12003,7 @@ a.news-more-link:focus {
   padding-top: 0.9375rem;
 }
 @media (min-width: 36rem) {
-  .node--type-impact-story .paragraph--type--text blockquote {
+  .node--type-impact-story .paragraph blockquote {
     font-size: 2.1875rem;
     line-height: 3.125rem;
     padding-right: 0;
