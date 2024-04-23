@@ -9209,6 +9209,10 @@ img {
   line-height: 3.126;
   text-indent: 0;
 }
+.node--type-clarin-centre .field--name-field-link-to-centre-registry a {
+  color: #0273cb;
+  text-decoration: underline;
+}
 
 @media (min-width: 36rem) {
   .node--type-clarin-centre .field--name-field-administrative-contact, .node--type-clarin-centre .field--name-field-technical-contact,
