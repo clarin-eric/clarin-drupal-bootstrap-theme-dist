@@ -9209,7 +9209,7 @@ img {
   line-height: 3.126;
   text-indent: 0;
 }
-.node--type-clarin-centre .field--name-field-link-to-centre-registry a {
+.node--type-clarin-centre .field--name-field-link-to-centre-registry a, .node--type-clarin-centre .field--name-field-location-coordinates a {
   color: #0273cb;
   text-decoration: underline;
 }
