@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: CLARIN Bootstrap 5 theme
 Description: A Bootstrap Barrio sub-theme for Drupal 10 developed for the CLARIN website
@@ -9196,6 +9197,14 @@ img {
   font-size: 1.25rem;
   padding-bottom: 1.625rem;
   padding-left: 0.625rem;
+}
+.node--type-k-centre .field.field--name-field-consortium,
+.node--type-k-centre .field.field--name-field-consortium-url, .node--type-clarin-centre .field.field--name-field-consortium,
+.node--type-clarin-centre .field.field--name-field-consortium-url {
+  display: inline-block;
+}
+.node--type-k-centre .field.field--name-field-consortium::after, .node--type-clarin-centre .field.field--name-field-consortium::after {
+  content: "➔";
 }
 
 .node--type-clarin-centre .field--name-field-location-coordinates .field__label {
