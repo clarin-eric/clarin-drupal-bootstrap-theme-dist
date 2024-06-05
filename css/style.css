@@ -11105,15 +11105,15 @@ a.news-more-link:focus {
     line-height: 1.75rem;
   }
 }
-.paragraph--type--cta .field--name-field-link {
+.paragraph--type--cta .field.field--name-field-link.field--type-link {
   margin-top: 1.875rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--cta .field--name-field-link {
+  .paragraph--type--cta .field.field--name-field-link.field--type-link {
     margin-top: 2.5rem;
   }
 }
-.paragraph--type--cta .field--name-field-link a {
+.paragraph--type--cta .field.field--name-field-link.field--type-link a {
   background: #fff url("../images/arrow-right-blue.svg") no-repeat right 30px center;
   -webkit-background-size: 17px 17px;
           background-size: 17px;
@@ -11129,14 +11129,14 @@ a.news-more-link:focus {
   transition: background-position 0.2s, background-color 0.2s;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--cta .field--name-field-link a {
+  .paragraph--type--cta .field.field--name-field-link.field--type-link a {
     -webkit-background-size: 20px 20px;
             background-size: 20px;
     font-size: 1.125rem;
     padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem;
   }
 }
-.paragraph--type--cta .field--name-field-link a:hover, .paragraph--type--cta .field--name-field-link a:focus {
+.paragraph--type--cta .field.field--name-field-link.field--type-link a:hover, .paragraph--type--cta .field.field--name-field-link.field--type-link a:focus {
   background-color: #e1e5ea;
   background-position: center right 25px;
   -webkit-background-size: 17px 17px;
@@ -11145,7 +11145,7 @@ a.news-more-link:focus {
   text-decoration: none;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--cta .field--name-field-link a:hover, .paragraph--type--cta .field--name-field-link a:focus {
+  .paragraph--type--cta .field.field--name-field-link.field--type-link a:hover, .paragraph--type--cta .field.field--name-field-link.field--type-link a:focus {
     -webkit-background-size: 20px 20px;
             background-size: 20px;
   }
@@ -11180,8 +11180,13 @@ a.news-more-link:focus {
   margin-left: auto;
 }
 
-.paragraph--type--cta.color-dark {
+.paragraph--type--cta.color-dark .content,
+.paragraph--type--cta.color-dark .field--name-field-title h2 {
   color: #052d4d;
+}
+.paragraph--type--cta.color-dark .field.field--name-field-link a {
+  background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 30px center;
+  color: #fff;
 }
 
 .paragraph--type--guide-selection {
