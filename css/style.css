@@ -11078,6 +11078,9 @@ a.news-more-link:focus {
   position: relative;
   z-index: 1;
 }
+.paragraph--type--cta .place-right {
+  margin-left: auto;
+}
 .paragraph--type--cta .field--name-field-title {
   max-width: 710px;
 }
