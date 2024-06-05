@@ -11180,6 +11180,10 @@ a.news-more-link:focus {
   margin-left: auto;
 }
 
+.paragraph--type--cta.color-dark {
+  color: #052d4d;
+}
+
 .paragraph--type--guide-selection {
   padding: 1.5625rem 0;
 }
