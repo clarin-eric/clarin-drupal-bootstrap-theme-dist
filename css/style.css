@@ -11003,6 +11003,7 @@ a.news-more-link:focus {
   }
 }
 .paragraph--type--header-large .content {
+  margin-left: auto;
   max-width: 710px;
   position: relative;
   z-index: 1;
