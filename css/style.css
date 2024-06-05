@@ -11002,6 +11002,9 @@ a.news-more-link:focus {
     margin-bottom: 2.1875rem;
   }
 }
+.paragraph--type--header-large .container-sm {
+  padding-right: 4rem;
+}
 .paragraph--type--header-large .content {
   margin-left: auto;
   max-width: 710px;
