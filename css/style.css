@@ -11043,13 +11043,6 @@ a.news-more-link:focus {
   z-index: 9;
 }
 
-.paragraph--type--cta.place-right .container {
-  padding-right: 1rem;
-}
-.paragraph--type--cta.place-right .content {
-  margin-left: auto;
-}
-
 .paragraph--type--cta {
   color: #fff;
   margin: 3rem 0;
@@ -11178,6 +11171,13 @@ a.news-more-link:focus {
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
+}
+
+.paragraph--type--cta.place-right .container {
+  padding-right: 1rem;
+}
+.paragraph--type--cta.place-right .content {
+  margin-left: auto;
 }
 
 .paragraph--type--guide-selection {
