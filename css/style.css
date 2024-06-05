@@ -11043,6 +11043,13 @@ a.news-more-link:focus {
   z-index: 9;
 }
 
+.paragraph--type--cta.place-right .container {
+  padding-right: 1rem;
+}
+.paragraph--type--cta.place-right .content {
+  margin-left: auto;
+}
+
 .paragraph--type--cta {
   color: #fff;
   margin: 3rem 0;
@@ -11077,9 +11084,6 @@ a.news-more-link:focus {
 .paragraph--type--cta .content {
   position: relative;
   z-index: 1;
-}
-.paragraph--type--cta .place-right {
-  margin-left: auto;
 }
 .paragraph--type--cta .field--name-field-title {
   max-width: 710px;
