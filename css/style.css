@@ -10962,7 +10962,7 @@ a.news-more-link:focus {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.5625rem;
-  min-height: 500px;
+  min-height: 400px;
   overflow: hidden;
   padding-top: 2.8125rem;
   position: relative;
@@ -10983,7 +10983,7 @@ a.news-more-link:focus {
     display: -ms-flexbox;
     display: flex;
     font-size: 1.4375rem;
-    height: 580px;
+    height: 480px;
     margin-bottom: 1.875rem;
     min-height: none;
     padding-bottom: 3.75rem;
@@ -11058,7 +11058,7 @@ a.news-more-link:focus {
 }
 @media (min-width: 36rem) {
   .paragraph--type--cta {
-    height: 465px;
+    height: 400px;
     min-height: unset;
     padding: 0 0 3.75rem;
   }
