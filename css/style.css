@@ -11188,6 +11188,10 @@ a.news-more-link:focus {
   background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 30px center;
   color: #fff;
 }
+.paragraph--type--cta.color-dark .field.field--name-field-link a:hover, .paragraph--type--cta.color-dark .field.field--name-field-link a:focus {
+  background-color: #10436b;
+  color: #fff;
+}
 
 .paragraph--type--guide-selection {
   padding: 1.5625rem 0;
