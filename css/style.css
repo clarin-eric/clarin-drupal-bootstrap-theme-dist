@@ -13376,6 +13376,12 @@ div.node--type-news {
   display: none;
 }
 
+@media (min-width: 48rem) {
+  .page-node-6415 .view-upcoming-events .datetime {
+    font-size: 1.1rem;
+  }
+}
+
 @media (min-width: 36rem) {
   .view-upcoming-events .node {
     display: -webkit-box;
