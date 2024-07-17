@@ -11179,7 +11179,9 @@ a.news-more-link:focus {
 }
 
 .paragraph--type--cta.place-right .container,
-.paragraph--type--header-large.place-right .container {
+.paragraph--type--cta.place-right .container-sm,
+.paragraph--type--header-large.place-right .container,
+.paragraph--type--header-large.place-right .container-sm {
   padding-right: 1rem;
 }
 .paragraph--type--cta.place-right .content,
