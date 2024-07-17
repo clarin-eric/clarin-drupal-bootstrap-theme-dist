@@ -10729,6 +10729,11 @@ a.news-more-link:focus {
     font-size: 3.5rem;
   }
 }
+@media (min-width: 36rem) {
+  .page-node-6415 .paragraph--type--cta {
+    height: 400px;
+  }
+}
 
 .paragraph--type--header-default {
   color: #052d4d;
