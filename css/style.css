@@ -11051,6 +11051,7 @@ a.news-more-link:focus {
 
 .paragraph--type--cta {
   color: #fff;
+  margin-bottom: 4rem;
   min-height: 525px;
   overflow: hidden;
   padding: 1.875rem 0.625rem;
@@ -11322,7 +11323,7 @@ a.news-more-link:focus {
 .paragraph--type--text {
   font-size: 1rem;
   line-height: 1.5625rem;
-  margin: 0 3rem;
+  margin-bottom: 4rem;
   padding: 1.5625rem 0 0;
 }
 @media (min-width: 36rem) {
