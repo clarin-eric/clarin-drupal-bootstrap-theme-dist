@@ -13376,6 +13376,15 @@ div.node--type-news {
   display: none;
 }
 
+@media (min-width: 36rem) {
+  .page-node-6415 .view-upcoming-events .event-date {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 35%;
+        -ms-flex: 1 1 35%;
+            flex: 1 1 35%;
+    max-width: 35%;
+  }
+}
 @media (min-width: 48rem) {
   .page-node-6415 .view-upcoming-events .datetime {
     font-size: 1.1rem;
