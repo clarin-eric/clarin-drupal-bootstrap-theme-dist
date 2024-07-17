@@ -11185,6 +11185,12 @@ a.news-more-link:focus {
 .paragraph--type--header-large.place-right .container-sm {
   padding-right: 1rem;
 }
+.paragraph--type--cta.place-right .container .arrow-down,
+.paragraph--type--cta.place-right .container-sm .arrow-down,
+.paragraph--type--header-large.place-right .container .arrow-down,
+.paragraph--type--header-large.place-right .container-sm .arrow-down {
+  right: 20%;
+}
 .paragraph--type--cta.place-right .content,
 .paragraph--type--header-large.place-right .content {
   margin-left: auto;
