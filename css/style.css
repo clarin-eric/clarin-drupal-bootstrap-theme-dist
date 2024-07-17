@@ -10720,12 +10720,12 @@ a.news-more-link:focus {
   min-height: 400px;
 }
 @media (min-width: 36rem) {
-  .page-node-6415 {
+  .page-node-6415 .paragraph--type--header-large {
     height: 480px;
   }
 }
 @media (min-width: 36rem) {
-  .page-node-6415 h1 {
+  .page-node-6415 .paragraph--type--header-large h1 {
     font-size: 3.5rem;
   }
 }
