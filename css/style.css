@@ -10716,6 +10716,20 @@ a.news-more-link:focus {
   display: none;
 }
 
+.page-node-6415 .paragraph--type--header-large {
+  min-height: 400px;
+}
+@media (min-width: 36rem) {
+  .page-node-6415 {
+    height: 480px;
+  }
+}
+@media (min-width: 36rem) {
+  .page-node-6415 h1 {
+    font-size: 3.5rem;
+  }
+}
+
 .paragraph--type--header-default {
   color: #052d4d;
   font-size: 1rem;
