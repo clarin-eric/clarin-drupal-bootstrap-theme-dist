@@ -13504,10 +13504,38 @@ div.node--type-news {
   margin-bottom: -5.5rem;
 }
 .newsletter-block-image .overlay-text {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: bold;
   position: relative;
-  top: -300px;
+  top: -460px;
+}
+@media (min-width: 48rem) {
+  .newsletter-block-image .overlay-text {
+    font-size: 2rem;
+    top: -460px;
+  }
+}
+@media (min-width: 48rem) {
+  .newsletter-block-image .overlay-text {
+    font-size: 2.5rem;
+    top: -620px;
+  }
+}
+@media (min-width: 62rem) {
+  .newsletter-block-image .overlay-text {
+    font-size: 1.75rem;
+    top: -260px;
+  }
+}
+@media (min-width: 75rem) {
+  .newsletter-block-image .overlay-text {
+    top: -280px;
+  }
+}
+@media (min-width: 87.5rem) {
+  .newsletter-block-image .overlay-text {
+    top: -300px;
+  }
 }
 .newsletter-block-image .overlay-text a {
   color: #fff;
