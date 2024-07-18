@@ -13501,7 +13501,16 @@ div.node--type-news {
 }
 
 .newsletter-block-image {
-  margin-bottom: -2.5rem;
+  margin-bottom: -3rem;
+}
+.newsletter-block-image .overlay-text {
+  font-size: 1.75rem;
+  font-weight: bold;
+  position: relative;
+  top: -300px;
+}
+.newsletter-block-image .overlay-text a {
+  color: #fff;
 }
 
 .pager__item__year {
