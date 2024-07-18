@@ -11697,12 +11697,14 @@ a.news-more-link:focus {
     padding: 0 0 1.875rem;
   }
 }
+.paragraph--type--block > .content > .row {
+  border-top: 2px solid #01243e;
+}
 .paragraph--type--block .header {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 2px solid #01243e;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
