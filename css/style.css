@@ -13509,7 +13509,7 @@ div.node--type-news {
   position: relative;
   top: -320px;
 }
-@media (min-width: 48rem) {
+@media (min-width: 36rem) {
   .newsletter-block-image .overlay-text {
     font-size: 2rem;
     top: -460px;
