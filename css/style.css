@@ -13504,10 +13504,10 @@ div.node--type-news {
   margin-bottom: -5.5rem;
 }
 .newsletter-block-image .overlay-text {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
   position: relative;
-  top: -460px;
+  top: -320px;
 }
 @media (min-width: 48rem) {
   .newsletter-block-image .overlay-text {
