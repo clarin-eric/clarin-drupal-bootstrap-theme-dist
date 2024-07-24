@@ -10996,7 +10996,7 @@ a.news-more-link:focus {
   padding-top: 2.8125rem;
   position: relative;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 74.9375rem) {
   .paragraph--type--header-large .contextual-region {
     position: unset;
   }
@@ -11076,7 +11076,7 @@ a.news-more-link:focus {
   padding: 1.875rem 0.625rem;
   position: relative;
 }
-@media (max-width: 61.9375rem) {
+@media (max-width: 74.9375rem) {
   .paragraph--type--cta .contextual-region {
     position: unset;
   }
