@@ -12483,12 +12483,16 @@ ul li {
   padding-right: 1.25rem;
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .node__content,
-.grid-container-view .views-row .node--view-mode-teaser-list .node__content {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .node__content,
+.grid-container-view .views-row .node--view-mode-teaser-list .node__content,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .node__content {
   margin-top: 0;
 }
 @media (max-width: 35.9375rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list .node__content,
-  .grid-container-view .views-row .node--view-mode-teaser-list .node__content {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .node__content,
+  .grid-container-view .views-row .node--view-mode-teaser-list .node__content,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .node__content {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -12501,19 +12505,25 @@ ul li {
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .node__meta,
-.grid-container-view .views-row .node--view-mode-teaser-list .node__meta {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .node__meta,
+.grid-container-view .views-row .node--view-mode-teaser-list .node__meta,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .node__meta {
   color: #5a778d;
   font-size: 0.875rem;
   font-style: normal;
   margin-bottom: 0.625rem;
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--type-image,
-.grid-container-view .views-row .node--view-mode-teaser-list .field--type-image {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--type-image,
+.grid-container-view .views-row .node--view-mode-teaser-list .field--type-image,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--type-image {
   margin: 0;
 }
 @media (max-width: 35.9375rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-field-image,
-  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-field-image {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-field-image,
+  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-field-image,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-field-image {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 30%;
         -ms-flex: 1 0 30%;
@@ -12525,13 +12535,17 @@ ul li {
     text-align: right;
   }
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-field-image img,
-  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-field-image img {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-field-image img,
+  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-field-image img,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-field-image img {
     max-height: 70px;
     width: auto;
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list h2,
-.grid-container-view .views-row .node--view-mode-teaser-list h2 {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more h2,
+.grid-container-view .views-row .node--view-mode-teaser-list h2,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more h2 {
   border: 0;
   font-size: 1.125rem;
   line-height: 1.625rem;
@@ -12540,7 +12554,9 @@ ul li {
 }
 @media (max-width: 35.9375rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list h2,
-  .grid-container-view .views-row .node--view-mode-teaser-list h2 {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more h2,
+  .grid-container-view .views-row .node--view-mode-teaser-list h2,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more h2 {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 70%;
         -ms-flex: 1 0 70%;
@@ -12553,21 +12569,27 @@ ul li {
 }
 @media (min-width: 36rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list h2,
-  .grid-container-view .views-row .node--view-mode-teaser-list h2 {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more h2,
+  .grid-container-view .views-row .node--view-mode-teaser-list h2,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more h2 {
     font-size: 1.4375rem;
     line-height: 1.6rem;
     margin-bottom: 0.9375rem;
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body,
-.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body,
+.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body {
   color: #5a778d;
   font-size: 1rem;
   padding-bottom: 3.75rem;
 }
 @media (max-width: 35.9375rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body,
-  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-body {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body,
+  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-body,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body {
     color: #5a778d;
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 70%;
@@ -12583,7 +12605,9 @@ ul li {
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s,
-.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s,
+.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s {
   background: none;
   bottom: 10px;
   display: none;
@@ -12592,17 +12616,25 @@ ul li {
 }
 @media (min-width: 36rem) {
   .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s,
-  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s {
+  .view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s,
+  .grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s,
+  .grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s {
     display: block;
   }
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s:hover, .view-sharing-knowledge .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s:focus,
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s:hover,
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s:focus,
 .grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s:hover,
-.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s:focus {
+.grid-container-view .views-row .node--view-mode-teaser-list .field--name-body div.btn-link-blue-s:focus,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s:hover,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more .field--name-body div.btn-link-blue-s:focus {
   padding-right: 0;
 }
 .view-sharing-knowledge .views-row .node--view-mode-teaser-list:hover .field--name-title h2 a,
-.grid-container-view .views-row .node--view-mode-teaser-list:hover .field--name-title h2 a {
+.view-sharing-knowledge .views-row .node--view-mode-teaser-list-no-read-more:hover .field--name-title h2 a,
+.grid-container-view .views-row .node--view-mode-teaser-list:hover .field--name-title h2 a,
+.grid-container-view .views-row .node--view-mode-teaser-list-no-read-more:hover .field--name-title h2 a {
   text-decoration: underline;
 }
 
