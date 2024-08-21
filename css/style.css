@@ -12257,6 +12257,15 @@ a.news-more-link:focus {
   padding: 0.9375rem;
 }
 
+ul {
+  list-style: outside disc;
+}
+ul li {
+  position: relative;
+  left: 1em;
+  padding-right: 1em;
+}
+
 .item-list {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
