@@ -12638,6 +12638,16 @@ ul li {
   text-decoration: underline;
 }
 
+.page-node-6415 .paragraph--type--block {
+  padding-bottom: 0;
+}
+.page-node-6415 .grid-container-view {
+  margin-bottom: 0;
+}
+.page-node-6415 .grid-container-view .views-row .node.node--view-mode-teaser-list-no-read-more .field--name-body {
+  padding-bottom: 0;
+}
+
 body.node--type-news .main-content {
   padding: 0;
 }
