@@ -12268,9 +12268,9 @@ ul {
   list-style: outside disc;
 }
 ul li {
-  position: relative;
   left: 1em;
   padding-right: 1em;
+  position: relative;
 }
 
 .item-list {
@@ -12462,9 +12462,9 @@ ul li {
 .view-sharing-knowledge .views-row .node--type-news .content_link,
 .grid-container-view .views-row .node--type-blog-post .content_link,
 .grid-container-view .views-row .node--type-news .content_link {
-  inset: 0;
   float: left;
   height: 100%;
+  inset: 0;
   margin: auto;
   position: absolute;
   text-indent: -9999px;
@@ -13246,9 +13246,9 @@ div.node--type-news {
   padding-right: 0;
 }
 .block-views-blockteaser-list-block-1 .views-row .node--view-mode-teaser-list .content_link {
-  inset: 0;
   float: left;
   height: 100%;
+  inset: 0;
   margin: auto;
   position: absolute;
   text-indent: -9999px;
