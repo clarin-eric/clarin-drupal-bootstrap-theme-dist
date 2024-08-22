@@ -12264,10 +12264,10 @@ a.news-more-link:focus {
   padding: 0.9375rem;
 }
 
-.content ul {
+.main-content ul:not(.nav) {
   list-style: outside disc;
 }
-.content ul li {
+.main-content ul:not(.nav) li {
   left: 1em;
   padding-right: 1em;
   position: relative;
