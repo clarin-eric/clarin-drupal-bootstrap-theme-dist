@@ -10621,11 +10621,11 @@ a.news-more-link:focus {
   float: right;
   margin-right: 1.25rem;
   padding-left: 0.75rem;
+  padding-right: 2.5rem;
   text-align: start;
   -webkit-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   -o-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
-  width: inherit;
 }
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus {
   background: #10436b url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
