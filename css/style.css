@@ -10619,6 +10619,7 @@ a.news-more-link:focus {
   border-color: #10436b;
   color: #10436b;
   float: right;
+  font-size: 1rem;
   margin-right: 1.25rem;
   padding-left: 0.75rem;
   padding-right: 2.5rem;
