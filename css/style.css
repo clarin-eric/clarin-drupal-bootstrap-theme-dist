@@ -10615,13 +10615,14 @@ a.news-more-link:focus {
 }
 
 .btn.btn-outline-primary {
-  background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 18px center/15px;
+  background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 16px center/15px;
   border-color: #10436b;
+  border-radius: 27.5px;
   color: #10436b;
   float: right;
   font-size: 1rem;
   margin-right: 1.25rem;
-  padding-left: 0.75rem;
+  padding-left: 1rem;
   padding-right: 2.5rem;
   text-align: start;
   -webkit-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
