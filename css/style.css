@@ -9413,6 +9413,7 @@ figure.align-left {
 .menu-fa-icon a {
   float: left;
   height: 30px;
+  padding-top: 0.5625rem;
 }
 .menu-fa-icon a span {
   display: none;
