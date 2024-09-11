@@ -13446,8 +13446,12 @@ div.node--type-news {
 
 #toc {
   background-color: #fff;
+  border: #e1e5ea solid 1px;
   display: none;
   left: inherit;
+  margin-top: 6.875rem;
+  overflow: hidden;
+  padding-left: 1.125rem;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -13464,7 +13468,9 @@ div.node--type-news {
   font-size: 1rem;
   font-weight: 900;
   line-height: 1.875rem;
-  margin: 0 0 1.25rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0.75rem;
   text-shadow: none;
   text-transform: uppercase;
 }
