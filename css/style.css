@@ -9444,7 +9444,7 @@ figure.align-left {
 }
 
 .dropdown-menu {
-  padding: 1.25rem 0.9375rem;
+  padding: 1.25rem 1.125rem;
   z-index: 499;
 }
 .dropdown-menu .dropdown-item:hover,
@@ -9832,6 +9832,15 @@ figure.align-left {
             transform: rotate(-45deg) translate3d(7px, -7px, 0);
   }
 }
+.menu-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-left: -0.3125rem;
+  margin-top: -0.25rem;
+  margin-bottom: 0.2rem;
+  border-bottom: #e1e5ea solid 1px;
+}
+
 .clarin-social-media {
   margin: 2.1875rem 0 0;
   padding: 0;
