@@ -10640,7 +10640,7 @@ a.news-more-link:focus {
   }
 }
 
-.btn.btn-outline-primary {
+.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)) {
   background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 16px center/15px;
   border-color: #10436b;
   border-radius: 27.5px;
@@ -10655,13 +10655,20 @@ a.news-more-link:focus {
   -o-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
 }
-.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus {
+.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):hover, .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):focus {
   background: #10436b url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
   color: #fff;
   opacity: 0.75;
   -webkit-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   -o-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
+}
+
+div.btn.btn-outline-primary:has(.btn.btn-outline-primary) {
+  border: 0;
+}
+div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-outline-primary:has(.btn.btn-outline-primary):focus {
+  background: 0;
 }
 
 .paragraph--type--navigation-entry .btn-blue-circle-arrow,
@@ -10720,9 +10727,9 @@ a.news-more-link:focus {
             background-size: 20px;
   }
 }
-.paragraph--type--navigation-entry:hover .btn.btn-outline-primary, .paragraph--type--navigation-entry:focus .btn.btn-outline-primary,
-.paragraph--type--navigation-entry-alternative:hover .btn.btn-outline-primary,
-.paragraph--type--navigation-entry-alternative:focus .btn.btn-outline-primary {
+.paragraph--type--navigation-entry:hover .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)), .paragraph--type--navigation-entry:focus .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)),
+.paragraph--type--navigation-entry-alternative:hover .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)),
+.paragraph--type--navigation-entry-alternative:focus .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)) {
   background: #10436b url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
   color: #fff;
   opacity: 0.75;
