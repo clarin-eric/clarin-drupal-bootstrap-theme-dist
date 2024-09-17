@@ -10790,6 +10790,17 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   display: none;
 }
 
+@media (min-width: 87.5rem) {
+  #block-clarin-bootstrap-annualconference {
+    margin-top: -0.9375rem;
+  }
+}
+@media (max-width: 61.9375rem) {
+  #block-clarin-bootstrap-annualconference {
+    margin-top: 0.9375rem;
+  }
+}
+
 .page-node-6415 .paragraph--type--header-large {
   min-height: 400px;
 }
