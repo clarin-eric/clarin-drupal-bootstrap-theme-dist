@@ -9172,10 +9172,10 @@ img {
 .node--type-k-centre-profile .field--label-inline .field__items .field__item:last-child::after, .node--type-clarin-centre .field--label-inline .field__items .field__item:last-child::after {
   content: "";
 }
-.node--type-k-centre-profile .field.field--name-field-k-centre-hosted-by, .node--type-clarin-centre .field.field--name-field-k-centre-hosted-by {
+.node--type-k-centre-profile .field.field--name-field-hosted-by, .node--type-clarin-centre .field.field--name-field-hosted-by {
   counter-reset: list;
 }
-.node--type-k-centre-profile .field.field--name-field-k-centre-hosted-by .field__item::before, .node--type-clarin-centre .field.field--name-field-k-centre-hosted-by .field__item::before {
+.node--type-k-centre-profile .field.field--name-field-hosted-by .field__item::before, .node--type-clarin-centre .field.field--name-field-hosted-by .field__item::before {
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
