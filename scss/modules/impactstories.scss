@@ -1,0 +1,358 @@
+// Category view pages
+.impact-stories--header-large {
+  color: $white;
+  font-size: 16px;
+  left: 50%;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 150px;
+  overflow: hidden;
+  padding-top: 45px;
+  position: relative;
+  right: 50%;
+  width: 105vw;
+
+  @media (max-width: #{$screen-xs-max}) {
+    .contextual-region {
+      position: unset;
+    }
+  }
+
+  @media (max-width: #{$screen-md-max}) {
+    .content {
+      margin-left: 50px;
+    }
+  }
+
+  @media (min-width: #{$screen-tablet}) {
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    height: 300px;
+    margin-bottom: 50px;
+    min-height: none;
+    padding-bottom: 60px;
+    padding-top: 0;
+  }
+
+  h1 {
+    color: $white;
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 20px;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 68px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .content {
+    max-width: 710px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .field--name-field-header-image {
+    img {
+      inset: 0;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: cover;
+      position: absolute;
+      z-index: 0;
+    }
+  }
+
+  .field--name-field-header-image-mobile {
+    img {
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: cover;
+      position: absolute;
+    }
+  }
+
+  .contextual-region {
+    position: unset;
+  }
+}
+
+// Individual stories
+.node--type-impact-story {
+  padding: 0;
+
+  .title-wrapper {
+    background-color: $header-background-1;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .quote {
+    color: $quote-blue;
+  }
+
+  label {
+    font-weight: $font-weight-bold;
+  }
+
+  .node__meta {
+    padding-left: 15px;
+  }
+
+  // Text
+  .paragraph {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 25px 0 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    .container, .container-sm,
+    .container-md, .container-lg,
+    .container-xl, .container-xxl {
+      padding: 0 calc(var(--bs-gutter-x) * .4);
+    }
+
+    ul,
+    ol {
+      padding: 0;
+
+      li {
+        align-items: baseline;
+        display: flex;
+        line-height: 25px;
+        list-style-type: none;
+        padding-bottom: 15px;
+
+        @media (min-width: #{$screen-tablet}) {
+          align-items: center;
+          line-height: 30px;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    ul li::before {
+      background: $blue;
+      content: '';
+      display: inline-block;
+      height: 9px;
+      margin-right: 20px;
+      width: 9px;
+    }
+
+    ol {
+      counter-reset: my-badass-counter;
+      padding: 0;
+
+      li::before {
+        content: counter(my-badass-counter);
+        counter-increment: my-badass-counter;
+        margin-right: 20px;
+        width: 9px;
+      }
+    }
+
+    h2 {
+      font-size: 23px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      border-top: 1px solid $cold-grey-02;
+    }
+
+    blockquote {
+      border-left: 0;
+      border-top: 3px solid $blue;
+      font-size: 23px;
+      line-height: 35px;
+      padding-left: 0;
+      padding-right: 35px;
+      padding-top: 15px;
+
+      @media (min-width: #{$screen-tablet}) {
+        font-size: 35px;
+        line-height: 50px;
+        padding-right: 0;
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .paragraph--type--image-text {
+    font-size: 16px;
+    padding: 10px 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      font-size: 18px;
+      padding: 20px 0;
+    }
+
+    @media (min-width: #{$screen-tablet}) {
+      &.image-left {
+        .content {
+          order: 2;
+          padding-right: 0;
+        }
+
+        .image-content {
+          order: 1;
+          padding-left: 0;
+          padding-right: 20px;
+        }
+
+        img {
+          margin-right: auto;
+        }
+      }
+
+      &.image-right {
+        .content {
+          order: 1;
+          padding-left: 0;
+        }
+
+        .image-content {
+          order: 2;
+          padding-left: 20px;
+          padding-right: 0;
+        }
+
+        img {
+          margin-left: auto;
+        }
+
+        .field--name-field-image {
+          float: right;
+        }
+      }
+    }
+
+    .container {
+      align-items: flex-start;
+      display: flex;
+      flex-flow: wrap;
+      padding: 15px;
+    }
+
+    .col-md-6 {
+      padding: 0;
+
+      @media (min-width: #{$screen-tablet}) {
+        padding: 0 15px;
+      }
+    }
+
+    h2 {
+      font-size: 16px;
+      margin-bottom: 20px;
+
+      &:empty {
+        display: none;
+      }
+
+      @media (min-width: #{$screen-tablet}) {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .field--name-field-media-image,
+    .field--name-field-image {
+      float: none;
+      margin: 0;
+    }
+
+    img {
+      height: auto;
+      margin-bottom: 0;
+      margin-top: 35px;
+      max-width: 100%;
+
+      @media (min-width: #{$screen-tablet}) {
+        margin-top: 0;
+      }
+    }
+
+    em {
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .paragraph--type--contributors {
+    font-size: 15px;
+    margin-bottom: 20px;
+
+    .field__label {
+      font-size: 23px;
+      font-weight: $font-weight-bold;
+      padding: 15px 0;
+    }
+
+    .field__item > p {
+      margin-bottom: 10px;
+    }
+  }
+
+  // Image
+  .paragraph--type--image {
+    padding: 10px 15px;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding: 20px 15px;
+    }
+
+    img {
+      height: auto;
+      margin: 0;
+      width: 100%;
+    }
+
+    .field--name-field-media-image {
+      margin: 0;
+      width: 100%;
+    }
+
+    .field--name-field-caption {
+      clear: left;
+      padding: 15px 0;
+
+      p {
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .field--name-field-tags {
+    padding: 15px;
+  }
+}

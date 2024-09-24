@@ -1,0 +1,282 @@
+// Buttons
+
+.btn {
+  appearance: none;
+
+  &.btn-default,
+  &.btn-blue,
+  &.btn-secondary,
+  &.btn-white {
+    background-size: 17px;
+    border-radius: 27.5px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 15px 60px 15px 30px;
+    transition: background-position 0.2s, background-color 0.2s;
+
+    @media (min-width: #{$screen-tablet}) {
+      background-size: 20px;
+      font-size: 18px;
+      padding: 15px 65px 15px 27px;
+    }
+
+    &:hover,
+    &:focus {
+      background-position: center right 25px;
+      background-size: 17px;
+      text-decoration: none;
+
+      @media (min-width: #{$screen-tablet}) {
+        background-size: 20px;
+      }
+    }
+  }
+}
+
+// btn blue
+.btn-default,
+.btn-blue {
+  background: $dark-blue-01 url('../images/arrow-right-white.svg') no-repeat right 30px center/17px;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $dark-blue-02;
+    color: $white;
+  }
+}
+
+// btn white
+.btn-secondary,
+.btn-white {
+  background: $white url('../images/arrow-right-blue.svg') no-repeat right 30px center/17px;
+  color: $dark-blue-01;
+
+  &:hover,
+  &:focus {
+    background-color: $subtle-grey-01;
+    color: $dark-blue-01;
+  }
+}
+
+// btn blue circle arrow
+.btn-blue-circle-arrow,
+a.news-more-link {
+  background: url('../images/arrow-circle-blue.svg') no-repeat right center/40px;
+  color: $body-color;
+  display: inline-table;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 10px 50px 10px 10px;
+  transition: padding 0.3s;
+
+  @media (min-width: #{$screen-tablet}) {
+    background-size: 47px;
+    font-size: 18px;
+    padding: 10px 65px 10px 10px;
+  }
+
+  &:hover,
+  &:focus {
+    padding: 10px 57px 10px 10px;
+    text-decoration: none;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding: 10px 72px 10px 10px;
+    }
+  }
+}
+
+// btn white circle arrow
+.btn-white-circle-arrow {
+  background: url('../images/arrow-circle-blue.svg') no-repeat right center/40px;
+  color: $white;
+  display: inline-table;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 10px 50px 10px 10px;
+  transition: padding 0.3s;
+
+  @media (min-width: #{$screen-tablet}) {
+    background-size: 47px;
+    font-size: 18px;
+    padding: 10px 65px 10px 10px;
+  }
+
+  &:hover,
+  &:focus {
+    padding: 10px 57px 10px 10px;
+    text-decoration: none;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding: 10px 72px 10px 10px;
+    }
+  }
+}
+
+// Textual link blue
+.btn-link-blue,
+.btn-link-blue-s,
+.btn-link-blue-xs,
+.node-readmore {
+  background: url('../images/short-arrow-right-blue.svg') no-repeat right center/8px;
+  color: $dark-blue-01;
+  font-weight: 600;
+  line-height: 30px;
+  transition: padding 0.3s;
+}
+
+.btn-link-blue {
+  font-size: 16px;
+  padding-right: 20px;
+
+  @media (min-width: #{$screen-tablet}) {
+    background-size: 9px;
+    font-size: 18px;
+  }
+
+  &:hover,
+  &:focus {
+    padding-right: 25px;
+    text-decoration: none;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding-right: 30px;
+    }
+  }
+}
+
+.btn-link-blue-s,
+.node-readmore {
+  font-size: 16px;
+  padding-right: 15px;
+
+  &:hover,
+  &:focus {
+    padding-right: 20px;
+    text-decoration: none;
+  }
+}
+
+.btn-link-blue-xs {
+  font-size: 14px;
+  padding-right: 15px;
+
+  &:hover,
+  &:focus {
+    padding-right: 20px;
+    text-decoration: none;
+  }
+}
+
+// Textual link white
+.btn-link-white {
+  background: url('../images/short-arrow-right-white.svg') no-repeat right center/8px;
+  background-size: 8px;
+  color: $white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-right: 20px;
+  transition: padding 0.3s;
+
+  @media (min-width: #{$screen-tablet}) {
+    background-size: 9px;
+    font-size: 18px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $white;
+    padding-right: 25px;
+    text-decoration: none;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding-right: 30px;
+    }
+  }
+}
+
+
+.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(#edit-submit-k-centres-search) {
+  background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 16px center/15px;
+  border-color: $dark-blue-02;
+  border-radius: 27.5px;
+  color: $dark-blue-02;
+  float: right;
+  font-size: 1rem;
+  margin-right: 20px;
+  padding-left: 16px;
+  padding-right: 40px;
+  text-align: start;
+  transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
+
+  &:hover,
+  &:focus {
+    background: $dark-blue-02 url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
+    color: $white;
+    opacity: 0.75;
+    transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
+  }
+}
+
+div.btn.btn-outline-primary:has(.btn.btn-outline-primary) {
+  border: 0;
+
+  &:hover,
+  &:focus {
+    background: 0;
+  }
+}
+
+// Navigation pages paragraph button. React on hover over the whole paragraph
+.paragraph--type--navigation-entry,
+.paragraph--type--navigation-entry-alternative {
+  .btn-blue-circle-arrow,
+  .btn-white-circle-arrow {
+    margin-bottom: auto;
+    padding: 0 0 120px 50px;
+
+    @media (min-width: #{$screen-tablet}) {
+      padding: 0 0 120px 50px;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    .btn-blue-circle-arrow,
+    .btn-white-circle-arrow {
+      margin-bottom: auto;
+      opacity: 0.85;
+      padding: 0 0 120px 55px;
+      text-decoration: none;
+
+      @media (min-width: #{$screen-tablet}) {
+        padding: 0 0 120px 55px;
+      }
+    }
+
+    .btn:not(.btn-outline-primary) {
+      background-color: $dark-blue-02;
+      background-position: center right 25px;
+      background-size: 17px;
+      color: $white;
+      text-decoration: none;
+
+      @media (min-width: #{$screen-tablet}) {
+        background-size: 20px;
+      }
+    }
+
+    .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)) {
+      background: $dark-blue-02 url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
+      color: $white;
+      opacity: 0.75;
+      transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
+    }
+  }
+}

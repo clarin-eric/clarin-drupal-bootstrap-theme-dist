@@ -1,0 +1,156 @@
+// New front page overrides
+.page-node-6415 {
+  .view-upcoming-events {
+    .event-date {
+      @media (min-width: #{$screen-tablet}) {
+        flex: 1 1 35%;
+        max-width: 35%;
+      }
+    }
+
+    .datetime {
+      font-size: 1.15rem;
+
+      @media (min-width: #{$screen-desktop}) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+// Events
+.view-upcoming-events {
+  .node {
+    @media (min-width: #{$screen-tablet}) {
+      display: flex;
+      flex-flow: row;
+    }
+  }
+
+  .views-row {
+    border-top: 1px solid $cold-grey-03;
+    padding: 15px 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      margin-bottom: 5px;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+
+    &:first-child {
+      @media (min-width: #{$screen-tablet}) {
+        margin-top: 15px;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .event-date {
+    padding: 10px 0;
+
+    @media (min-width: #{$screen-tablet}) {
+      flex: 1 1 25%;
+      max-width: 25%;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+
+    @media (min-width: #{$screen-desktop}) {
+      padding-right: 35px;
+    }
+  }
+
+  .field--name-field-date-range {
+    max-width: 250px;
+  }
+
+  .datetime {
+    color: $blue;
+    font-size: 14px;
+    line-height: 22px;
+
+    @media (min-width: #{$screen-desktop}) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .event-details {
+    @media (min-width: #{$screen-tablet}) {
+      flex: 1 1 50%;
+      padding: 10px 15px;
+    }
+  }
+
+  .node__title {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+
+    @media (min-width: #{$screen-desktop}) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+
+  .event-image {
+    @media (max-width: #{$screen-xs-max}) {
+      display: none;
+    }
+
+    @media (min-width: #{$screen-tablet}) {
+      flex: 1 1 25%;
+      padding-left: 25px;
+    }
+
+    .field--name-field-image {
+      height: 160px;
+      margin: 0;
+      overflow: hidden;
+      width: 275px;
+    }
+  }
+}
+
+.newsletter-block-image {
+  .overlay-text {
+    font-size: 1.75rem;
+    font-weight: bold;
+    position: relative;
+    top: -320px;
+
+    @media (min-width: #{$screen-sm}) {
+      font-size: 2rem;
+      top: -460px;
+    }
+
+    @media (min-width: #{$screen-md}) {
+      font-size: 2.5rem;
+      top: -620px;
+    }
+
+    @media (min-width: #{$screen-lg}) {
+      font-size: 1.75rem;
+      top: -260px;
+    }
+
+    @media (min-width: #{$screen-xl}) {
+      top: -280px;
+    }
+
+    @media (min-width: #{$screen-xxl}) {
+      top: -300px;
+    }
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.pager__item__year {
+  padding-inline: 4px;
+}

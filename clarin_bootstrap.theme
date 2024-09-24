@@ -1,0 +1,124 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the SASS Starterkit subtheme.
+ */
+
+/**
+ * Implements template_preprocess_views_view()
+ * @param array $vars
+ */
+function clarin_bootstrap_preprocess_views_view(&$vars){
+  $view = $vars['view'];
+  $vars['more']['#options']['attributes']['class'] = array(
+    'btn-link-blue'
+  );
+}
+
+/**
+ * Implements hook_preprocess_page_title()
+ * @param array $vars
+ */
+function clarin_bootstrap_preprocess_page_title(&$vars) {
+  if($node = \Drupal::request()->attributes->get('node')) {
+    if ($node->hasField('field_contributors')) {
+      if ($node->get('field_contributors')->value != '') {
+        $vars['field_contributors'] = $node->get('field_contributors')->value;
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_page_attachments_alter()
+ * @param array $page
+ */
+function clarin_bootstrap_page_attachments_alter(&$attachments) {
+  $viewport = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'viewport',
+      'content' => 'width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no',
+    ),
+  );
+  $attachments['#attached']['html_head'][] = [$viewport, 'viewport'];
+
+  $slide = theme_get_setting('bootstrap_barrio_navbar_slide');
+  if ($slide) {
+    $attachments['#attached']['library'][] = 'clarin_bootstrap/clarin_slidenav';
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function clarin_bootstrap_preprocess_page(&$variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    if ($node instanceof \Drupal\node\NodeInterface && $node->hasField('field_show_toc')) {
+      $variables['show_toc'] = $node->get('field_show_toc')->value;
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function clarin_bootstrap_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  if ($variables['page'] && $node && $node->hasField('field_show_toc') && $node->hasField('body')) {
+    if ($node->get('field_show_toc')->value == 1) {
+      $variables['show_toc'] = $node->get('field_show_toc')->value;
+      $variables['#attached']['library'][] = 'clarin_bootstrap/clarin_toc';
+    }
+  }
+
+  if ($node && $node->hasField('field_see_also_links')) {
+    if (count($node->get('field_see_also_links')->getValue()) > 0) {
+      $variables['more_links'] = 1;
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_item_list__search_results().
+ */
+function clarin_bootstrap_preprocess_item_list__search_results(&$variables) {
+  if (!\Drupal::request()->query->has('keys') && isset($variables['empty'])) {
+    unset($variables['empty']);
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ * Customizes the default login form
+ * @param $form      
+ * @param $form_state
+ * @param $form_id                                      
+ */                     
+function clarin_bootstrap_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'user_login_form' ) {
+    // Customize form title
+    $form['#title'] = t('Intranet login');
+
+    // Customize label for the login input field
+    $form['name']['#title'] = t('E-mail address');
+
+    // Add custom explanation text about the login
+    $markup = '
+      <br />
+      <p>
+        <span class="fa fa-fw fa-exclamation-circle">&nbsp;</span> This login page
+        has been deactivated. Please login using the CLARIN single sign-on
+        <a class="linkblue" href="/saml/login">login page</a>.
+      </p>
+    ';
+
+    $form['field_login_explanation'] = [
+      '#type' => 'markup',
+      '#markup' => $markup,
+      '#weight' => -1,
+    ];
+  }
+}
