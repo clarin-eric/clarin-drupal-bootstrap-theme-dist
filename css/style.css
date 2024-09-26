@@ -9227,6 +9227,15 @@ img {
   text-decoration: underline;
 }
 
+.node--type-event .field.field--name-field-address.field--type-address {
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  background: #e1e5ea;
+}
+.node--type-event .field.field--name-field-address.field--type-address .field__label {
+  font-weight: bold;
+}
+
 @media (min-width: 36rem) {
   .node--type-clarin-centre .field--name-field-administrative-contact, .node--type-clarin-centre .field--name-field-technical-contact,
   .node--type-clarin-centre .field--name-field-monitoring-contacts {
