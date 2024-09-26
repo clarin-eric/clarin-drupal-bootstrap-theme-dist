@@ -9179,21 +9179,22 @@ img {
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
-.node--type-k-centre-profile .field.field--name-field-full-name,
-.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-full-name,
+.node--type-k-centre-profile .field.field--name-field-name,
+.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
 .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
   font-size: 1.5rem;
+  font-weight: 700;
 }
 @media (max-width: 61.9375rem) {
-  .node--type-k-centre-profile .field.field--name-field-full-name,
-  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-full-name,
+  .node--type-k-centre-profile .field.field--name-field-name,
+  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
   .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
     font-size: 1.25rem;
   }
 }
 @media (max-width: 30rem) {
-  .node--type-k-centre-profile .field.field--name-field-full-name,
-  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-full-name,
+  .node--type-k-centre-profile .field.field--name-field-name,
+  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
   .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
     font-size: 1.125rem;
   }
