@@ -9238,21 +9238,21 @@ img {
 }
 
 @media (min-width: 36rem) {
-  .node--type-clarin-centre .field--name-field-administrative-contact, .node--type-clarin-centre .field--name-field-technical-contact,
-  .node--type-clarin-centre .field--name-field-monitoring-contacts {
+  .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-administrative-contact, .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-technical-contact,
+  .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-monitoring-contacts, .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-contacts {
     display: inline-block;
     padding-right: 2rem;
     padding-top: 2rem;
     vertical-align: top;
     width: 30%;
   }
-  .node--type-clarin-centre .field--name-field-working-unit {
+  .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-working-unit {
     margin-top: 3rem;
   }
-  .node--type-clarin-centre .field--name-field-address {
+  .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-address {
     margin-bottom: 5rem;
   }
-  .node--type-clarin-centre .field--name-field-description::after {
+  .node--type-clarin-centre .node--type-k-centre-profile .field--name-field-description::after {
     content: unset;
   }
 }
