@@ -10658,7 +10658,7 @@ a.news-more-link:focus {
   }
 }
 
-.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(#edit-submit-k-centres-search) {
+.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(.form-submit) {
   background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 16px center/15px;
   border-color: #10436b;
   border-radius: 27.5px;
@@ -10673,7 +10673,7 @@ a.news-more-link:focus {
   -o-transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
   transition: background-position 0.2s, background-color 0.2s, opacity 0.2s;
 }
-.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(#edit-submit-k-centres-search):hover, .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(#edit-submit-k-centres-search):focus {
+.btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(.form-submit):hover, .btn.btn-outline-primary:not(:has(.btn.btn-outline-primary)):not(.form-submit):focus {
   background: #10436b url("../images/arrow-right-white.svg") no-repeat right 13px center/15px;
   color: #fff;
   opacity: 0.75;
