@@ -12365,10 +12365,10 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   padding: 0.9375rem;
 }
 
-.main-content ul:not(.nav) {
+.main-content ul:not(.nav, .pagination) {
   list-style: outside disc;
 }
-.main-content ul:not(.nav) li {
+.main-content ul:not(.nav, .pagination) li {
   left: 1em;
   padding-right: 1em;
   position: relative;
