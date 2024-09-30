@@ -14340,6 +14340,9 @@ div.align-center img {
 }
 
 .page-view-k-centres-search .page-title {
+  display: none;
+}
+.page-view-k-centres-search .page-header {
   background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 bottom/300px;
   color: #10436b;
   font-size: 2.625rem;
@@ -14347,7 +14350,7 @@ div.align-center img {
   padding-left: 16.25rem;
   padding-top: 2rem;
 }
-.page-view-k-centres-search .page-title::after {
+.page-view-k-centres-search .page-header::after {
   color: #dc3545;
   content: " BETA";
   font-size: 1rem;
