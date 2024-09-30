@@ -14375,6 +14375,10 @@ div.align-center img {
   -o-transition: padding 0.2s;
   transition: padding 0.2s;
 }
+.page-view-k-centres-search .node--type-k-centre-profile {
+  padding-bottom: 0.9375rem;
+  padding-top: 0.3125rem;
+}
 
 .sidebar .block.block-facets {
   border: 0;
