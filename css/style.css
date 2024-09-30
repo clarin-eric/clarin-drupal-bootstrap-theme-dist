@@ -14356,6 +14356,9 @@ div.align-center img {
   font-size: 1rem;
   vertical-align: super;
 }
+.page-view-k-centres-search .k-centre-full-name {
+  color: soft-blue-01;
+}
 
 .sidebar .block.block-facets {
   border: 0;
@@ -14395,9 +14398,9 @@ div.align-center img {
 }
 .sidebar .block.block-block-content {
   border: 0;
-  padding-bottom: 0;
-  margin-left: -1rem;
   margin-bottom: 0;
+  margin-left: -1rem;
+  padding-bottom: 0;
 }
 .sidebar .block.block-block-content h3 {
   color: #10436b;
