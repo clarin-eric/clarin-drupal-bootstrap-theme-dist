@@ -14359,6 +14359,22 @@ div.align-center img {
 .page-view-k-centres-search .k-centre-full-name {
   font-size: 1.25rem;
 }
+.page-view-k-centres-search div.more-link::after {
+  margin-top: 0.1875rem;
+  content: " >";
+}
+.page-view-k-centres-search div.more-link:hover {
+  color: #5a778d;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.page-view-k-centres-search div.more-link a:hover {
+  padding-right: 0.3125rem;
+  -webkit-transition: padding 0.2s;
+  -o-transition: padding 0.2s;
+  transition: padding 0.2s;
+}
 
 .sidebar .block.block-facets {
   border: 0;
