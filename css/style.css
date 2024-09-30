@@ -9179,6 +9179,9 @@ img {
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
+.node--type-k-centre-profile .field--search-api-excerpt, .node--type-clarin-centre .field--search-api-excerpt {
+  font-style: italic;
+}
 .node--type-k-centre-profile .field.field--name-field-name,
 .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
 .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
