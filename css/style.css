@@ -14360,11 +14360,6 @@ div.align-center img {
   font-size: 1.25rem;
 }
 
-.sidebar .section {
-  border-color: #e1e5ea;
-  border-style: solid;
-  border-width: 1px;
-}
 .sidebar .block.block-facets {
   border: 0;
   color: #10436b;
@@ -14417,6 +14412,11 @@ div.align-center img {
 
 .sidebar_first:has(.block-facets) {
   display: none;
+}
+.sidebar_first:has(.block-facets) .section {
+  border-color: #e1e5ea;
+  border-style: solid;
+  border-width: 1px;
 }
 .sidebar_first:has(.block-facets):has(.block-facets:not(.hidden)) {
   display: block;
