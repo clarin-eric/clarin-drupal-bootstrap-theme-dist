@@ -14360,8 +14360,8 @@ div.align-center img {
   font-size: 1.25rem;
 }
 .page-view-k-centres-search div.more-link::after {
-  margin-top: 0.1875rem;
   content: " >";
+  margin-top: 0.1875rem;
 }
 .page-view-k-centres-search div.more-link:hover {
   color: #5a778d;
@@ -14369,7 +14369,7 @@ div.align-center img {
   -o-transition: color 0.2s;
   transition: color 0.2s;
 }
-.page-view-k-centres-search div.more-link a:hover {
+.page-view-k-centres-search div.more-link a.more-link:hover {
   padding-right: 0.3125rem;
   -webkit-transition: padding 0.2s;
   -o-transition: padding 0.2s;
