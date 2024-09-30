@@ -14360,12 +14360,20 @@ div.align-center img {
   font-size: 1.25rem;
 }
 
+.sidebar .section {
+  border-color: #e1e5ea;
+  border-style: solid;
+  border-width: 1px;
+}
 .sidebar .block.block-facets {
   border: 0;
   color: #10436b;
   margin-bottom: 0;
+  padding-bottom: 1.25rem;
+  padding-top: 0.1875rem;
 }
 .sidebar .block.block-facets .content ul {
+  margin-bottom: 0.5rem;
   padding-left: 0.75rem;
 }
 .sidebar .block.block-facets .content a, .sidebar .block.block-facets .content .facet-item span.facet-item__value {
@@ -14388,12 +14396,12 @@ div.align-center img {
 .sidebar .block.block-facets .content li.facet-item label::first-letter {
   text-transform: uppercase;
 }
-.sidebar .block.block-facets h2 {
-  font-size: 1rem;
+.sidebar .block.block-facets h3 {
+  font-size: 1.125rem;
 }
 @media (min-width: 48rem) {
   .sidebar:has(.block-facets) {
-    padding-top: 5.9375rem;
+    padding-top: 1.625rem;
   }
 }
 .sidebar .block.block-block-content {
