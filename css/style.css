@@ -14393,6 +14393,16 @@ div.align-center img {
     padding-top: 5.9375rem;
   }
 }
+.sidebar .block.block-block-content {
+  border: 0;
+  padding-bottom: 0;
+  margin-left: -1rem;
+  margin-bottom: 0;
+}
+.sidebar .block.block-block-content h3 {
+  color: #10436b;
+  font-size: 1.5rem;
+}
 
 .sidebar_first:has(.block-facets) {
   display: none;
