@@ -14354,8 +14354,8 @@ div.align-center img {
   padding-top: 2rem;
 }
 .page-view-k-centres-search .page-header::after {
-  color: #dc3545;
-  content: " BETA";
+  color: #A2C037;
+  content: " (PREVIEW version)";
   font-size: 1rem;
   vertical-align: super;
 }
