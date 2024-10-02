@@ -9166,6 +9166,9 @@ img {
 .node--type-k-centre-profile .field--label-inline .field__items, .node--type-clarin-centre .field--label-inline .field__items {
   display: inline;
 }
+.node--type-k-centre-profile .field--label-inline .field__items .field__item, .node--type-clarin-centre .field--label-inline .field__items .field__item {
+  display: inline;
+}
 .node--type-k-centre-profile .field--label-inline .field__items .field__item::after, .node--type-clarin-centre .field--label-inline .field__items .field__item::after {
   content: ",";
 }
@@ -14358,6 +14361,9 @@ div.align-center img {
   content: " (PREVIEW version)";
   font-size: 1rem;
   vertical-align: super;
+}
+.page-view-k-centres-search .page-header-text {
+  color: #415d71;
 }
 .page-view-k-centres-search .k-centre-full-name {
   font-size: 1.25rem;
