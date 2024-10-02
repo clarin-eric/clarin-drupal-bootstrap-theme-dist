@@ -14444,9 +14444,7 @@ div.align-center img {
   display: none;
 }
 .sidebar_first:has(.block-facets) .section {
-  border-color: #e1e5ea;
-  border-style: solid;
-  border-width: 1px;
+  background-color: #f4f6f9;
   padding-left: 0.5rem;
 }
 .sidebar_first:has(.block-facets):has(.block-facets:not(.hidden)) {
