@@ -14253,6 +14253,7 @@ div.align-center img {
 .views-exposed-form {
   margin-bottom: 1rem;
   margin-top: 1.875rem;
+  padding-left: 1.125rem;
 }
 .views-exposed-form label {
   color: #5a778d;
