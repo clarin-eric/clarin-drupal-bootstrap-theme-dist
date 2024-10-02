@@ -9217,6 +9217,12 @@ img {
 .node--type-clarin-centre .field.field--name-field-consortium-url {
   display: inline-block;
 }
+.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item, .node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item {
+  display: inline list-item;
+}
+.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item::after, .node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item::after {
+  content: unset;
+}
 
 .node--type-clarin-centre .field--name-field-location-coordinates .field__label {
   display: block;
