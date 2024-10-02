@@ -14446,6 +14446,7 @@ div.align-center img {
 }
 .sidebar_first:has(.block-facets) .section {
   background-color: #f4f6f9;
+  border-radius: 4px;
   padding-left: 0.5rem;
 }
 .sidebar_first:has(.block-facets):has(.block-facets:not(.hidden)) {
