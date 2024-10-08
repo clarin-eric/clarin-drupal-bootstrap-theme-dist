@@ -9150,10 +9150,14 @@ img {
     float: unset;
   }
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name), .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) {
+.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn), .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) {
   padding-bottom: 0.625rem;
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) p, .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) p {
+.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) p, .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) p {
   margin: 0;
 }
 .node--type-k-centre-profile .field__label, .node--type-clarin-centre .field__label {
@@ -9188,6 +9192,21 @@ img {
   content: "\f0e0";
   font-family: "Font Awesome 6 Free";
   font-size: 0.875rem;
+  font-weight: 900;
+  margin-right: 0.25rem;
+}
+.node--type-k-centre-profile .field--name-field-centre-contact-telephone::before, .node--type-clarin-centre .field--name-field-centre-contact-telephone::before {
+  content: "\f095";
+  font-family: "Font Awesome 6 Free";
+  font-size: 0.875rem;
+  font-weight: 900;
+  margin-right: 0.25rem;
+}
+.node--type-k-centre-profile .field--name-field-centre-contact-website-url::before, .node--type-clarin-centre .field--name-field-centre-contact-website-url::before {
+  content: "\f0ac";
+  font-family: "Font Awesome 6 Free";
+  font-size: 0.875rem;
+  font-weight: 900;
   margin-right: 0.25rem;
 }
 .node--type-k-centre-profile .tour_de_clarin_fields img, .node--type-k-centre-profile .resource_families_fields img, .node--type-clarin-centre .tour_de_clarin_fields img, .node--type-clarin-centre .resource_families_fields img {
@@ -9277,7 +9296,7 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     vertical-align: top;
-    width: 30%;
+    width: 33%;
   }
   .node--type-clarin-centre .field--name-field-working-unit {
     margin-top: 3rem;
