@@ -9193,6 +9193,9 @@ img {
 .node--type-k-centre-profile .tour_de_clarin_fields img, .node--type-k-centre-profile .resource_families_fields img, .node--type-clarin-centre .tour_de_clarin_fields img, .node--type-clarin-centre .resource_families_fields img {
   margin-left: -1.25rem;
 }
+.node--type-k-centre-profile .field--name-field-internal-contact > .field__label, .node--type-clarin-centre .field--name-field-internal-contact > .field__label {
+  color: #5a778d;
+}
 .node--type-k-centre-profile .field.field--name-field-hosted-by, .node--type-clarin-centre .field.field--name-field-hosted-by {
   counter-reset: list;
 }
