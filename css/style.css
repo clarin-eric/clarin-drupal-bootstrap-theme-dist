@@ -9150,10 +9150,10 @@ img {
     float: unset;
   }
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url), .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url) {
+.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name), .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) {
   padding-bottom: 0.625rem;
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url) p, .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url) p {
+.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) p, .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name) p {
   margin: 0;
 }
 .node--type-k-centre-profile .field__label, .node--type-clarin-centre .field__label {
@@ -9183,6 +9183,12 @@ img {
 .node--type-k-centre-profile .assessment-dates > a, .node--type-clarin-centre .assessment-dates > a {
   font-size: 1.1rem;
   font-weight: 700;
+}
+.node--type-k-centre-profile .field--name-field-centre-contact-email::before, .node--type-clarin-centre .field--name-field-centre-contact-email::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 6 Free";
+  font-size: 0.875rem;
+  margin-right: 0.25rem;
 }
 .node--type-k-centre-profile .tour_de_clarin_fields img, .node--type-k-centre-profile .resource_families_fields img, .node--type-clarin-centre .tour_de_clarin_fields img, .node--type-clarin-centre .resource_families_fields img {
   margin-left: -1.25rem;
