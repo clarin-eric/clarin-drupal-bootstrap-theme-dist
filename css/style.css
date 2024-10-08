@@ -9188,23 +9188,29 @@ img {
   font-size: 1.1rem;
   font-weight: 700;
 }
+@media (min-width: 36rem) {
+  .node--type-k-centre-profile .field--name-field-contacts, .node--type-clarin-centre .field--name-field-contacts {
+    float: right;
+    margin-left: 0.9375rem;
+  }
+}
 .node--type-k-centre-profile .field--name-field-centre-contact-email::before, .node--type-clarin-centre .field--name-field-centre-contact-email::before {
   content: "\f0e0";
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
 .node--type-k-centre-profile .field--name-field-centre-contact-telephone::before, .node--type-clarin-centre .field--name-field-centre-contact-telephone::before {
   content: "\f095";
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
 .node--type-k-centre-profile .field--name-field-centre-contact-website-url::before, .node--type-clarin-centre .field--name-field-centre-contact-website-url::before {
   content: "\f0ac";
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
