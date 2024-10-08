@@ -9008,6 +9008,7 @@ body.path-user .field--label-above .field__item {
 }
 
 body {
+  --bs-body-color: #052d4d;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -9113,6 +9114,10 @@ h6 {
 
 .row {
   margin: 0 !important;
+}
+
+.table {
+  --bs-table-color: #052d4d;
 }
 
 img {
