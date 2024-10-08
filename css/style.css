@@ -9180,7 +9180,7 @@ img {
 .node--type-k-centre-profile .field--label-inline .field__items .field__item:last-child::after, .node--type-clarin-centre .field--label-inline .field__items .field__item:last-child::after {
   content: "";
 }
-.node--type-k-centre-profile .field--label-inline .assessment-dates, .node--type-clarin-centre .field--label-inline .assessment-dates {
+.node--type-k-centre-profile .assessment-dates > a, .node--type-clarin-centre .assessment-dates > a {
   font-size: 1.1rem;
   font-weight: 700;
 }
