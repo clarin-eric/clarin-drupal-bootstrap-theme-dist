@@ -9194,6 +9194,10 @@ img {
     margin-left: 0.9375rem;
   }
 }
+.node--type-k-centre-profile a.field.field--name-field-k-centre-website-url.field--type-link, .node--type-clarin-centre a.field.field--name-field-k-centre-website-url.field--type-link {
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
 .node--type-k-centre-profile .field--name-field-centre-contact-email::before, .node--type-clarin-centre .field--name-field-centre-contact-email::before {
   content: "\f0e0";
   font-family: "Font Awesome 6 Free", sans-serif;
