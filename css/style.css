@@ -9150,174 +9150,174 @@ img {
     float: unset;
   }
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
-.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn), .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+body.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn), body.node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
 .field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) {
   padding-bottom: 0.625rem;
 }
-.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
-.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) p, .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+body.node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+.field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) p, body.node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
 .field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) p {
   margin: 0;
 }
-.node--type-k-centre-profile .field__label, .node--type-clarin-centre .field__label {
+body.node--type-k-centre-profile .field__label, body.node--type-clarin-centre .field__label {
   display: contents;
   float: left;
   font-weight: bold;
 }
-.node--type-k-centre-profile .field__label::after, .node--type-clarin-centre .field__label::after {
+body.node--type-k-centre-profile .field__label::after, body.node--type-clarin-centre .field__label::after {
   content: ":";
 }
-.node--type-k-centre-profile .field--label-inline .field__label, .node--type-clarin-centre .field--label-inline .field__label {
+body.node--type-k-centre-profile .field--label-inline .field__label, body.node--type-clarin-centre .field--label-inline .field__label {
   display: inline;
   padding-right: 0.2rem;
 }
-.node--type-k-centre-profile .field--label-inline .field__items, .node--type-clarin-centre .field--label-inline .field__items {
+body.node--type-k-centre-profile .field--label-inline .field__items, body.node--type-clarin-centre .field--label-inline .field__items {
   display: inline;
 }
-.node--type-k-centre-profile .field--label-inline .field__items .field__item, .node--type-clarin-centre .field--label-inline .field__items .field__item {
+body.node--type-k-centre-profile .field--label-inline .field__items .field__item, body.node--type-clarin-centre .field--label-inline .field__items .field__item {
   display: inline;
 }
-.node--type-k-centre-profile .field--label-inline .field__items .field__item::after, .node--type-clarin-centre .field--label-inline .field__items .field__item::after {
+body.node--type-k-centre-profile .field--label-inline .field__items .field__item::after, body.node--type-clarin-centre .field--label-inline .field__items .field__item::after {
   content: ",";
 }
-.node--type-k-centre-profile .field--label-inline .field__items .field__item:last-child::after, .node--type-clarin-centre .field--label-inline .field__items .field__item:last-child::after {
+body.node--type-k-centre-profile .field--label-inline .field__items .field__item:last-child::after, body.node--type-clarin-centre .field--label-inline .field__items .field__item:last-child::after {
   content: "";
 }
-.node--type-k-centre-profile .assessment-dates > a, .node--type-clarin-centre .assessment-dates > a {
+body.node--type-k-centre-profile .assessment-dates > a, body.node--type-clarin-centre .assessment-dates > a {
   font-size: 1.1rem;
   font-weight: 700;
 }
 @media (min-width: 36rem) {
-  .node--type-k-centre-profile .field--name-field-contacts, .node--type-clarin-centre .field--name-field-contacts {
+  body.node--type-k-centre-profile .field--name-field-contacts, body.node--type-clarin-centre .field--name-field-contacts {
     float: right;
     margin-left: 0.9375rem;
   }
-  .node--type-k-centre-profile a.field.field--name-field-k-centre-website-url.field--type-link, .node--type-clarin-centre a.field.field--name-field-k-centre-website-url.field--type-link {
+  body.node--type-k-centre-profile a.field.field--name-field-k-centre-website-url.field--type-link, body.node--type-clarin-centre a.field.field--name-field-k-centre-website-url.field--type-link {
     margin-left: 1rem;
     margin-right: 5rem;
   }
 }
 @media (max-width: 47.9375rem) {
-  .node--type-k-centre-profile a.field.field--name-field-k-centre-website-url.field--type-link, .node--type-clarin-centre a.field.field--name-field-k-centre-website-url.field--type-link {
+  body.node--type-k-centre-profile a.field.field--name-field-k-centre-website-url.field--type-link, body.node--type-clarin-centre a.field.field--name-field-k-centre-website-url.field--type-link {
     float: unset;
     margin-bottom: 1rem;
   }
 }
-.node--type-k-centre-profile .field--name-field-centre-contact-email::before, .node--type-clarin-centre .field--name-field-centre-contact-email::before {
+body.node--type-k-centre-profile .field--name-field-centre-contact-email::before, body.node--type-clarin-centre .field--name-field-centre-contact-email::before {
   content: "\f0e0";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
-.node--type-k-centre-profile .field--name-field-centre-contact-telephone::before, .node--type-clarin-centre .field--name-field-centre-contact-telephone::before {
+body.node--type-k-centre-profile .field--name-field-centre-contact-telephone::before, body.node--type-clarin-centre .field--name-field-centre-contact-telephone::before {
   content: "\f095";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
-.node--type-k-centre-profile .field--name-field-centre-contact-website-url::before, .node--type-clarin-centre .field--name-field-centre-contact-website-url::before {
+body.node--type-k-centre-profile .field--name-field-centre-contact-website-url::before, body.node--type-clarin-centre .field--name-field-centre-contact-website-url::before {
   content: "\f0ac";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
-.node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a::before, .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a::before {
+body.node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a::before, body.node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a::before {
   content: "\f84a";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
-.node--type-k-centre-profile .field--name-field-centre-registration-page a,
-.node--type-k-centre-profile .resource_families_fields a, .node--type-k-centre-profile .tour_de_clarin_fields a, .node--type-k-centre-profile .field--name-field-internal-contact a, .node--type-clarin-centre .field--name-field-centre-registration-page a,
-.node--type-clarin-centre .resource_families_fields a, .node--type-clarin-centre .tour_de_clarin_fields a, .node--type-clarin-centre .field--name-field-internal-contact a {
+body.node--type-k-centre-profile .field--name-field-centre-registration-page a,
+body.node--type-k-centre-profile .resource_families_fields a, body.node--type-k-centre-profile .tour_de_clarin_fields a, body.node--type-k-centre-profile .field--name-field-internal-contact a, body.node--type-clarin-centre .field--name-field-centre-registration-page a,
+body.node--type-clarin-centre .resource_families_fields a, body.node--type-clarin-centre .tour_de_clarin_fields a, body.node--type-clarin-centre .field--name-field-internal-contact a {
   text-decoration: underline;
 }
-.node--type-k-centre-profile .field--name-field-centre-registration-page a:hover,
-.node--type-k-centre-profile .resource_families_fields a:hover, .node--type-k-centre-profile .tour_de_clarin_fields a:hover, .node--type-k-centre-profile .field--name-field-internal-contact a:hover, .node--type-clarin-centre .field--name-field-centre-registration-page a:hover,
-.node--type-clarin-centre .resource_families_fields a:hover, .node--type-clarin-centre .tour_de_clarin_fields a:hover, .node--type-clarin-centre .field--name-field-internal-contact a:hover {
+body.node--type-k-centre-profile .field--name-field-centre-registration-page a:hover,
+body.node--type-k-centre-profile .resource_families_fields a:hover, body.node--type-k-centre-profile .tour_de_clarin_fields a:hover, body.node--type-k-centre-profile .field--name-field-internal-contact a:hover, body.node--type-clarin-centre .field--name-field-centre-registration-page a:hover,
+body.node--type-clarin-centre .resource_families_fields a:hover, body.node--type-clarin-centre .tour_de_clarin_fields a:hover, body.node--type-clarin-centre .field--name-field-internal-contact a:hover {
   color: #415d71;
 }
-.node--type-k-centre-profile .field--name-field-internal-contact > .field__label, .node--type-clarin-centre .field--name-field-internal-contact > .field__label {
+body.node--type-k-centre-profile .field--name-field-internal-contact > .field__label, body.node--type-clarin-centre .field--name-field-internal-contact > .field__label {
   color: #5a778d;
 }
-.node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a, .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a {
+body.node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a, body.node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a {
   margin-left: 0.1875rem;
   margin-right: 0.625rem;
 }
-.node--type-k-centre-profile .tour_de_clarin_fields img, .node--type-clarin-centre .tour_de_clarin_fields img {
+body.node--type-k-centre-profile .tour_de_clarin_fields img, body.node--type-clarin-centre .tour_de_clarin_fields img {
   margin-left: -0.5rem;
 }
-.node--type-k-centre-profile .resource_families_fields .field__items .field__item > a, .node--type-clarin-centre .resource_families_fields .field__items .field__item > a {
+body.node--type-k-centre-profile .resource_families_fields .field__items .field__item > a, body.node--type-clarin-centre .resource_families_fields .field__items .field__item > a {
   margin-left: 0.1875rem;
   margin-right: 0.625rem;
 }
-.node--type-k-centre-profile .resource_families_fields .field__items .field__item::before, .node--type-clarin-centre .resource_families_fields .field__items .field__item::before {
+body.node--type-k-centre-profile .resource_families_fields .field__items .field__item::before, body.node--type-clarin-centre .resource_families_fields .field__items .field__item::before {
   content: "\f02d"; /* FontAwesome Unicode */
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
 }
-.node--type-k-centre-profile .resource_families_fields img, .node--type-clarin-centre .resource_families_fields img {
+body.node--type-k-centre-profile .resource_families_fields img, body.node--type-clarin-centre .resource_families_fields img {
   margin-left: -0.7rem;
 }
-.node--type-k-centre-profile .field--name-field-centre-registration-page, .node--type-k-centre-profile .field--name-field-k-centre-pid, .node--type-clarin-centre .field--name-field-centre-registration-page, .node--type-clarin-centre .field--name-field-k-centre-pid {
+body.node--type-k-centre-profile .field--name-field-centre-registration-page, body.node--type-k-centre-profile .field--name-field-k-centre-pid, body.node--type-clarin-centre .field--name-field-centre-registration-page, body.node--type-clarin-centre .field--name-field-k-centre-pid {
   display: inline-block;
   vertical-align: top;
 }
-.node--type-k-centre-profile .field--name-field-centre-registration-page, .node--type-clarin-centre .field--name-field-centre-registration-page {
+body.node--type-k-centre-profile .field--name-field-centre-registration-page, body.node--type-clarin-centre .field--name-field-centre-registration-page {
   width: 40%;
 }
-.node--type-k-centre-profile .field.field--name-field-hosted-by, .node--type-clarin-centre .field.field--name-field-hosted-by {
+body.node--type-k-centre-profile .field.field--name-field-hosted-by, body.node--type-clarin-centre .field.field--name-field-hosted-by {
   counter-reset: list;
 }
-.node--type-k-centre-profile .field.field--name-field-hosted-by .field__item::before, .node--type-clarin-centre .field.field--name-field-hosted-by .field__item::before {
+body.node--type-k-centre-profile .field.field--name-field-hosted-by .field__item::before, body.node--type-clarin-centre .field.field--name-field-hosted-by .field__item::before {
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
-.node--type-k-centre-profile .field--search-api-excerpt, .node--type-clarin-centre .field--search-api-excerpt {
+body.node--type-k-centre-profile .field--search-api-excerpt, body.node--type-clarin-centre .field--search-api-excerpt {
   font-style: italic;
 }
-.node--type-k-centre-profile .field.field--name-field-name,
-.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
-.node--type-clarin-centre .field.field--name-field-k-centre-full-name {
+body.node--type-k-centre-profile .field.field--name-field-name,
+body.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, body.node--type-clarin-centre .field.field--name-field-name,
+body.node--type-clarin-centre .field.field--name-field-k-centre-full-name {
   font-size: 1.5rem;
   font-weight: 700;
 }
 @media (max-width: 61.9375rem) {
-  .node--type-k-centre-profile .field.field--name-field-name,
-  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
-  .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
+  body.node--type-k-centre-profile .field.field--name-field-name,
+  body.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, body.node--type-clarin-centre .field.field--name-field-name,
+  body.node--type-clarin-centre .field.field--name-field-k-centre-full-name {
     font-size: 1.25rem;
   }
 }
 @media (max-width: 30rem) {
-  .node--type-k-centre-profile .field.field--name-field-name,
-  .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, .node--type-clarin-centre .field.field--name-field-name,
-  .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
+  body.node--type-k-centre-profile .field.field--name-field-name,
+  body.node--type-k-centre-profile .field.field--name-field-k-centre-full-name, body.node--type-clarin-centre .field.field--name-field-name,
+  body.node--type-clarin-centre .field.field--name-field-k-centre-full-name {
     font-size: 1.125rem;
   }
 }
-.node--type-k-centre-profile .field.field--name-field-url,
-.node--type-k-centre-profile .field.field--name-field-website-url, .node--type-clarin-centre .field.field--name-field-url,
-.node--type-clarin-centre .field.field--name-field-website-url {
+body.node--type-k-centre-profile .field.field--name-field-url,
+body.node--type-k-centre-profile .field.field--name-field-website-url, body.node--type-clarin-centre .field.field--name-field-url,
+body.node--type-clarin-centre .field.field--name-field-website-url {
   font-size: 1.25rem;
   padding-bottom: 1.625rem;
   padding-left: 0.625rem;
 }
-.node--type-k-centre-profile .field.field--name-field-consortium,
-.node--type-k-centre-profile .field.field--name-field-consortium-url, .node--type-clarin-centre .field.field--name-field-consortium,
-.node--type-clarin-centre .field.field--name-field-consortium-url {
+body.node--type-k-centre-profile .field.field--name-field-consortium,
+body.node--type-k-centre-profile .field.field--name-field-consortium-url, body.node--type-clarin-centre .field.field--name-field-consortium,
+body.node--type-clarin-centre .field.field--name-field-consortium-url {
   display: inline-block;
 }
-.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item, .node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item {
+body.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item, body.node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item {
   display: inline;
 }
-.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item::after, .node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item::after {
+body.node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item::after, body.node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item::after {
   content: unset;
 }
 
