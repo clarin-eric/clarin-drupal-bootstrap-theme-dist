@@ -9250,7 +9250,7 @@ img {
   margin-right: 0.625rem;
 }
 .node--type-k-centre-profile .tour_de_clarin_fields img, .node--type-clarin-centre .tour_de_clarin_fields img {
-  margin-left: -1.25rem;
+  margin-left: -0.5rem;
 }
 .node--type-k-centre-profile .resource_families_fields .field__items .field__item > a, .node--type-clarin-centre .resource_families_fields .field__items .field__item > a {
   margin-left: 0.1875rem;
@@ -9263,7 +9263,7 @@ img {
   font-weight: 900;
 }
 .node--type-k-centre-profile .resource_families_fields img, .node--type-clarin-centre .resource_families_fields img {
-  margin-left: -1.25rem;
+  margin-left: -0.7rem;
 }
 .node--type-k-centre-profile .field--name-field-centre-registration-page, .node--type-k-centre-profile .field--name-field-k-centre-pid, .node--type-clarin-centre .field--name-field-centre-registration-page, .node--type-clarin-centre .field--name-field-k-centre-pid {
   display: inline-block;
