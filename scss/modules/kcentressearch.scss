@@ -10,7 +10,7 @@
 
   .form-item-search-api-fulltext,
   .form-item-keys {
-    max-width: 450px;
+    max-width: 445px;
     width: 70%;
 
     @media (min-width: #{$screen-md-min}) {
@@ -108,7 +108,7 @@
 
     &::after {
       color: #A2C037;
-      content: " (PREVIEW version)";
+      content: " (BETA)";
       font-size: 16px;
       vertical-align: super;
     }

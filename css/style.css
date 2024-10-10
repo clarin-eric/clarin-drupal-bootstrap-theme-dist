@@ -14360,7 +14360,7 @@ div.align-center img {
 }
 .views-exposed-form .form-item-search-api-fulltext,
 .views-exposed-form .form-item-keys {
-  max-width: 450px;
+  max-width: 445px;
   width: 70%;
 }
 @media (min-width: 48rem) {
@@ -14458,7 +14458,7 @@ div.align-center img {
 }
 .page-view-k-centres-search .page-header::after {
   color: #A2C037;
-  content: " (PREVIEW version)";
+  content: " (BETA)";
   font-size: 1rem;
   vertical-align: super;
 }
