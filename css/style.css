@@ -14450,18 +14450,25 @@ div.align-center img {
   display: none;
 }
 .page-view-k-centres-search .page-header {
-  background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 bottom/300px;
+  background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 top/300px;
   color: #10436b;
   font-size: 2.625rem;
-  height: 80px;
-  padding-left: 16.25rem;
-  padding-top: 2rem;
+  padding-left: 0.9rem;
+  padding-top: 5.5rem;
 }
 .page-view-k-centres-search .page-header::after {
   color: #A2C037;
   content: " (PREVIEW version)";
   font-size: 1rem;
   vertical-align: super;
+}
+@media (min-width: 36rem) {
+  .page-view-k-centres-search .page-header {
+    background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 bottom/300px;
+    height: 80px;
+    padding-left: 16.25rem;
+    padding-top: 2rem;
+  }
 }
 .page-view-k-centres-search .page-header-text {
   color: #415d71;
