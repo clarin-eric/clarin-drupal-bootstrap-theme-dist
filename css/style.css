@@ -14188,11 +14188,11 @@ div.align-center img {
   width: 100%;
 }
 
-.align-right .field--type-image {
+.align-right .field--type-image, .align-right figcaption {
   margin: 0 0 0 1rem;
 }
 
-.align-left .field--type-image {
+.align-left .field--type-image, .align-left figcaption {
   margin: 0 1rem 0 0;
 }
 
