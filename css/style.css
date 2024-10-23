@@ -10013,6 +10013,9 @@ figure.align-left {
 .clarin-social-media .icon-linkedin {
   background-image: url("../images/linkedin_icon.svg");
 }
+.clarin-social-media .icon-forum {
+  background-image: url("../images/forum-icon.svg");
+}
 
 .site-footer {
   margin: 2.1875rem 0 0;
