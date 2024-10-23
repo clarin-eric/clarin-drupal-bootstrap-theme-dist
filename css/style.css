@@ -9835,12 +9835,12 @@ figure.align-left {
 }
 @media (min-width: 62rem) {
   #navbar-main .block-menu li {
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
   }
 }
 @media (min-width: 75rem) {
   #navbar-main .block-menu li {
-    padding: 0 0.3125rem;
+    padding: 0 0.3rem;
   }
 }
 #navbar-main .menu-fa-icon {
