@@ -9548,6 +9548,10 @@ figure.align-left {
   display: none;
 }
 
+.icon-forum img {
+  max-width: unset;
+}
+
 .region-navigation-right {
   -webkit-box-align: center;
   -webkit-align-items: center;
