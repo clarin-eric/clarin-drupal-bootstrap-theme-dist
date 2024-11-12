@@ -14591,6 +14591,19 @@ div.align-center img {
   font-weight: normal;
 }
 
+.node--type-webform .captcha__element .input-group-prepend {
+  -webkit-box-flex: 0.07;
+  -webkit-flex-grow: 0.07;
+      -ms-flex-positive: 0.07;
+          flex-grow: 0.07;
+}
+.node--type-webform .captcha__element .input-group-prepend .field-prefix {
+  padding-top: 1.3rem;
+}
+.node--type-webform .captcha__element label {
+  padding-top: 0.1875rem;
+}
+
 /* GENERAL STYLES
 ------------------------------------------------- */
 body {
