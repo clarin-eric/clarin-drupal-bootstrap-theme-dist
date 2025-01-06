@@ -13140,14 +13140,14 @@ article.node--type-blog-post .more-links a {
   padding-right: 1.25rem;
 }
 
-div.node--type-news {
+div.node--type-news:not(.node--view-mode-search-result) {
   margin-top: 1.875rem;
   padding-left: 0;
   padding-right: 0;
   width: 100%;
 }
 @media (min-width: 36rem) {
-  div.node--type-news {
+  div.node--type-news:not(.node--view-mode-search-result) {
     -webkit-box-flex: 0;
     -webkit-flex: 0;
         -ms-flex: 0;
@@ -13157,7 +13157,7 @@ div.node--type-news {
   }
 }
 @media (max-width: 35.9375rem) {
-  div.node--type-news {
+  div.node--type-news:not(.node--view-mode-search-result) {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
         -ms-flex-order: 3;
@@ -14459,10 +14459,9 @@ div.align-center img {
   display: none;
 }
 .page-view-k-centres-search .page-header {
-  background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 top/300px;
   color: #10436b;
   font-size: 2.625rem;
-  padding-left: 0.9rem;
+  padding-left: 0.01rem;
   padding-top: 5.5rem;
 }
 .page-view-k-centres-search .page-header::after {
@@ -14473,9 +14472,8 @@ div.align-center img {
 }
 @media (min-width: 36rem) {
   .page-view-k-centres-search .page-header {
-    background: url("../images/CLARIN-Logo-K-centre-2023-RGB-600ppi-transp.png") no-repeat left 0 bottom/300px;
     height: 80px;
-    padding-left: 16.25rem;
+    padding-left: 1rem;
     padding-top: 2rem;
   }
 }
