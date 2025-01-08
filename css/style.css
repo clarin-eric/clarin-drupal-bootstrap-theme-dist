@@ -9230,14 +9230,27 @@ body .node--type-k-centre-profile .field--name-field-centre-contact-website-url:
 body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile {
   padding-top: 1rem;
 }
-body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile::before, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile::before {
-  content: "\f061";
+body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile::after, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile::after {
+  content: " \f061";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
   font-weight: 900;
   margin-right: 0.25rem;
 }
 body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile a, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile a {
+  text-decoration: underline;
+}
+body .node--type-k-centre-profile .field--name-field-link-to-centre-registry, body .node--type-clarin-centre .field--name-field-link-to-centre-registry {
+  padding-top: 1rem;
+}
+body .node--type-k-centre-profile .field--name-field-link-to-centre-registry::after, body .node--type-clarin-centre .field--name-field-link-to-centre-registry::after {
+  content: " \f08e";
+  font-family: "Font Awesome 6 Free", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 900;
+  margin-right: 0.25rem;
+}
+body .node--type-k-centre-profile .field--name-field-link-to-centre-registry a, body .node--type-clarin-centre .field--name-field-link-to-centre-registry a {
   text-decoration: underline;
 }
 body .node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a::before, body .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a::before {
@@ -9356,7 +9369,7 @@ body .node--type-k-centre-profile .resource_families_fields .field.field--name-f
   line-height: 3.126;
   text-indent: 0;
 }
-.content article.node--type-clarin-centre .node--type-clarin-centre .field--name-field-link-to-centre-registry a, .content article.node--type-clarin-centre .node--type-clarin-centre .field--name-field-location-coordinates a {
+.content article.node--type-clarin-centre .node--type-clarin-centre .field--name-field-location-coordinates a {
   color: #0273cb;
   text-decoration: underline;
 }
