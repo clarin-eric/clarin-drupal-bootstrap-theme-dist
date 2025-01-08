@@ -9227,6 +9227,19 @@ body .node--type-k-centre-profile .field--name-field-centre-contact-website-url:
   font-weight: 900;
   margin-right: 0.25rem;
 }
+body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile {
+  padding-top: 1rem;
+}
+body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile::before, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile::before {
+  content: "\f061";
+  font-family: "Font Awesome 6 Free", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 900;
+  margin-right: 0.25rem;
+}
+body .node--type-k-centre-profile .field--name-field-link-to-k-centre-profile a, body .node--type-clarin-centre .field--name-field-link-to-k-centre-profile a {
+  text-decoration: underline;
+}
 body .node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a::before, body .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a::before {
   content: "\f84a";
   font-family: "Font Awesome 6 Free", sans-serif;
