@@ -14563,9 +14563,6 @@ div.align-center img {
 .sidebar .block.block-facets .content li.facet-item:has(a.is-active) a span.facet-item__status {
   display: none;
 }
-.sidebar .block.block-facets .content li.facet-item a span::first-letter {
-  text-transform: uppercase;
-}
 .sidebar .block.block-facets h3 {
   font-size: 1.125rem;
 }
