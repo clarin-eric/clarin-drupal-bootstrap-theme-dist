@@ -14559,7 +14559,7 @@ div.align-center img {
 }
 .sidebar .block.block-facets .content li.facet-item:has(a.is-active) {
   font-weight: 700;
-  list-style: "(-) ";
+  list-style: "- ";
 }
 .sidebar .block.block-facets .content li.facet-item:has(a.is-active) a span.facet-item__status {
   display: none;
