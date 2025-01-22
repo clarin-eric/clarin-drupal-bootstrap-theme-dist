@@ -14554,6 +14554,7 @@ div.align-center img {
   font-size: 0.938rem;
 }
 .sidebar .block.block-facets .content li.facet-item {
+  font-weight: initial;
   list-style: "+ ";
 }
 .sidebar .block.block-facets .content li.facet-item:has(a.is-active) {
