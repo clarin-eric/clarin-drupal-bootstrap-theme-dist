@@ -10434,6 +10434,10 @@ figure.align-left {
   font-size: 1.4375rem;
 }
 
+.view-search .views-row {
+  margin-bottom: 2rem;
+}
+
 .collapse-toggle::after {
   background: url("../images/arrow-down-blue.svg") no-repeat center center;
   border: 0;
@@ -11593,23 +11597,23 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   border-bottom: 0;
 }
 
-.paragraph--type--text {
+.paragraph--type--text:not(.paragraph--view-mode--preview) {
   font-size: 1rem;
   line-height: 1.5625rem;
   margin-bottom: 4rem;
   padding: 1.5625rem 0 0;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) {
     font-size: 1.125rem;
     line-height: 1.75rem;
     padding: 3.125rem 0 0;
   }
 }
-.paragraph--type--text ul {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ul {
   padding: 0;
 }
-.paragraph--type--text ul li {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ul li {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
@@ -11623,7 +11627,7 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   padding-bottom: 0.9375rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text ul li {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) ul li {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -11631,10 +11635,10 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
     line-height: 1.875rem;
   }
 }
-.paragraph--type--text ul li:last-child {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ul li:last-child {
   padding-bottom: 0;
 }
-.paragraph--type--text ul li::before {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ul li::before {
   background: #0273cb;
   content: "";
   display: inline-block;
@@ -11642,11 +11646,11 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   margin-right: 1.25rem;
   width: 9px;
 }
-.paragraph--type--text ol {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ol {
   counter-reset: my-badass-counter;
   padding: 0;
 }
-.paragraph--type--text ol li {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ol li {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
@@ -11660,7 +11664,7 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   padding-bottom: 0.9375rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text ol li {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) ol li {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -11668,39 +11672,39 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
     line-height: 1.875rem;
   }
 }
-.paragraph--type--text ol li:last-child {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ol li:last-child {
   padding-bottom: 0;
 }
-.paragraph--type--text ol li::before {
+.paragraph--type--text:not(.paragraph--view-mode--preview) ol li::before {
   content: counter(my-badass-counter);
   counter-increment: my-badass-counter;
   margin-right: 1.25rem;
   width: 9px;
 }
-.paragraph--type--text h2 {
+.paragraph--type--text:not(.paragraph--view-mode--preview) h2 {
   font-size: 1.4375rem;
   margin-bottom: 1.25rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text h2 {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) h2 {
     font-size: 2.1875rem;
   }
 }
-.paragraph--type--text h3 {
+.paragraph--type--text:not(.paragraph--view-mode--preview) h3 {
   font-size: 1rem;
   margin-bottom: 0.625rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text h3 {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) h3 {
     font-size: 1.125rem;
     margin-bottom: 0.9375rem;
   }
 }
-.paragraph--type--text h4 {
+.paragraph--type--text:not(.paragraph--view-mode--preview) h4 {
   font-size: 1rem;
   margin-bottom: 0.625rem;
 }
-.paragraph--type--text blockquote {
+.paragraph--type--text:not(.paragraph--view-mode--preview) blockquote {
   border-left: 0;
   border-top: 3px solid #0273cb;
   font-size: 1.4375rem;
@@ -11710,7 +11714,7 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   padding-top: 0.9375rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--text blockquote {
+  .paragraph--type--text:not(.paragraph--view-mode--preview) blockquote {
     font-size: 2.1875rem;
     line-height: 3.125rem;
     padding-right: 0;
