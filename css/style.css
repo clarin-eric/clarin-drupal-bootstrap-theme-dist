@@ -14561,11 +14561,11 @@ div.align-center img {
   margin-bottom: 0.5rem;
   padding-left: 0.75rem;
 }
-.sidebar .block.block-facets .content a, .sidebar .block.block-facets .content .facet-item span.facet-item__value {
+.sidebar .block.block-facets .content a, .sidebar .block.block-facets .content .facet-item a {
   color: #5a778d;
   text-decoration: underline;
 }
-.sidebar .block.block-facets .content a:hover, .sidebar .block.block-facets .content .facet-item span.facet-item__value:hover {
+.sidebar .block.block-facets .content a:hover, .sidebar .block.block-facets .content .facet-item a:hover {
   color: #153d57;
 }
 .sidebar .block.block-facets .content .facets-soft-limit-link {
