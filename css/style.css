@@ -12276,7 +12276,7 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   padding: 0 calc(var(--bs-gutter-x) * 0.4);
 }
 .node--type-impact-story .node--view-mode-search-result .field--name-field-tags {
-  margin: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) {
