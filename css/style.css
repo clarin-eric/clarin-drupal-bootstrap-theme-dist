@@ -9346,9 +9346,6 @@ body .node--type-k-centre-profile .field.field--name-field-hosted-by .field__ite
   content: "(" counter(list) ") ";
   counter-increment: list;
 }
-body .node--type-k-centre-profile .field--search-api-excerpt, body .node--type-clarin-centre .field--search-api-excerpt {
-  font-style: italic;
-}
 body .node--type-k-centre-profile .field.field--name-field-name,
 body .node--type-k-centre-profile .field.field--name-field-k-centre-full-name, body .node--type-clarin-centre .field.field--name-field-name,
 body .node--type-clarin-centre .field.field--name-field-k-centre-full-name {
@@ -9386,6 +9383,13 @@ body .node--type-k-centre-profile .resource_families_fields .field.field--name-f
 }
 body .node--type-k-centre-profile .resource_families_fields .field.field--name-field-resource-families .field__item::after, body .node--type-clarin-centre .resource_families_fields .field.field--name-field-resource-families .field__item::after {
   content: unset;
+}
+
+.field--search-api-excerpt {
+  color: #415d71;
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 1.1rem;
 }
 
 .node--type-event .field.field--name-field-address.field--type-address {
@@ -9475,6 +9479,10 @@ figure.align-left {
 .field--name-field-tags a:hover, .field--name-field-tags a:focus {
   background-color: #f0f6fb;
   text-decoration: none;
+}
+
+.view-search .field--name-field-tags {
+  margin-bottom: 0;
 }
 
 .page-view-blogs-by-tag .field--name-field-tags,
@@ -10474,7 +10482,11 @@ figure.align-left {
 }
 
 .view-search .node__meta {
-  padding-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+.view-search .inline__links .nav-link {
+  color: #415d71;
+  font-size: 0.875rem;
 }
 .view-search .views-row {
   margin-bottom: 2rem;
