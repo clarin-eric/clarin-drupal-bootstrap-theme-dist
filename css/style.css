@@ -9189,6 +9189,35 @@ img {
     float: unset;
   }
 }
+.view-search .field--type-daterange {
+  display: inline-block;
+  font-weight: 600;
+}
+.view-search .field--name-field-event-type {
+  display: inline-block;
+  float: right;
+  margin-right: 2rem;
+}
+.view-search .field__label {
+  font-weight: 600;
+}
+.view-search .field__label::after {
+  content: ":";
+}
+.view-search .node__meta {
+  padding-bottom: 0.8rem;
+}
+.view-search .inline__links .nav-link {
+  color: #415d71;
+  font-size: 0.875rem;
+}
+.view-search .views-row {
+  margin-bottom: 2rem;
+}
+.view-search .views-row p {
+  margin-bottom: 0.1rem;
+}
+
 body .node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
 .field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn), body .node--type-clarin-centre .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
 .field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) {
@@ -10479,20 +10508,6 @@ figure.align-left {
 }
 .path-search .main-content .block-system-main-block h3 {
   font-size: 1.4375rem;
-}
-
-.view-search .node__meta {
-  padding-bottom: 0.8rem;
-}
-.view-search .inline__links .nav-link {
-  color: #415d71;
-  font-size: 0.875rem;
-}
-.view-search .views-row {
-  margin-bottom: 2rem;
-}
-.view-search .views-row p {
-  margin-bottom: 0.1rem;
 }
 
 .collapse-toggle::after {
