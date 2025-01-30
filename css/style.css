@@ -9192,6 +9192,7 @@ img {
 .view-search .field--type-daterange {
   display: inline-block;
   font-weight: 600;
+  width: 100%;
 }
 .view-search .field__label {
   font-weight: 600;
