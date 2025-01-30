@@ -9193,11 +9193,6 @@ img {
   display: inline-block;
   font-weight: 600;
 }
-.view-search .field--name-field-event-type {
-  display: inline-block;
-  float: right;
-  margin-right: 2rem;
-}
 .view-search .field__label {
   font-weight: 600;
 }
@@ -14741,8 +14736,13 @@ a {
 
 .add-to-calendar[open] {
   display: inline-block;
-  height: 110px;
+  height: 65px;
   margin: auto;
   position: absolute;
-  width: 300px;
+  width: 350px;
+}
+
+.field--type-daterange button.button {
+  position: absolute;
+  right: 0;
 }
