@@ -9217,6 +9217,9 @@ img {
 .add-to-calendar {
   margin-bottom: 1.2rem;
 }
+.add-to-calendar .dropdown-menu {
+  padding-left: 0.3125rem;
+}
 
 .addtocal__link {
   opacity: 0.5;
@@ -9233,6 +9236,10 @@ ul .addtocal__google, ul .addtocal__ical, ul .addtocal__outlook {
 
 .add-to-calendar:has(.callendar_linkbox:hover) label.addtocal__label {
   opacity: 0.8;
+}
+
+.field--type-daterange .btn-group.dropend {
+  float: right;
 }
 
 body .node--type-k-centre-profile .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
@@ -14758,8 +14765,4 @@ a {
   margin: auto;
   position: fixed;
   width: 350px;
-}
-
-.field--type-daterange .btn-group.dropend {
-  float: right;
 }
