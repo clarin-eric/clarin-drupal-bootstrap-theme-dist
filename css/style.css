@@ -9228,6 +9228,7 @@ img {
 .addtocal__google, .addtocal__ical, .addtocal__outlook {
   margin-bottom: -0.3125rem;
   margin-right: 0.3125rem;
+  opacity: 1;
 }
 
 .add-to-calendar:has(.callendar_linkbox:hover) label.addtocal__label {
