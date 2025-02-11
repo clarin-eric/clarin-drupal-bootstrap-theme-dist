@@ -9225,7 +9225,7 @@ img {
   opacity: 1;
 }
 
-.addtocal__google, .addtocal__ical, .addtocal__outlook {
+ul .addtocal__google, ul .addtocal__ical, ul .addtocal__outlook {
   margin-bottom: -0.3125rem;
   margin-right: 0.3125rem;
   opacity: 1;
