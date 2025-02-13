@@ -10280,7 +10280,7 @@ figure.align-left {
   display: none;
 }
 
-.node .field--name-body a:not(.btn, .btn-default, .btn-link-blue-s), .node .table a:not(.btn, .btn-default, .btn-link-blue-s), .path-glossary .field--name-body a:not(.btn, .btn-default, .btn-link-blue-s), .path-glossary .table a:not(.btn, .btn-default, .btn-link-blue-s) {
+.node .field--name-body a:not(.btn, .btn-default, .btn-link-blue-s), .node .table td a:not(.btn, .btn-default, .btn-link-blue-s), .path-glossary .field--name-body a:not(.btn, .btn-default, .btn-link-blue-s), .path-glossary .table td a:not(.btn, .btn-default, .btn-link-blue-s) {
   color: #0273cb;
 }
 
