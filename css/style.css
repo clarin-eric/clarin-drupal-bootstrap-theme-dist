@@ -9185,7 +9185,7 @@ img {
 }
 
 @media all and (width >= 35rem) {
-  .node .field--type-image {
+  .node:not(.node--type-showcase) .field--type-image {
     float: unset;
   }
 }
