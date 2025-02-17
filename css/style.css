@@ -9185,7 +9185,7 @@ img {
 }
 
 @media all and (width >= 35rem) {
-  .node:not(.node--type-showcase.node--view-mode-search-result) .field--type-image {
+  .node:not(.node--type-showcase.node--view-mode-search-result):not(.node--type-lrt-showcase.node--view-mode-search-result) .field--type-image {
     float: unset;
   }
 }
