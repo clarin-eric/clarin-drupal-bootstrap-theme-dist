@@ -9189,6 +9189,13 @@ img {
     float: unset;
   }
 }
+.node.node--type-trainer.node--view-mode-search-result {
+  display: inline;
+}
+.node.node--type-trainer.node--view-mode-search-result .field--name-field-media {
+  float: left;
+}
+
 .view-search .field--type-daterange {
   display: inline-block;
   font-weight: 600;
