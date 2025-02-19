@@ -14515,12 +14515,14 @@ div.align-center img {
   color: #5a778d;
 }
 .views-exposed-form .form-item-search-api-fulltext,
+.views-exposed-form .form-item-search-api-fulltext-1,
 .views-exposed-form .form-item-keys {
   max-width: 445px;
   width: 70%;
 }
 @media (min-width: 48rem) {
   .views-exposed-form .form-item-search-api-fulltext,
+  .views-exposed-form .form-item-search-api-fulltext-1,
   .views-exposed-form .form-item-keys {
     width: 100%;
   }
@@ -14594,11 +14596,11 @@ div.align-center img {
           align-items: end;
 }
 
-.view-k-centres-search .view-content a:not(.btn), .view-search-content .view-content a:not(.btn) {
+.view-k-centres-search .view-content a:not(.btn), .view-search-content .view-content a:not(.btn), .view-search .view-content a:not(.btn) {
   color: #153d57;
   text-decoration: underline;
 }
-.view-k-centres-search .view-content a:not(.btn):hover, .view-search-content .view-content a:not(.btn):hover {
+.view-k-centres-search .view-content a:not(.btn):hover, .view-search-content .view-content a:not(.btn):hover, .view-search .view-content a:not(.btn):hover {
   color: #415d71;
 }
 
