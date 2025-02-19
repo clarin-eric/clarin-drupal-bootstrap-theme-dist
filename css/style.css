@@ -9574,6 +9574,14 @@ figure.align-left {
   margin-top: auto;
   position: absolute;
 }
+@media (max-width: 35.9375rem) {
+  .node--view-mode-teaser-list .field--name-field-tags,
+  .node--view-mode-teaser-list-no-read-more .field--name-field-tags,
+  .node--view-mode-teaser-big .field--name-field-tags {
+    position: relative;
+    margin-top: 0.5rem;
+  }
+}
 .node--view-mode-teaser-list .field--name-field-tags ul .show-tags,
 .node--view-mode-teaser-list-no-read-more .field--name-field-tags ul .show-tags,
 .node--view-mode-teaser-big .field--name-field-tags ul .show-tags {
