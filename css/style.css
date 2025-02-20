@@ -14604,21 +14604,26 @@ div.align-center img {
           align-items: end;
 }
 
-div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary {
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary,
+div.block.block-facets-summary.block-facets-summary-blockk-centre-catalogue-facets-summary {
   border: none;
   color: #052d4d;
 }
-div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul {
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul,
+div.block.block-facets-summary.block-facets-summary-blockk-centre-catalogue-facets-summary ul {
   padding: 0;
 }
-div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li {
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li,
+div.block.block-facets-summary.block-facets-summary-blockk-centre-catalogue-facets-summary ul li {
   list-style: none;
 }
-div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a {
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a,
+div.block.block-facets-summary.block-facets-summary-blockk-centre-catalogue-facets-summary ul li a {
   color: #5a778d;
   text-decoration: underline;
 }
-div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a:hover {
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a:hover,
+div.block.block-facets-summary.block-facets-summary-blockk-centre-catalogue-facets-summary ul li a:hover {
   color: #153d57;
 }
 
