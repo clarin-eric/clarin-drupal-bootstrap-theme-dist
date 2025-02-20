@@ -14604,6 +14604,24 @@ div.align-center img {
           align-items: end;
 }
 
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary {
+  border: none;
+  color: #052d4d;
+}
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul {
+  padding: 0;
+}
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li {
+  list-style: none;
+}
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a {
+  color: #5a778d;
+  text-decoration: underline;
+}
+div.block.block-facets-summary.block-facets-summary-blocksearch-facets-summary ul li a:hover {
+  color: #153d57;
+}
+
 .view-k-centres-search .view-content a:not(.btn):not(.field--name-field-tags > ul > li > a), .view-search-content .view-content a:not(.btn):not(.field--name-field-tags > ul > li > a), .view-search .view-content a:not(.btn):not(.field--name-field-tags > ul > li > a) {
   color: #153d57;
   text-decoration: underline;
