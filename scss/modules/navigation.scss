@@ -1,0 +1,144 @@
+// On page navigation
+
+// Breadcrumbs
+#block-clarin-bootstrap-breadcrumbs {
+  .container {
+    padding: 0;
+  }
+}
+
+.breadcrumb {
+  background: none;
+  color: $dark-blue-01;
+  font-size: 14px !important;
+  margin: 0;
+  padding: 20px 0;
+
+  @media (min-width: #{$screen-desktop}) {
+    border-radius: 0;
+    border-top: 1px solid rgb(5 45 77 / 13%);
+  }
+
+  @media (min-width: #{$screen-tablet}) {
+    font-size: 16px !important;
+    padding: 30px 0;
+  }
+
+  .breadcrumb-item + .breadcrumb-item {
+    padding-left: 15px;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: $dark-blue-01;
+    padding-right: 15px;
+  }
+}
+
+// Pagination
+.pagination {
+  border-radius: 0;
+  justify-content: center;
+  margin: 35px 0 0;
+
+  @media (min-width: #{$screen-tablet}) {
+    margin: 50px 0 0;
+  }
+
+  li {
+    margin: 0 3px;
+
+    @media (min-width: #{$screen-tablet}) {
+      margin: 0 6px;
+    }
+
+    &.active {
+      .page-link {
+        background-color: transparent;
+        border-bottom: 2px solid $blue;
+        color: $dark-blue-01;
+
+        @media (min-width: #{$screen-tablet}) {
+          border-bottom: 3px solid $blue;
+        }
+      }
+    }
+
+    &:first-child,
+    &:last-child {
+      .page-link {
+        border-radius: 0;
+      }
+    }
+
+    &.pager__item--previous .page-link {
+      transform: rotate(180deg);
+    }
+
+    &.pager__item--previous,
+    &.pager__item--next {
+      margin-right: 20px;
+
+      @media (min-width: #{$screen-tablet}) {
+        margin-right: 25px;
+      }
+
+      .page-link {
+        background: $subtle-grey-02 url('../images/arrow-right-blue.svg') no-repeat center center;
+        border-radius: 100%;
+        float: left;
+        height: 36px;
+        text-indent: -9999px;
+        width: 36px;
+
+        @media (min-width: #{$screen-tablet}) {
+          height: 47px;
+          width: 47px;
+        }
+
+        &:hover,
+        &:focus {
+          background-color: $subtle-grey-01;
+          border-bottom: 0;
+        }
+      }
+    }
+
+    &.ellipses {
+      .page-link:hover,
+      .page-link:focus {
+        border-bottom: 0;
+      }
+    }
+
+    a,
+    span.page-link {
+      background-color: transparent;
+      border: 0;
+      color: $dark-blue-01;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19px;
+      margin-left: 0;
+      padding: 3px;
+
+      @media (min-width: #{$screen-tablet}) {
+        font-size: 21px;
+        line-height: 28px;
+        padding: 6px;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        border-bottom: 2px solid $dark-blue-01;
+        box-shadow: none;
+        color: $dark-blue-01;
+        outline: none;
+
+        @media (min-width: #{$screen-tablet}) {
+          border-bottom: 3px solid $dark-blue-01;
+        }
+      }
+    }
+  }
+}

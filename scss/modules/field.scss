@@ -1,0 +1,390 @@
+@media all and (width >= 560px) {
+  .node:not(.node--type-showcase.node--view-mode-search-result):not(.node--type-lrt-showcase.node--view-mode-search-result) .field--type-image {
+    float: unset;
+  }
+}
+
+.node.node--type-trainer.node--view-mode-search-result {
+  display: inline;
+
+    .field--name-field-media {
+      float: left;
+    }
+}
+
+// New search page
+.view-search {
+  .field--type-daterange {
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .field__label {
+    font-weight: 600;
+
+    &::after {
+      content: ':';
+    }
+  }
+
+  .node__meta {
+    padding-bottom: 0.8rem;
+  }
+
+  .inline__links .nav-link {
+    color: $soft-blue-01;
+    font-size: 14px;
+  }
+
+  .views-row {
+    margin-bottom: 2rem;
+
+    p {
+      margin-bottom: 0.1rem;
+    }
+  }
+}
+
+.add-to-calendar {
+  margin-bottom: 1.2rem;
+
+  .dropdown-menu {
+    line-height: 1.8;
+    padding: 0.6rem
+  }
+}
+
+.addtocal__link {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+ul {
+  .addtocal__google, .addtocal__ical, .addtocal__outlook {
+    margin-bottom: -5px;
+    margin-right: 5px;
+    opacity: 1;
+  }
+}
+
+.add-to-calendar:has(.calendar_linkbox:hover) label.addtocal__label {
+  opacity: 0.8;
+}
+
+.node--view-mode-date-only .field--type-daterange .btn-group.dropend {
+  display: block;
+}
+
+article:not(.node--view-mode-date-only) .field--type-daterange .btn-group.dropend {
+  float: right;
+}
+
+body .node--type-k-centre-profile, body .node--type-clarin-centre, body .node--type-crf-item node--type-learning-resource {
+  .field:not(.field--name-field-k-centre-website-url, .field--name-field-centre-contact-email, .field--name-field-centre-contact-name,
+    .field--name-field-centre-contact-telephone, .field--name-field-centre-contact-website-url, .field--name-field-centre-contact-eppn) {
+    padding-bottom: 0.625rem;
+    padding-left: 0;
+    padding-right: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .field__label {
+    display: contents;
+    float: left;
+    font-weight: bold;
+
+    &::after {
+        content: ":";
+      }
+  }
+
+  .field--label-inline {
+    .field__label {
+      display: inline;
+      padding-right: 0.2rem;
+    }
+
+    .field__items {
+      display: inline;
+
+      .field__item {
+        display: inline;
+
+        &::after {
+          content: ",";
+        }
+
+        &:last-child::after {
+          content: "";
+        }
+      }
+    }
+  }
+
+  .assessment-dates > a {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  @media (min-width: #{$screen-sm-min}) {
+    .field--name-field-contacts {
+      float: right;
+      margin-left: 15px;
+    }
+
+    a.field.field--name-field-k-centre-website-url.field--type-link {
+      margin-left: 1rem;
+      margin-right: 5rem;
+    }
+  }
+
+  @media (max-width: #{$screen-sm-max}) {
+    a.field.field--name-field-k-centre-website-url.field--type-link {
+      float: unset;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .field--name-field-centre-contact-email::before {
+    content: "\f0e0";
+    font-family: 'Font Awesome\ 6 Free',  sans-serif;;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 4px;
+  }
+
+  .field--name-field-centre-contact-telephone::before {
+    content: "\f095";
+    font-family: 'Font Awesome\ 6 Free',  sans-serif;;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 4px;
+  }
+
+  .field--name-field-centre-contact-website-url::before {
+    content: "\f0ac";
+    font-family: 'Font Awesome\ 6 Free',  sans-serif;;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 4px;
+  }
+
+  .field--name-field-link-to-k-centre-profile {
+    padding-top: 1rem;
+
+    &::after {
+      content: " \f061";
+      font-family: 'Font Awesome\ 6 Free',  sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 4px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .field--name-field-link-to-centre-registry {
+    padding-top: 1rem;
+
+    &::after {
+      content: " \f08e";
+      font-family: 'Font Awesome\ 6 Free',  sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 4px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .tour_de_clarin_fields .field--label-inline a::before {
+    content: "\f84a";
+    font-family: 'Font Awesome\ 6 Free',  sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 4px;
+  }
+
+  .field--name-field-centre-registration-page,
+  .resource_families_fields, .tour_de_clarin_fields, .field--name-field-internal-contact {
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: $soft-blue-01;
+      }
+    }
+  }
+
+  .field--name-field-internal-contact {
+    > .field__label {
+      color: $soft-blue-02;
+    }
+  }
+
+  .tour_de_clarin_fields {
+    .field--label-inline a {
+      margin-left: 3px;
+      margin-right: 10px;
+    }
+
+    img {
+      margin-left: -0.5rem;
+    }
+  }
+
+  .resource_families_fields {
+    .field__items .field__item {
+      > a {
+        margin-left: 3px;
+        margin-right: 10px;
+      }
+
+      &::before {
+        content: "\f02d"; /* FontAwesome Unicode */
+        font-family: 'Font Awesome\ 6 Free',  sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+      }
+    }
+
+    img {
+      margin-left: -0.7rem;
+    }
+  }
+
+  .field--name-field-centre-registration-page, .field--name-field-k-centre-pid {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .field--name-field-centre-registration-page {
+    width: 40%;
+  }
+
+  .field.field--name-field-hosted-by {
+    counter-reset: list;
+
+    .field__item::before {
+      content: "(" counter(list) ") ";
+      counter-increment: list;
+    }
+  }
+
+  .field.field--name-field-name,
+  .field.field--name-field-k-centre-full-name {
+    font-size: $h2-font-size-h2;
+    font-weight: 700;
+
+    @media (max-width: #{$screen-md-max}) {
+      font-size: $h3-font-size-h3;
+    }
+
+    @media (max-width: #{$screen-phone}) {
+      font-size: $h4-font-size-h4;
+    }
+  }
+
+  .field.field--name-field-url,
+  .field.field--name-field-website-url {
+    font-size: $h3-font-size-h3;
+    padding-bottom: 1.625rem;
+    padding-left: 0.625rem;
+  }
+
+  .field.field--name-field-consortium,
+  .field.field--name-field-consortium-url {
+    display: inline-block;
+  }
+
+  .resource_families_fields .field.field--name-field-resource-families {
+    .field__item {
+      display: inline;
+
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}
+
+.field--search-api-excerpt {
+  color: $soft-blue-01;
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 1.1rem;
+}
+
+.node--type-event {
+  .field.field--name-field-address.field--type-address {
+    background: $subtle-grey-01;
+    margin: 1rem 0 0;
+    padding: .5rem;
+
+    .field__label {
+      font-weight: bold;
+    }  
+  }
+}
+
+.content article.node--type-clarin-centre .node--type-clarin-centre {
+  .field--name-field-location-coordinates .field__label {
+    display: block;
+    line-height: 0; /* Collapse the original line */
+    text-indent: -9999px;
+
+    &::after {
+      content: "Hosted by:";
+      display: block;
+      line-height: 3.126;
+      text-indent: 0;
+    }
+  }
+
+  .field--name-field-location-coordinates {
+    a {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: #{$screen-sm-min}) {
+  .node--type-clarin-centre {
+    .field--name-field-administrative-contact, .field--name-field-technical-contact,
+    .field--name-field-monitoring-contacts {
+      display: inline-block;
+      padding-right: 2rem;
+      padding-top: 2rem;
+      vertical-align: top;
+      width: 33%;
+    }
+
+    .field--name-field-working-unit {
+      margin-top: 3rem;
+    }
+
+    .field--name-field-address {
+      margin-bottom: 5rem;
+    }
+
+    .field--name-field-description::after {
+      content: unset;
+    }
+  }
+}
+
+figure.align-left {
+    margin: 0 1rem 0 0;;
+}
