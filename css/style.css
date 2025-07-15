@@ -10815,6 +10815,36 @@ a.news-more-link:focus {
   }
 }
 
+.btn-blue-circle-arrow-small {
+  background: url("../images/arrow-circle-blue-small.png") no-repeat right center/40px;
+  color: #052d4d;
+  display: inline-table;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+  padding: 0.625rem 3.125rem 0.625rem 0.625rem;
+  -webkit-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s;
+}
+@media (min-width: 36rem) {
+  .btn-blue-circle-arrow-small {
+    -webkit-background-size: 47px 47px;
+            background-size: 47px;
+    font-size: 1.125rem;
+    padding: 0.625rem 4.0625rem 0.625rem 0.625rem;
+  }
+}
+.btn-blue-circle-arrow-small:hover, .btn-blue-circle-arrow-small:focus {
+  padding: 0.625rem 3.5625rem 0.625rem 0.625rem;
+  text-decoration: none;
+}
+@media (min-width: 36rem) {
+  .btn-blue-circle-arrow-small:hover, .btn-blue-circle-arrow-small:focus {
+    padding: 0.625rem 4.5rem 0.625rem 0.625rem;
+  }
+}
+
 .btn-white-circle-arrow {
   background: url("../images/arrow-circle-blue.svg") no-repeat right center/40px;
   color: #fff;
