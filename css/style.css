@@ -13858,6 +13858,33 @@ div.node--type-news:not(.node--view-mode-search-result) {
   display: none;
 }
 
+.page-view-events-per-year nav.tabs {
+  border-bottom: 1px solid #e1e5ea;
+}
+.page-view-events-per-year nav.tabs ul {
+  background: unset;
+  border: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.page-view-events-per-year nav.tabs ul .nav-item a {
+  border: 0;
+  font-size: 1.125rem;
+}
+.page-view-events-per-year nav.tabs ul .nav-item a.active {
+  border-bottom: 3px solid #0d578f;
+  font-weight: 700;
+}
+.page-view-events-per-year nav.tabs ul .nav-item a:not(.active):hover {
+  color: #5a778d;
+  text-decoration: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
 @media (min-width: 36rem) {
   .view-upcoming-events .node {
     display: -webkit-box;
