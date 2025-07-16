@@ -13883,6 +13883,7 @@ div.node--type-news:not(.node--view-mode-search-result) {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  text-decoration: underline;
 }
 
 @media (min-width: 36rem) {
