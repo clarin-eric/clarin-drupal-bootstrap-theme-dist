@@ -13872,6 +13872,7 @@ div.node--type-news:not(.node--view-mode-search-result) {
 .page-view-events-per-year nav.tabs ul .nav-item a {
   border: 0;
   font-size: 1.125rem;
+  text-decoration: none;
 }
 .page-view-events-per-year nav.tabs ul .nav-item a.active {
   border-bottom: 3px solid #0d578f;
@@ -13879,7 +13880,6 @@ div.node--type-news:not(.node--view-mode-search-result) {
 }
 .page-view-events-per-year nav.tabs ul .nav-item a:not(.active):hover {
   color: #5a778d;
-  text-decoration: none;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
