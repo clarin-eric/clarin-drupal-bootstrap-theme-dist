@@ -12699,6 +12699,11 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   list-style: inherit;
 }
 
+.date-pager ul.pager__items {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .view-sharing-knowledge,
 .grid-container-view {
   margin-bottom: 2.1875rem;
