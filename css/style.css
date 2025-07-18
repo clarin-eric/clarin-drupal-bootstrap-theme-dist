@@ -12701,7 +12701,10 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
 
 .date-pager ul.pager__items {
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 0.3125rem;
+}
+.date-pager ul.pager__items li {
+  left: 0;
 }
 
 .view-sharing-knowledge,
