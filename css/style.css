@@ -12588,16 +12588,10 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   margin: 0;
 }
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) {
-  font-size: 1rem;
-  line-height: 1.5625rem;
+  font-size: unset;
+  line-height: unset;
   margin-bottom: 1.75rem;
   padding: 1rem 0 0;
-}
-@media (min-width: 36rem) {
-  .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) .container, .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) .container-sm,
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) .container-md, .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) .container-lg,
