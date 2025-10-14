@@ -14888,15 +14888,15 @@ a {
   color: #153d57;
 }
 
-article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn),
+.linkblue,
 .site-footer a:not(.btn),
-.linkblue {
+article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
 }
-article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn):hover,
+.linkblue:hover,
 .site-footer a:not(.btn):hover,
-.linkblue:hover {
+article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn):hover {
   color: #155ca2;
 }
 
