@@ -14888,14 +14888,14 @@ a {
   color: #153d57;
 }
 
-article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a,
-.site-footer a,
+article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn),
+.site-footer a:not(.btn),
 .linkblue {
   color: #0273cb;
   text-decoration: underline;
 }
-article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:hover,
-.site-footer a:hover,
+article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn):hover,
+.site-footer a:not(.btn):hover,
 .linkblue:hover {
   color: #155ca2;
 }
