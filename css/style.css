@@ -9361,7 +9361,7 @@ body .node--type-k-centre-profile .field--name-field-link-to-centre-registry::af
 body .node--type-k-centre-profile .field--name-field-link-to-centre-registry a, body .node--type-clarin-centre .field--name-field-link-to-centre-registry a, body .node--type-crf-item .field--name-field-link-to-centre-registry a, body .node--type-learning-resource .field--name-field-link-to-centre-registry a {
   text-decoration: underline;
 }
-body .node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline a::before, body .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline a::before, body .node--type-crf-item .tour_de_clarin_fields .field--label-inline a::before, body .node--type-learning-resource .tour_de_clarin_fields .field--label-inline a::before {
+body .node--type-k-centre-profile .tour_de_clarin_fields .field--label-inline::before, body .node--type-clarin-centre .tour_de_clarin_fields .field--label-inline::before, body .node--type-crf-item .tour_de_clarin_fields .field--label-inline::before, body .node--type-learning-resource .tour_de_clarin_fields .field--label-inline::before {
   content: "\f84a";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-size: 0.875rem;
@@ -14883,8 +14883,14 @@ a {
   color: #153d57;
 }
 
+article.node div.node:not(.node--type-navigation-page) a,
 .linkblue {
   color: #0273cb;
+  text-decoration: underline;
+}
+article.node div.node:not(.node--type-navigation-page) a:hover,
+.linkblue:hover {
+  color: #155ca2;
 }
 
 .bg-inverse {
