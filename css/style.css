@@ -10269,6 +10269,9 @@ figure.align-left {
   color: #5a778d;
   font-size: 0.875rem;
 }
+#block-bottomlinks a:hover {
+  color: #415d71;
+}
 
 .main-content {
   padding: 0;
@@ -14890,12 +14893,14 @@ a {
 
 .linkblue,
 .site-footer a:not(.btn),
+.site-bottom a:not(.btn),
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
 }
 .linkblue:hover,
 .site-footer a:not(.btn):hover,
+.site-bottom a:not(.btn):hover,
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) a:not(.btn):hover {
   color: #155ca2;
 }
