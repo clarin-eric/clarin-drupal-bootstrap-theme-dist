@@ -23,7 +23,7 @@
   }
 }
 
-.sidebar_second .nav:not(.block-menu) {
+.sidebar_second .nav:not(.block-menu){
   @media (max-width: #{$screen-xs-max}) {
     padding-left: 0;
     padding-right: 0;
@@ -52,10 +52,8 @@
   }
 }
 
-.node,
-.path-glossary {
-  .field--name-body,
-  .table td {
+.node, .path-glossary {
+  .field--name-body, .table td {
     a:not(.btn, .btn-default, .btn-link-blue-s) {
       color: $blue;
     }
