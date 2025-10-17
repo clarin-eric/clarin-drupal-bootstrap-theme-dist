@@ -14961,12 +14961,6 @@ div.block.block-facets-summary.block-facets-summary-blocklearning-resources-cata
   padding-left: 0.01rem;
   padding-top: 5.5rem;
 }
-.page-view-k-centres-search .page-header::after {
-  color: #a2c037;
-  content: " (BETA)";
-  font-size: 1rem;
-  vertical-align: super;
-}
 @media (min-width: 36rem) {
   .page-view-k-centres-search .page-header {
     height: 80px;
