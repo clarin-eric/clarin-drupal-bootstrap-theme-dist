@@ -14154,34 +14154,37 @@ div.node--type-news:not(.node--view-mode-search-result) {
   border-top: 1px solid #dae1e6;
   padding: 0.9375rem 0;
 }
-.view-upcoming-events .views-row .event-details {
+.view-upcoming-events .views-row .node {
   background: url("../images/short-arrow-right-blue.svg") no-repeat right center;
   -webkit-background-size: 8px 8px;
           background-size: 8px;
   color: #052d4d;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.875rem;
   margin-right: 0.9375rem;
-  -webkit-transition: margin 0.3s;
-  -o-transition: margin 0.3s;
-  transition: margin 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 @media (min-width: 36rem) {
-  .view-upcoming-events .views-row .event-details {
+  .view-upcoming-events .views-row .node {
     -webkit-background-size: 9px 9px;
             background-size: 9px;
     font-size: 1.125rem;
   }
 }
-.view-upcoming-events .views-row .event-details:hover, .view-upcoming-events .views-row .event-details:focus {
+.view-upcoming-events .views-row .node:hover, .view-upcoming-events .views-row .node:focus {
   margin-right: 0.9375rem;
   text-decoration: none;
 }
 @media (min-width: 36rem) {
-  .view-upcoming-events .views-row .event-details:hover, .view-upcoming-events .views-row .event-details:focus {
+  .view-upcoming-events .views-row .node:hover, .view-upcoming-events .views-row .node:focus {
     margin-right: 0.625rem;
+    padding-right: 0.3125rem;
   }
+}
+.view-upcoming-events .views-row .event-details {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.875rem;
 }
 @media (min-width: 36rem) {
   .view-upcoming-events .views-row {
@@ -14210,7 +14213,7 @@ div.node--type-news:not(.node--view-mode-search-result) {
     -webkit-flex: 1 1 35%;
         -ms-flex: 1 1 35%;
             flex: 1 1 35%;
-    max-width: 35%;
+    max-width: 30%;
     padding-bottom: 0;
     padding-right: 1.25rem;
   }
@@ -14244,17 +14247,19 @@ div.node--type-news:not(.node--view-mode-search-result) {
     line-height: 2.125rem;
   }
 }
-@media (max-width: 35.9375rem) {
+@media (max-width: 61.9375rem) {
   .view-upcoming-events .event-image {
     display: none;
   }
 }
-@media (min-width: 36rem) {
+@media (min-width: 48rem) {
   .view-upcoming-events .event-image {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 25%;
         -ms-flex: 1 1 25%;
             flex: 1 1 25%;
+    margin-bottom: auto;
+    margin-top: auto;
     padding-left: 1.5625rem;
   }
 }
