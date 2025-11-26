@@ -14127,6 +14127,24 @@ div.node--type-news:not(.node--view-mode-search-result) {
   -o-transition: none;
   transition: none;
 }
+.page-view-events-per-year td.views-field-field-date-range {
+  min-width: 150px;
+  width: 150px;
+}
+.page-view-events-per-year td.views-field-field-date-range .smart-date--date {
+  font-size: 1.0625rem;
+}
+.page-view-events-per-year td.views-field-field-date-range .smart-date--time {
+  color: #415d71;
+  font-size: 0.9375rem;
+}
+.page-view-events-per-year td.views-field-field-date-range :first-child.smart-date--date:not(:has(~ .smart-date--date)) {
+  display: block;
+}
+.page-view-events-per-year td.views-field-field-date-range .smart-date--date:not(:has(~ .smart-date--date))::before {
+  content: "";
+  display: block;
+}
 
 @media (min-width: 36rem) {
   .view-upcoming-events .node {
