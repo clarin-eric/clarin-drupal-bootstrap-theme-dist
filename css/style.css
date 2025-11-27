@@ -9759,8 +9759,17 @@ figure.align-left {
   .node--view-mode-teaser-list .field--name-field-tags,
   .node--view-mode-teaser-list-no-read-more .field--name-field-tags,
   .node--view-mode-teaser-big .field--name-field-tags {
-    margin-top: 0.5rem;
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
     position: relative;
+  }
+  .node--view-mode-teaser-list .field--name-field-tags .links a,
+  .node--view-mode-teaser-list-no-read-more .field--name-field-tags .links a,
+  .node--view-mode-teaser-big .field--name-field-tags .links a {
+    font-size: 0.65rem;
+    padding: 0.125rem 0.5rem;
   }
 }
 .node--view-mode-teaser-list .field--name-field-tags ul .show-tags,
