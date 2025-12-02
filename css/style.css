@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: CLARIN Bootstrap 5 theme
 Description: A Bootstrap Barrio sub-theme for Drupal 10 developed for the CLARIN website
@@ -12819,10 +12820,11 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
 }
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) ul li::before {
   background: #0273cb;
-  content: "";
+  content: " ";
   display: inline-block;
   height: 9px;
   margin-right: 1.25rem;
+  text-indent: 1em;
   width: 9px;
 }
 .node--type-impact-story .paragraph:not(.paragraph--view-mode--preview) ol {
