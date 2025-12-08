@@ -12371,18 +12371,18 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
     padding: 1.25rem 0.9375rem;
   }
 }
-.paragraph--type--link-list.btn-bg-blue .field--name-field-links {
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link {
   margin-top: 0.625rem;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--link-list.btn-bg-blue .field--name-field-links {
+  .paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link {
     margin-top: 1.25rem;
   }
 }
-.paragraph--type--link-list.btn-bg-blue .field--name-field-links .field__item {
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item {
   margin: 0.625rem 0;
 }
-.paragraph--type--link-list.btn-bg-blue .field--name-field-links a {
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn) {
   background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 30px center;
   -webkit-background-size: 17px 17px;
           background-size: 17px;
@@ -12393,9 +12393,13 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
   font-weight: 600;
   line-height: 1.5625rem;
   padding: 0.9375rem 3.75rem 0.9375rem 1.875rem;
+  text-decoration: none;
+  -webkit-transition: background-position, color, 0.3s;
+  -o-transition: background-position, color, 0.3s;
+  transition: background-position, color, 0.3s;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--link-list.btn-bg-blue .field--name-field-links a {
+  .paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn) {
     background: #052d4d url("../images/arrow-right-white.svg") no-repeat right 25px center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
@@ -12403,16 +12407,15 @@ div.btn.btn-outline-primary:has(.btn.btn-outline-primary):hover, div.btn.btn-out
     padding: 0.9375rem 4.0625rem 0.9375rem 1.6875rem;
   }
 }
-.paragraph--type--link-list.btn-bg-blue .field--name-field-links a:hover, .paragraph--type--link-list.btn-bg-blue .field--name-field-links a:focus {
-  background: #10436b url("../images/arrow-right-white.svg") no-repeat right 30px center;
+.paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn):hover, .paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn):focus {
+  background: #10436b url("../images/arrow-right-white.svg") no-repeat right 25px center;
   -webkit-background-size: 17px 17px;
           background-size: 17px;
   color: #fff;
-  text-decoration: none;
 }
 @media (min-width: 36rem) {
-  .paragraph--type--link-list.btn-bg-blue .field--name-field-links a:hover, .paragraph--type--link-list.btn-bg-blue .field--name-field-links a:focus {
-    background: #10436b url("../images/arrow-right-white.svg") no-repeat right 25px center;
+  .paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn):hover, .paragraph--type--link-list.btn-bg-blue .field--name-field-links.field--type-link .field__item a:not(.btn):focus {
+    background: #10436b url("../images/arrow-right-white.svg") no-repeat right 20px center;
     -webkit-background-size: 20px 20px;
             background-size: 20px;
   }
