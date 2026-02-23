@@ -9237,11 +9237,14 @@ img {
 }
 
 .add-to-calendar {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem !important;
 }
 .add-to-calendar .dropdown-menu {
-  line-height: 1.8;
-  padding: 0.6rem;
+  line-height: 1.8 !important;
+  padding: 0.6rem !important;
+}
+.add-to-calendar .dropdown-menu a {
+  color: #415d71 !important;
 }
 
 .addtocal__link {
@@ -10949,6 +10952,14 @@ figure.align-left {
   background-image: none !important;
   padding-right: 1rem !important;
   float: none !important;
+}
+.btn.btn-sm {
+  color: #415d71 !important;
+  font-size: 0.9375rem !important;
+  font-weight: 400 !important;
+}
+.btn.btn-sm:hover, .btn.btn-sm:focus {
+  color: #fff !important;
 }
 
 .btn-default,
