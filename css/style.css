@@ -10953,6 +10953,9 @@ figure.align-left {
   padding-right: 1rem !important;
   float: none !important;
 }
+.btn.button.btn.btn-sm.add-all-to-cal {
+  background-color: rgba(16, 67, 107, 0.05);
+}
 .btn.btn-sm {
   color: #415d71 !important;
   font-size: 0.9375rem !important;
