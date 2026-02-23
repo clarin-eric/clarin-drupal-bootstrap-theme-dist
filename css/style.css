@@ -10945,6 +10945,11 @@ figure.align-left {
             background-size: 20px;
   }
 }
+.btn.no-arrow {
+  background-image: none !important;
+  padding-right: 1rem !important;
+  float: none !important;
+}
 
 .btn-default,
 .btn-blue {
