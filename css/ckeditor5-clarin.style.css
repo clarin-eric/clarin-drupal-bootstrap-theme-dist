@@ -1,0 +1,173 @@
+/* VARIABLES */
+/* TYPOGRAPHY */
+:root {
+  --bs-body-font-family: Sanspro, sans-serif, arial, verdana;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.563;
+}
+
+/* Inter font from https://github.com/rsms/inter/releases */
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter/Inter-Regular.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Regular.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/inter/Inter-Italic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Italic.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter/Inter-SemiBold.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-SemiBold.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/inter/Inter-SemiBoldItalic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-SemiBoldItalic.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter/Inter-Bold.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-Bold.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/inter/Inter-BoldItalic.woff2?v=3.15") format("woff2"), url("../fonts/inter/Inter-BoldItalic.woff?v=3.15") format("woff");
+}
+/* Source Sans Pro font from https://github.com/rsms/inter/releases */
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sourcesans3/SourceSans3-Regular.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-Regular.ttf.woff?v=3.052") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/sourcesans3/SourceSans3-It.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-It.ttf.woff?v=3.052") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/sourcesans3/SourceSans3-Semibold.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-Semibold.ttf.woff?v=3.052") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/sourcesans3/SourceSans3-SemiboldItalic.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-SemiboldItalic.ttf.woff?v=3.052") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/sourcesans3/SourceSans3-Bold.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-Bold.ttf.woff?v=3.052") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Sanspro;
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/sourcesans3/SourceSans3-BoldIt.ttf.woff2?v=3.052") format("woff2"), url("../fonts/sourcesans3/SourceSans3-BoldIt.ttf.woff?v=3.052") format("woff");
+}
+.ck-content {
+  color: #052d4d;
+}
+.ck-content h1,
+.ck-content h2,
+.ck-content h3,
+.ck-content h4,
+.ck-content h5,
+.ck-content h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+.ck-content h1 {
+  font-size: 3rem;
+}
+@media (max-width: 61.9375rem) {
+  .ck-content h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 30rem) {
+  .ck-content h1 {
+    font-size: 1.25rem;
+  }
+}
+.ck-content h2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 61.9375rem) {
+  .ck-content h2 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 30rem) {
+  .ck-content h2 {
+    font-size: 1.125rem;
+  }
+}
+.ck-content h3 {
+  font-size: 1.25rem;
+}
+@media (max-width: 61.9375rem) {
+  .ck-content h3 {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 30rem) {
+  .ck-content h3 {
+    font-size: 1rem;
+  }
+}
+.ck-content h4 {
+  font-size: 1.125rem;
+}
+@media (max-width: 61.9375rem) {
+  .ck-content h4 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 30rem) {
+  .ck-content h4 {
+    font-size: 0.875rem;
+  }
+}
+.ck-content h5 {
+  font-size: 1rem;
+}
+@media (max-width: 30rem) {
+  .ck-content h5 {
+    font-size: 0.875rem;
+  }
+}
+.ck-content h6 {
+  font-size: 0.875rem;
+}
+.ck-content .bg-inverse {
+  background: #000 !important;
+}

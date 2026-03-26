@@ -1,0 +1,88 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a paragraph.
+ *
+ * Available variables:
+ * - paragraph: Full paragraph entity.
+ *   Only method names starting with "get", "has", or "is" and a few common
+ *   methods such as "id", "label", and "bundle" are available. For example:
+ *   - paragraph.getCreatedTime() will return the paragraph creation timestamp.
+ *   - paragraph.id(): The paragraph ID.
+ *   - paragraph.bundle(): The type of the paragraph, for example, "image" or "text".
+ *   - paragraph.getOwnerId(): The user ID of the paragraph author.
+ *   See Drupal\paragraphs\Entity\Paragraph for a full list of public properties
+ *   and methods for the paragraph object.
+ * - content: All paragraph items. Use {{ content }} to print them all,
+ *   or print a subset such as {{ content.field_example }}. Use
+ *   {{ content|without('field_example') }} to temporarily suppress the printing
+ *   of a given child element.
+ * - attributes: HTML attributes for the containing element.
+ *   The attributes.class element may contain one or more of the following
+ *   classes:
+ *   - paragraphs: The current template type (also known as a "theming hook").
+ *   - paragraphs--type-[type]: The current paragraphs type. For example, if the paragraph is an
+ *     "Image" it would result in "paragraphs--type--image". Note that the machine
+ *     name will often be in a short form of the human readable label.
+ *   - paragraphs--view-mode--[view_mode]: The View Mode of the paragraph; for example, a
+ *     preview would result in: "paragraphs--view-mode--preview", and
+ *     default: "paragraphs--view-mode--default".
+ * - view_mode: View mode; for example, "preview" or "full".
+ * - logged_in: Flag for authenticated user status. Will be true when the
+ *   current user is a logged-in member.
+ * - is_admin: Flag for admin user status. Will be true when the current user
+ *   is an administrator.
+ *
+ * @see template_preprocess_paragraph()
+ *
+ * @ingroup themeable
+ */
+#}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+
+{% set title = paragraph.field_title %}
+{% set link = paragraph.field_link_header %}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="container">
+
+        {% if '1' in paragraph.field_show_newsletter.value %}
+        <div class="row">
+          <div class="col-lg-8">
+        {% endif %}
+
+            {% if title is not empty %}
+              <div class="header">{{ content.field_title }}<div class="d-none d-sm-block">{{ content.field_link_header }}</div></div>
+            {% endif %}
+
+            {{ content.field_block }}
+
+            {% if link is not empty %}
+            <div class="link d-block d-sm-none">{{ content.field_link_header }}</div>
+          {% endif %}
+
+          {% if '1' in paragraph.field_show_newsletter.value %}
+          </div>
+          <div class="col-lg-4 mt-3 newsletter-block-image text-center">
+            <picture>
+                  <source srcset="/sites/default/files/styles/max_650x650/public/Newsflash-2023.png?itok=i3k7hPIg 650w, /sites/default/files/styles/max_1300x1300/public/Newsflash-2023.png?itok=dVC8B_8- 1300w" media="all and (min-width: 1200px)" type="image/png" sizes="637px" width="650" height="650">
+                  <img src="/sites/default/files/styles/max_1300x1300/public/Newsflash-2023.png?itok=dVC8B_8-" width="1300" height="1300" alt="" loading="eager">
+            </picture>
+            <div class="overlay-text"><a href="https://clarin.us12.list-manage.com/subscribe?u=8bae79dc9813797e81387ebaa&amp;id=0a48566818">Subscribe here!</a></div>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
