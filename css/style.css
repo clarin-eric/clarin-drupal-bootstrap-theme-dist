@@ -10957,12 +10957,8 @@ figure.align-left {
   background-color: rgba(16, 67, 107, 0.05);
 }
 .btn.btn-sm {
-  color: #415d71 !important;
   font-size: 0.9375rem !important;
   font-weight: 400 !important;
-}
-.btn.btn-sm:hover, .btn.btn-sm:focus {
-  color: #fff !important;
 }
 
 .btn-default,
@@ -11175,7 +11171,7 @@ a.news-more-link:focus {
   background: transparent url("../images/arrow-right-blue2.svg") no-repeat right 16px center/15px;
   border-color: #10436b;
   border-radius: 27.5px;
-  color: #10436b;
+  color: #415d71;
   float: right;
   font-size: 1rem;
   margin-right: 1.25rem;
