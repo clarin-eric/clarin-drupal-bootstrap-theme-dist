@@ -15161,16 +15161,28 @@ a {
   color: #153d57;
 }
 
-.linkblue,
+.linkblue {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.linkblue:hover {
+  color: #155ca2;
+}
+
 .site-footer a:not(.btn),
-.site-bottom a:not(.btn),
+.site-bottom a:not(.btn) {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.site-footer a:not(.btn):hover,
+.site-bottom a:not(.btn):hover {
+  color: #155ca2;
+}
+
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
 }
-.linkblue:hover,
-.site-footer a:not(.btn):hover,
-.site-bottom a:not(.btn):hover,
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn):hover {
   color: #155ca2;
 }
