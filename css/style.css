@@ -10210,17 +10210,17 @@ figure.align-left {
 }
 
 a.navbar-brand {
+  height: auto;
   margin: 0;
   padding: 0.25rem;
   width: 130px;
-  height: auto;
 }
-@media (min-width: 62rem) {
+@media (min-width: 75rem) {
   a.navbar-brand {
     width: 150px;
   }
 }
-@media (min-width: 75rem) {
+@media (min-width: 87.5rem) {
   a.navbar-brand {
     width: 192px;
   }
