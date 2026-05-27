@@ -9254,12 +9254,10 @@ img {
   opacity: 1;
 }
 
-.view-view-organisation-reponsibility .office-hours__item-comments {
-  white-space: normal;
-}
-
-.view-view-organisation-reponsibility .office-hours__item-comments {
+.view-view-organisation-reponsibility .office-hours__item-comments,
+.path-view-organisation-responsibility .office-hours__item-comments {
   display: none;
+  white-space: normal;
 }
 
 table.office-hours__table .office-hours__item:nth-of-type(6),
