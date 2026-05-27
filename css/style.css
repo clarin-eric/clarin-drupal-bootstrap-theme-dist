@@ -9254,6 +9254,10 @@ img {
   opacity: 1;
 }
 
+.view-view-organisation-reponsibility .office-hours__item-comments {
+  white-space: normal;
+}
+
 ul .addtocal__google,
 ul .addtocal__ical,
 ul .addtocal__outlook {
