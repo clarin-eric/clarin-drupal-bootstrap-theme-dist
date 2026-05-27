@@ -9254,6 +9254,10 @@ img {
   opacity: 1;
 }
 
+.view-view-organisation-reponsibility .office-hours__item-comments {
+  white-space: normal;
+}
+
 ul .addtocal__google,
 ul .addtocal__ical,
 ul .addtocal__outlook {
@@ -10209,24 +10213,20 @@ figure.align-left {
   text-decoration: underline;
 }
 
-.navbar-brand {
+a.navbar-brand {
   height: auto;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-}
-.navbar-brand img {
-  height: auto;
-  max-width: 110px;
-}
-@media (min-width: 62rem) {
-  .navbar-brand img {
-    max-width: 135px;
-  }
+  margin: 0;
+  padding: 0.25rem;
+  width: 130px;
 }
 @media (min-width: 75rem) {
-  .navbar-brand img {
-    max-width: 153px;
+  a.navbar-brand {
+    width: 150px;
+  }
+}
+@media (min-width: 87.5rem) {
+  a.navbar-brand {
+    width: 192px;
   }
 }
 
@@ -15161,16 +15161,28 @@ a {
   color: #153d57;
 }
 
-.linkblue,
+.linkblue {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.linkblue:hover {
+  color: #155ca2;
+}
+
 .site-footer a:not(.btn),
-.site-bottom a:not(.btn),
+.site-bottom a:not(.btn) {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.site-footer a:not(.btn):hover,
+.site-bottom a:not(.btn):hover {
+  color: #155ca2;
+}
+
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
 }
-.linkblue:hover,
-.site-footer a:not(.btn):hover,
-.site-bottom a:not(.btn):hover,
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn):hover {
   color: #155ca2;
 }
