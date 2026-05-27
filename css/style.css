@@ -9254,17 +9254,36 @@ img {
   opacity: 1;
 }
 
+.view-view-organisation-reponsibility .office-hours__item-label,
+.path-view-organisation-responsibility .office-hours__item-label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: normal;
+  position: relative;
+  white-space: nowrap;
+}
+.view-view-organisation-reponsibility .office-hours__item-label::after,
+.path-view-organisation-responsibility .office-hours__item-label::after {
+  background: #fff;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0.5ch;
+}
+.view-view-organisation-reponsibility tr:hover .office-hours__item-label::after,
+.path-view-organisation-responsibility tr:hover .office-hours__item-label::after {
+  background: #ECECEC;
+}
 .view-view-organisation-reponsibility .office-hours__item-comments,
-.path-view-organisation-responsibility .office-hours__item-comments {
+.view-view-organisation-reponsibility .office-hours__item-slots,
+.path-view-organisation-responsibility .office-hours__item-comments,
+.path-view-organisation-responsibility .office-hours__item-slots {
   display: none;
   white-space: normal;
-}
-
-table.office-hours__table .office-hours__item:nth-of-type(6),
-table.office-hours__table .office-hours__item:nth-of-type(7),
-div.office-hours .office-hours__item:nth-of-type(6),
-div.office-hours .office-hours__item:nth-of-type(7) {
-  display: none;
 }
 
 ul .addtocal__google,
