@@ -15207,11 +15207,11 @@ a {
   color: #155ca2;
 }
 
-.page-vocabulary-resource-family article.node--type-crf-item a:not(.btn) {
+.page-view-taxonomy-term article.node a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
 }
-.page-vocabulary-resource-family article.node--type-crf-item a:not(.btn):hover {
+.page-view-taxonomy-term article.node a:not(.btn):hover {
   color: #155ca2;
 }
 
