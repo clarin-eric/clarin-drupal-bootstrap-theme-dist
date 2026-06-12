@@ -15207,6 +15207,14 @@ a {
   color: #155ca2;
 }
 
+.page-vocabulary-resource-family article.node--type-crf-item a:not(.btn) {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.page-vocabulary-resource-family article.node--type-crf-item a:not(.btn):hover {
+  color: #155ca2;
+}
+
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;
