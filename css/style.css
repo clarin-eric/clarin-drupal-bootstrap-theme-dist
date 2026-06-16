@@ -15179,6 +15179,14 @@ a {
   color: #155ca2;
 }
 
+.page-view-taxonomy-term article.node a:not(.btn) {
+  color: #0273cb;
+  text-decoration: underline;
+}
+.page-view-taxonomy-term article.node a:not(.btn):hover {
+  color: #155ca2;
+}
+
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn) {
   color: #0273cb;
   text-decoration: underline;

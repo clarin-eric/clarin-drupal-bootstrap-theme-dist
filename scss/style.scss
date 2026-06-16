@@ -48,6 +48,15 @@ a {
   }
 }
 
+.page-view-taxonomy-term article.node a:not(.btn) {
+  color: $blue;
+  text-decoration: underline;
+
+  &:hover {
+    color: $blue-hover;
+  }
+}
+
 article.node div.node:not(.node--type-navigation-page, .node--type-landing-page) div:not(.field--name-field-tags) a:not(.btn) {
   color: $blue;
   text-decoration: underline;
